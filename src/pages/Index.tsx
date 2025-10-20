@@ -1,7 +1,6 @@
 import Hero from "@/components/Hero";
 import EventPosters from "@/components/EventPosters";
 import CompanySection from "@/components/CompanySection";
-import SponsorsSection from "@/components/SponsorsSection";
 import Footer from "@/components/Footer";
 
 const bankingCompanies = [
@@ -72,7 +71,6 @@ const Index = () => {
       <CompanySection title="Health & Tourism" companies={healthTourismCompanies} />
       <CompanySection title="Retail & Hospitality" companies={retailCompanies} />
       <CompanySection title="IT & Business Services" companies={itCompanies} />
-      <SponsorsSection />
       <Footer />
     </div>
   );
