@@ -152,7 +152,7 @@ const Hero = () => {
             25%, 75% { opacity: 0; }
           }
           .animate-blink {
-            animation: blink 1s infinite;
+            animation: blink 3s infinite;
           }
         `}
       </style>
