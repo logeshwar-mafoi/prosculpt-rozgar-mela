@@ -39,10 +39,10 @@ const EventDetails = () => {
           {/* Poster Section */}
           <div className="group overflow-hidden rounded-2xl shadow-2xl hover:shadow-[0_20px_50px_rgba(0,119,182,0.3)] transition-all duration-300 w-full md:w-1/2 max-w-sm md:max-w-none aspect-[3/4] flex items-center justify-center bg-white">
             <img
-              src={rozgarMelaPoster}
-              alt="Rozgar Mela 2.0 Poster"
-              className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500"
-            />
+                src={hourglassImage}
+                alt="Hourglass"
+                className="w-[1000px] h-[270px] object-contain mx-auto"
+              />
           </div>
 
           {/* Countdown Section */}
