@@ -12,29 +12,29 @@ const Hero = () => {
         
         {/* === TOP SECTION === */}
         <div className="flex flex-col items-center mt-8 space-y-8">
-          {/* Row: DWS Left + Collaboration Right */}
-          <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-5xl mx-auto">
-            {/* Left: DWS Logo */}
+          {/* Centered Row: DWS + Collaboration + College */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
+            {/* DWS Logo */}
             <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
               <img
                 src={darjeelingLogo}
                 alt="Darjeeling Welfare Society"
-                className="h-28 md:h-32 w-auto object-contain"
+                className="h-24 md:h-28 w-auto object-contain"
               />
             </div>
 
-            {/* Right: Collaboration with Salesian */}
-            <div className="flex flex-col items-center md:items-end mt-6 md:mt-0">
-              <p className="text-base md:text-lg font-semibold italic text-blue-100 mb-2">
-                In Collaboration With
-              </p>
-              <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
-                <img
-                  src={salesianLogo}
-                  alt="Salesian College"
-                  className="h-28 md:h-32 w-auto object-contain"
-                />
-              </div>
+            {/* Collaboration Text */}
+            <p className="text-base md:text-lg font-semibold italic text-blue-100 text-center">
+              In Collaboration With
+            </p>
+
+            {/* Salesian Logo */}
+            <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
+              <img
+                src={salesianLogo}
+                alt="Salesian College"
+                className="h-24 md:h-28 w-auto object-contain"
+              />
             </div>
           </div>
 
@@ -124,7 +124,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* === Decorative Elements === */}
+      {/* === Decorative Backgrounds === */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl"></div>
