@@ -106,6 +106,7 @@ const Hero = () => {
 
           {/* === CTA BUTTONS === */}
           <div className="flex flex-wrap justify-center gap-4 animate-fade-in">
+            {/* Register Button */}
             <Button
               size="lg"
               onClick={() =>
@@ -117,6 +118,16 @@ const Hero = () => {
               className="px-8 py-6 text-lg font-semibold bg-white text-blue-700 hover:bg-blue-50 hover:scale-105 transition-all shadow-2xl"
             >
               Register Now
+            </Button>
+
+            {/* Sign Up Button */}
+            <Button
+              size="lg"
+              variant="outline"
+              onClick={() => window.open("https://www.prosculpt.co/", "_blank")}
+              className="px-8 py-6 text-lg font-semibold bg-blue-600/10 text-white border-2 border-white hover:bg-white hover:text-blue-700 hover:scale-105 transition-all backdrop-blur-md shadow-2xl"
+            >
+              Sign Up
             </Button>
 
             {/* Download Employer List Button */}
@@ -152,7 +163,7 @@ const Hero = () => {
             25%, 75% { opacity: 0; }
           }
           .animate-blink {
-            animation: blink 3s infinite;
+            animation: blink 4s infinite;
           }
         `}
       </style>
