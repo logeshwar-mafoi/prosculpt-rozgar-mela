@@ -17,14 +17,14 @@ const SponsorsSection = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-federal/10 via-marian/10 to-honolulu/10">
+    <section className="py-12 md:py-20 px-4 bg-gradient-to-br from-federal/10 via-marian/10 to-honolulu/10">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-federal via-honolulu to-pacific bg-clip-text text-transparent">
+        <div className="text-center mb-10 md:mb-16">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 bg-gradient-to-r from-federal via-honolulu to-pacific bg-clip-text text-transparent px-2">
             Our Sponsors & Partners
           </h2>
-          <div className="h-1 w-24 bg-gradient-to-r from-marian to-pacific mx-auto rounded-full"></div>
-          <p className="mt-6 text-gray-600 text-lg">
+          <div className="h-1 w-16 md:w-24 bg-gradient-to-r from-marian to-pacific mx-auto rounded-full"></div>
+          <p className="mt-4 md:mt-6 text-gray-600 text-sm md:text-base lg:text-lg px-4">
             Proudly supported by industry leaders and community partners
           </p>
         </div>

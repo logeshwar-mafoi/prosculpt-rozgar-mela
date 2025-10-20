@@ -10,57 +10,75 @@ const Hero = () => {
     <section className="relative min-h-screen flex flex-col overflow-hidden bg-gradient-to-br from-federal via-marian to-honolulu text-white px-4 py-8">
       {/* Top Section with Logos and Main Heading */}
       <div className="container mx-auto max-w-7xl">
-        <div className="flex justify-between items-start mt-8">
-          {/* THSC Logo */}
-          <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
-            <img 
-              src={thscLogo} 
-              alt="THSC" 
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start mt-4 md:mt-8 gap-4">
+          {/* Mobile: Logos on top */}
+          <div className="flex md:hidden justify-center gap-4 w-full">
+            <div className="bg-white p-2 rounded-xl hover:scale-105 transition-transform duration-300">
+              <img
+                src={thscLogo}
+                alt="THSC"
+                className="h-12 w-auto object-contain"
+              />
+            </div>
+            <div className="bg-white p-2 rounded-xl hover:scale-105 transition-transform duration-300">
+              <img
+                src={cielLogo}
+                alt="CIEL"
+                className="h-12 w-auto object-contain"
+              />
+            </div>
+          </div>
+
+          {/* Desktop: THSC Logo */}
+          <div className="hidden md:block bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
+            <img
+              src={thscLogo}
+              alt="THSC"
               className="h-16 w-auto object-contain"
             />
           </div>
 
           {/* Center Headings */}
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-2 animate-fade-in">
+          <div className="text-center flex-1">
+            <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-2 animate-fade-in px-2">
               Rozgar Mela 2.0
             </h1>
-            <h2 className="text-xl md:text-2xl font-bold text-blue-200 animate-fade-in">
+            <h2 className="text-base md:text-xl lg:text-2xl font-bold text-blue-200 animate-fade-in px-2">
               A Platform where talent meets opportunity
             </h2>
           </div>
 
-          {/* CIEL Logo */}
-          <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
-            <img 
-              src={cielLogo} 
-              alt="CIEL" 
+          {/* Desktop: CIEL Logo */}
+          <div className="hidden md:block bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
+            <img
+              src={cielLogo}
+              alt="CIEL"
               className="h-16 w-auto object-contain"
             />
           </div>
         </div>
 
-        {/* Centered Collaboration Section - Tighter Layout */}
-        <div className="flex items-center left-0 right-2 justify-center space-x-2 my-12">
-          <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
-            <img 
-              src={darjeelingLogo} 
-              alt="Darjeeling Welfare Society" 
-              className="h-40 w-auto object-contain"
+        {/* Centered Collaboration Section */}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-2 my-8 md:my-12">
+          <div className="bg-white p-3 md:p-4 rounded-xl hover:scale-105 transition-transform duration-300">
+            <img
+              src={darjeelingLogo}
+              alt="Darjeeling Welfare Society"
+              className="h-24 md:h-32 lg:h-40 w-auto object-contain"
             />
           </div>
-          <p className="text-lg text-blue-200 font-bold italic px-2 leading-tight text-center w-32">
+          <p className="text-base md:text-lg text-blue-200 font-bold italic px-2 leading-tight text-center w-auto md:w-32">
             In
             <br/>
             Collaboration
             <br/>
             With
           </p>
-          <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
-            <img 
-              src={salesianLogo} 
-              alt="Salesian College" 
-              className="h-40 w-auto object-contain"
+          <div className="bg-white p-3 md:p-4 rounded-xl hover:scale-105 transition-transform duration-300">
+            <img
+              src={salesianLogo}
+              alt="Salesian College"
+              className="h-24 md:h-32 lg:h-40 w-auto object-contain"
             />
           </div>
         </div>
@@ -75,22 +93,22 @@ const Hero = () => {
           </div>
 
           {/* Info Cards */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full mb-12 animate-fade-in">
-            <div className="flex items-center gap-2 px-4 py-3 rounded-xl bg-blue-600/15 backdrop-blur-md border border-blue-300/20 shadow-lg hover:bg-blue-600/20 transition-all">
-              <Calendar className="h-5 w-5" />
-              <span className="text-sm md:text-base font-medium">Nov 15-16, 2025</span>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 w-full mb-8 md:mb-12 animate-fade-in">
+            <div className="flex items-center gap-2 px-3 md:px-4 py-3 rounded-xl bg-blue-600/15 backdrop-blur-md border border-blue-300/20 shadow-lg hover:bg-blue-600/20 transition-all">
+              <Calendar className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
+              <span className="text-xs md:text-sm lg:text-base font-medium">Nov 15-16, 2025</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-3 rounded-xl bg-blue-600/15 backdrop-blur-md border border-blue-300/20 shadow-lg hover:bg-blue-600/20 transition-all">
-              <MapPin className="h-5 w-5" />
-              <span className="text-sm md:text-base font-medium">Salesian College, West Bengal</span>
+            <div className="flex items-center gap-2 px-3 md:px-4 py-3 rounded-xl bg-blue-600/15 backdrop-blur-md border border-blue-300/20 shadow-lg hover:bg-blue-600/20 transition-all">
+              <MapPin className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
+              <span className="text-xs md:text-sm lg:text-base font-medium">Salesian College</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-3 rounded-xl bg-blue-600/15 backdrop-blur-md border border-blue-300/20 shadow-lg hover:bg-blue-600/20 transition-all">
-              <Users className="h-5 w-5" />
-              <span className="text-sm md:text-base font-medium">50+ Employers</span>
+            <div className="flex items-center gap-2 px-3 md:px-4 py-3 rounded-xl bg-blue-600/15 backdrop-blur-md border border-blue-300/20 shadow-lg hover:bg-blue-600/20 transition-all">
+              <Users className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
+              <span className="text-xs md:text-sm lg:text-base font-medium">50+ Employers</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-3 rounded-xl bg-blue-600/15 backdrop-blur-md border border-blue-300/20 shadow-lg hover:bg-blue-600/20 transition-all">
-              <Briefcase className="h-5 w-5" />
-              <span className="text-sm md:text-base font-medium">7000+ Jobs</span>
+            <div className="flex items-center gap-2 px-3 md:px-4 py-3 rounded-xl bg-blue-600/15 backdrop-blur-md border border-blue-300/20 shadow-lg hover:bg-blue-600/20 transition-all">
+              <Briefcase className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
+              <span className="text-xs md:text-sm lg:text-base font-medium">7000+ Jobs</span>
             </div>
           </div>
 
