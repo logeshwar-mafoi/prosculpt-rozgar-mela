@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import hourglassImage from "/assets/sandclock.png";
-import rozgarMelaPoster from "/assets/rozgar-mela-poster.png";
+import hourglassImage from "/assets/sandclock.png"; // sandclock
+import rozgarMelaPoster from "/assets/rozgar-mela-poster.png"; // poster
 
 const EventDetails = () => {
   const targetDate = new Date("2025-11-15T00:00:00").getTime();
@@ -35,22 +35,23 @@ const EventDetails = () => {
         </h2>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
-          {/* Poster Section (left) */}
-          <div className="group overflow-hidden rounded-2xl shadow-2xl hover:shadow-[0_20px_50px_rgba(0,119,182,0.3)] transition-all duration-300 w-full md:w-1/2 max-w-sm md:max-w-none aspect-[3/4] flex items-center justify-center bg-white">
+          {/* Poster Section (left) - now using rozgarMelaPoster */}
+          <div className="group overflow-hidden rounded-2xl shadow-2xl hover:shadow-[0_20px_50px_rgba(0,119,182,0.3)] transition-all duration-300 w-full md:w-1/2 max-w-sm md:max-w-none aspect-[3/4] flex items-center justify-center bg-white p-6">
             <img
-              src={hourglassImage}
-              alt="Hourglass"
-              className="w-[400px] h-[150px] object-contain mx-auto" // ⬅ reduced size
+              src={rozgarMelaPoster}
+              alt="Rozgar Mela 2.0 Poster"
+              className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500"
             />
           </div>
 
           {/* Countdown Section (right) */}
           <div className="flex flex-col items-center w-full md:w-1/2 text-center">
+            {/* Sandclock image (kept only here, smaller) */}
             <div className="flex justify-center mb-4 md:mb-6">
               <img
                 src={hourglassImage}
                 alt="Hourglass"
-                className="w-[180px] md:w-[250px] lg:w-[300px] h-auto object-contain mx-auto" // ⬅ reduced size
+                className="w-[140px] md:w-[200px] lg:w-[240px] h-auto object-contain mx-auto"
               />
             </div>
 
