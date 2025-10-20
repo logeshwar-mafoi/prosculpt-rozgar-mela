@@ -1,5 +1,3 @@
-import { useEffect, useRef } from "react";
-
 interface Employer {
   name: string;
   logo: string;
@@ -21,25 +19,6 @@ const employers: Employer[] = [
 ];
 
 export default function ScrollingEmployers() {
-  const scrollRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const container = scrollRef.current;
-    if (!container) return;
-
-    let scrollPosition = 0;
-
-    const scroll = () => {
-      scrollPosition += 0.5; // smooth speed
-      if (scrollPosition >= container.scrollWidth / 2) scrollPosition = 0;
-      container.scrollLeft = scrollPosition;
-      requestAnimationFrame(scroll);
-    };
-
-    const animation = requestAnimationFrame(scroll);
-    return () => cancelAnimationFrame(animation);
-  }, []);
-
   return (
     <section className="relative py-12 bg-gradient-to-br from-federal via-marian to-honolulu text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
@@ -48,28 +27,27 @@ export default function ScrollingEmployers() {
           Participating Employers
         </h2>
 
-        {/* Scrolling Logos */}
-        <div
-          ref={scrollRef}
-          className="flex gap-12 overflow-x-hidden whitespace-nowrap w-full justify-center"
-        >
-          {[...employers, ...employers].map((emp, i) => (
-            <div
-              key={i}
-              className="flex flex-col items-center justify-center min-w-[160px] hover:scale-105 transition-transform duration-300"
-            >
-              <div className="bg-white rounded-xl shadow-lg p-4 w-36 h-36 flex items-center justify-center border border-white/30">
-                <img
-                  src={emp.logo}
-                  alt={emp.name}
-                  className="object-contain max-h-24"
-                />
+        {/* Smooth Scrolling Logos */}
+        <div className="overflow-hidden">
+          <div className="flex animate-scroll gap-12 whitespace-nowrap">
+            {[...employers, ...employers].map((emp, i) => (
+              <div
+                key={i}
+                className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] hover:scale-105 transition-transform duration-300"
+              >
+                <div className="bg-white rounded-xl shadow-lg p-4 w-32 h-32 md:w-36 md:h-36 flex items-center justify-center border border-white/30">
+                  <img
+                    src={emp.logo}
+                    alt={emp.name}
+                    className="object-contain max-h-20 md:max-h-24"
+                  />
+                </div>
+                <p className="text-xs md:text-sm text-blue-50 mt-2 font-medium text-center">
+                  {emp.name}
+                </p>
               </div>
-              <p className="text-sm text-blue-50 mt-2 font-medium text-center">
-                {emp.name}
-              </p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* Decorative Blur Circles */}
