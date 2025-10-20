@@ -1,4 +1,4 @@
-import { Calendar, MapPin, Users, Briefcase } from "lucide-react";
+import { Calendar, MapPin, Users, Briefcase, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import darjeelingLogo from "/assets/darjeeling-welfare-logo.jpg";
 import thscLogo from "/assets/thsc-logo.jpg";
@@ -6,10 +6,16 @@ import cielLogo from "/assets/ciel-logo.jpg";
 import salesianLogo from "/assets/college.png";
 
 const Hero = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/employer-list.xlsx"; // Excel file in public folder
+    link.download = "Employer_List.xlsx";
+    link.click();
+  };
+
   return (
     <section className="relative min-h-screen flex flex-col overflow-hidden bg-gradient-to-br from-federal via-marian to-honolulu text-white px-4 py-8">
       <div className="container mx-auto max-w-7xl">
-        
         {/* === TOP SECTION === */}
         <div className="flex flex-col items-center mt-8 space-y-8">
           {/* Centered Row: DWS + Collaboration + College */}
@@ -112,15 +118,23 @@ const Hero = () => {
             >
               Register Now
             </Button>
+
+            {/* Download Employer List Button */}
             <Button
               size="lg"
               variant="outline"
-              onClick={() => window.open("https://www.prosculpt.co/", "_blank")}
-              className="px-8 py-6 text-lg font-semibold bg-blue-600/10 text-white border-2 border-white hover:bg-white hover:text-blue-700 hover:scale-105 transition-all backdrop-blur-md shadow-2xl"
+              onClick={handleDownload}
+              className="px-8 py-6 text-lg font-semibold bg-blue-600/10 text-white border-2 border-white hover:bg-white hover:text-blue-700 hover:scale-105 transition-all backdrop-blur-md shadow-2xl flex items-center gap-2"
             >
-              Sign Up
+              <Download className="w-5 h-5" />
+              Download Employer List
             </Button>
           </div>
+
+          {/* === Last Date to Apply with Blink === */}
+          <p className="mt-4 text-lg md:text-xl font-bold text-red-500 animate-blink">
+            Last Date to Apply: 31st October 2025
+          </p>
         </div>
       </div>
 
@@ -129,6 +143,19 @@ const Hero = () => {
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl"></div>
       </div>
+
+      {/* === Blink Animation === */}
+      <style>
+        {`
+          @keyframes blink {
+            0%, 50%, 100% { opacity: 1; }
+            25%, 75% { opacity: 0; }
+          }
+          .animate-blink {
+            animation: blink 1s infinite;
+          }
+        `}
+      </style>
     </section>
   );
 };
