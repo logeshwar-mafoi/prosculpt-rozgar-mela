@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
-import EventPosters from "@/components/EventPosters";
 import CompanySection from "@/components/CompanySection";
+import EventPosters from "@/components/EventPosters";
 import Footer from "@/components/Footer";
 
 const bankingCompanies = [
