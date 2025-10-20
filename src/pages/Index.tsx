@@ -1,7 +1,6 @@
 import Hero from "@/components/Hero";
 import EventPosters from "@/components/EventPosters";
 import CompanySection from "@/components/CompanySection";
-import QRSection from "@/components/QRSection";
 import SponsorsSection from "@/components/SponsorsSection";
 import Footer from "@/components/Footer";
 
