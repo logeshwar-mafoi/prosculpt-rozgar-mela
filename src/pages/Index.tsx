@@ -50,7 +50,7 @@ const retailCompanies = [
   { name: "Devi Ayni", logo: "/assets/retail/deviayni.png", description: "Retail & lifestyle", jobOpenings: 80, location: "North India" },
   { name: "Insta Mart", logo: "/assets/retail/insta.png", description: "Quick commerce", jobOpenings: 180, location: "Major Cities" },
   { name: "KFC", logo: "/assets/retail/kfc.png", description: "Fast food chain", jobOpenings: 250, location: "Pan India" },
-  { name: "Snook", logo: "/assets/retail/snook.png", description: "Fashion retail", jobOpenings: 90, location: "Metro Cities" },
+  { name: "Sanook", logo: "/assets/retail/snook.png", description: "Fashion retail", jobOpenings: 90, location: "Metro Cities" },
   { name: "Tea Post", logo: "/assets/retail/tea.png", description: "Beverage chain", jobOpenings: 70, location: "East India" },
   { name: "Vaango", logo: "/assets/retail/vaango.png", description: "Restaurant chain", jobOpenings: 120, location: "South India" },
 ];
