@@ -9,33 +9,47 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex flex-col overflow-hidden bg-gradient-to-br from-federal via-marian to-honolulu text-white px-4 py-8">
       <div className="container mx-auto max-w-7xl">
+        
         {/* === TOP SECTION === */}
-        <div className="flex flex-col items-center text-center mt-8 space-y-6">
-          {/* DWS Logo */}
-          <div className="bg-white p-4 rounded-2xl hover:scale-105 transition-transform duration-300">
-            <img
-              src={darjeelingLogo}
-              alt="Darjeeling Welfare Society"
-              className="h-32 md:h-40 w-auto object-contain"
-            />
-          </div>
-
-          {/* Collaboration Section */}
-          <div className="flex flex-col items-center space-y-4">
-            <p className="text-lg md:text-xl font-bold italic text-blue-100">
-              In Collaboration With
-            </p>
-            <div className="bg-white p-4 rounded-2xl hover:scale-105 transition-transform duration-300">
+        <div className="flex flex-col items-center mt-8 space-y-8">
+          {/* Row: DWS Left + Collaboration Right */}
+          <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-5xl mx-auto">
+            {/* Left: DWS Logo */}
+            <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
               <img
-                src={salesianLogo}
-                alt="Salesian College"
-                className="h-32 md:h-40 w-auto object-contain"
+                src={darjeelingLogo}
+                alt="Darjeeling Welfare Society"
+                className="h-28 md:h-32 w-auto object-contain"
               />
+            </div>
+
+            {/* Right: Collaboration with Salesian */}
+            <div className="flex flex-col items-center md:items-end mt-6 md:mt-0">
+              <p className="text-base md:text-lg font-semibold italic text-blue-100 mb-2">
+                In Collaboration With
+              </p>
+              <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
+                <img
+                  src={salesianLogo}
+                  alt="Salesian College"
+                  className="h-28 md:h-32 w-auto object-contain"
+                />
+              </div>
             </div>
           </div>
 
-          {/* Bottom Row Logos */}
-          <div className="flex justify-center items-center gap-8 mt-4">
+          {/* === MIDDLE TITLE === */}
+          <div className="text-center mt-8">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-2 animate-fade-in">
+              Rozgar Mela 2.0
+            </h1>
+            <h2 className="text-xl md:text-2xl font-bold text-blue-200 animate-fade-in">
+              A Platform where talent meets opportunity
+            </h2>
+          </div>
+
+          {/* === BOTTOM LOGOS === */}
+          <div className="flex justify-center items-center gap-10 mt-6">
             <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
               <img
                 src={thscLogo}
@@ -53,18 +67,8 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* === MAIN HEADINGS === */}
-        <div className="text-center mt-12">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-2 animate-fade-in">
-            Rozgar Mela 2.0
-          </h1>
-          <h2 className="text-xl md:text-2xl font-bold text-blue-200 animate-fade-in">
-            A Platform where talent meets opportunity
-          </h2>
-        </div>
-
         {/* === DESCRIPTION === */}
-        <div className="flex flex-col items-center justify-center max-w-4xl mx-auto mt-8">
+        <div className="flex flex-col items-center justify-center max-w-4xl mx-auto mt-12">
           <div className="text-center mb-12 max-w-3xl">
             <p className="text-lg md:text-xl leading-relaxed animate-fade-in font-light text-blue-100">
               Join us for the biggest job drive of the year! Connect with leading
@@ -120,7 +124,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* === Decorative Backgrounds === */}
+      {/* === Decorative Elements === */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl"></div>
