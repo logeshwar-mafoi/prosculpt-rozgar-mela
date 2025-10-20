@@ -65,12 +65,12 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
-      <EventPosters />
       <CompanySection title="Banking & Finance" companies={bankingCompanies} />
       <CompanySection title="Manufacturing" companies={manufacturingCompanies} />
       <CompanySection title="Health & Tourism" companies={healthTourismCompanies} />
       <CompanySection title="Retail & Hospitality" companies={retailCompanies} />
       <CompanySection title="IT & Business Services" companies={itCompanies} />
+      <EventPosters />
       <Footer />
     </div>
   );
