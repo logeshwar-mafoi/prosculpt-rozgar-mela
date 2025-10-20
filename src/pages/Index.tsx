@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import ScrollingEmployers from "@/components/ScrollingEmployers";
 import CompanySection from "@/components/CompanySection";
 import EventPosters from "@/components/EventPosters";
 import Footer from "@/components/Footer";
