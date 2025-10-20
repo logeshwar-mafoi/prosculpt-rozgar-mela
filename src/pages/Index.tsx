@@ -66,6 +66,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
+      <ScrollingEmployers />
       <CompanySection title="Banking & Finance" companies={bankingCompanies} />
       <CompanySection title="Manufacturing" companies={manufacturingCompanies} />
       <CompanySection title="Health & Tourism" companies={healthTourismCompanies} />
