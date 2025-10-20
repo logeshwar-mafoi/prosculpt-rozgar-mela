@@ -72,7 +72,6 @@ const Index = () => {
       <CompanySection title="Health & Tourism" companies={healthTourismCompanies} />
       <CompanySection title="Retail & Hospitality" companies={retailCompanies} />
       <CompanySection title="IT & Business Services" companies={itCompanies} />
-      <QRSection />
       <SponsorsSection />
       <Footer />
     </div>
