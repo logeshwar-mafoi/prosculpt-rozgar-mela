@@ -69,8 +69,8 @@ const devyaniCompanies = [
 ];
 
 const telecomCompanies = [
-  { name: "Vodafone", logo: null, description: "Telecom services", jobOpenings: 50, location: "Siliguri, Darjeeling, Kalipong, Coochbehar, Alipurduar, Jalpaiguri, Malda, Uttar Dinajpur" },
-  { name: "PhonePe", logo: null, description: "Telecom/Fintech services", jobOpenings: 75, location: "Kolkata" },
+  { name: "Vodafone", logo: "/assets/telecom/vodafone.png", description: "Telecom services", jobOpenings: 50, location: "Siliguri, Darjeeling, Kalipong, Coochbehar, Alipurduar, Jalpaiguri, Malda, Uttar Dinajpur" },
+  { name: "PhonePe", logo: "/assets/telecom/PhonePe.png", description: "Telecom/Fintech services", jobOpenings: 75, location: "Kolkata" },
 ];
 
 const Index = () => {
