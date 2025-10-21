@@ -44,7 +44,7 @@ const tourismCompanies = [
   { name: "PVR INOX", logo: "/assets/health-and-tour/pvr.png", description: "Entertainment & hospitality", jobOpenings: 80, location: "Major Cities" },
   { name: "Royal Orchid Hotels", logo: "/assets/health-and-tour/royal.png", description: "Hotel chain", jobOpenings: 30, location: "North India" },
   { name: "Sodexo", logo: "/assets/health-and-tour/sodexo.png", description: "Food and facilities management", jobOpenings: 300, location: "North East India" },
-  { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo.png", description: "Hospitality and catering", jobOpenings: 85, location: "Tourist Destinations" },
+  { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo-sindoori.png", description: "Hospitality and catering", jobOpenings: 85, location: "Tourist Destinations" },
 ];
 
 const healthcareCompanies = [
