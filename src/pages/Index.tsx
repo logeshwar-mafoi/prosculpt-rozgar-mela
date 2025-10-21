@@ -32,7 +32,7 @@ const automobileCompanies = [
 const tourismCompanies = [
   { name: "Club Mahindra Resorts", logo: "/assets/health-and-tour/mahindra.png", description: "Resort and hospitality chain", jobOpenings: 325, location: "Tourist Destinations" },
   { name: "AEON Resorts", logo: "/assets/health-and-tour/aeon.png", description: "Luxury resort chain", jobOpenings: 50, location: "Major Cities" },
-  { name: "Sterling Holidays", logo: "/assets/health-and-tour/sterling.webp", description: "Hospitality group", jobOpenings: 30, location: "Darjeeling, Siliguri, Gangtok" },
+  { name: "Sterling Holidays", logo: "/assets/health-and-tour/sterling.png", description: "Hospitality group", jobOpenings: 30, location: "Darjeeling, Siliguri, Gangtok" },
   { name: "TAJ/Vivanta Group", logo: "/assets/health-and-tour/taj.png", description: "Luxury hospitality group", jobOpenings: 58, location: "Major Cities" },
   { name: "Udaan Resorts Siliguri", logo: "/assets/health-and-tour/udaan.png", description: "Tourism and hospitality group", jobOpenings: 20, location: "Siliguri" },
   { name: "VASSATI Services NCR", logo: "/assets/health-and-tour/vasati.png", description: "Hospitality and service company", jobOpenings: 20, location: "NCR" },
