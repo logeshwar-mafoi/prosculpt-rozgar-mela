@@ -8,7 +8,7 @@ import salesianLogo from "/assets/college.png";
 const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/employer-list.xlsx"; // Excel file in public folder
+    link.href = "/assets/ROZGAR MELA 2.0_Employers List_2025.pdf"; // Excel file in public folder
     link.download = "Employer_List.xlsx";
     link.click();
   };
