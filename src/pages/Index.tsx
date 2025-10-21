@@ -39,7 +39,7 @@ const tourismCompanies = [
   { name: "Yumi Yashshree Hotel", logo: "/assets/health-and-tour/yumi.png", description: "Hospitality and lodging services", jobOpenings: 20, location: "Tourist Destinations" },
   { name: "AB’s (Absolute Barbecues)", logo: "/assets/retail/abs.png", description: "Food & Beverages chain", jobOpenings: null, location: "Pan India" },
   { name: "Barbeque Nation", logo: "/assets/retail/bbq.png", description: "Restaurant chain", jobOpenings: 600, location: "Major Cities" },
-  { name: "Ancil Services", logo: "/assets/health-and-tour/clubmahindra.png", description: "Hospitality services", jobOpenings: 25, location: "Metro Cities" },
+  { name: "Ancile Services", logo: "/assets/IT/ancil.png", description: "Hospitality services", jobOpenings: 25, location: "Metro Cities" },
   { name: "QUESS Corp", logo: "/assets/IT/quess.png", description: "F&B and housekeeping services", jobOpenings: 200, location: "Pan India" },
   { name: "PVR INOX", logo: "/assets/health-and-tour/pvr.png", description: "Entertainment & hospitality", jobOpenings: 80, location: "Major Cities" },
   { name: "Royal Orchid Hotels", logo: "/assets/health-and-tour/royal.png", description: "Hotel chain", jobOpenings: 30, location: "North India" },
