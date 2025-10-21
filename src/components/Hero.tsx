@@ -8,8 +8,8 @@ import salesianLogo from "/assets/college.png";
 const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/ROZGAR MELA 2.0_Employers List_2025.pdf"; // Excel file in public folder
-    link.download = "Employer_List.xlsx";
+    link.href = "/assets/ROZGAR MELA 2.0_Employers List_2025.pdf"; // ✅ Path to your PDF
+    link.download = "ROZGAR_MELA_2.0_Employers_List_2025.pdf";
     link.click();
   };
 
@@ -20,7 +20,6 @@ const Hero = () => {
         <div className="flex flex-col items-center mt-8 space-y-8">
           {/* Centered Row: DWS + Collaboration + College */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
-            {/* DWS Logo */}
             <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
               <img
                 src={darjeelingLogo}
@@ -29,12 +28,10 @@ const Hero = () => {
               />
             </div>
 
-            {/* Collaboration Text */}
             <p className="text-base md:text-lg font-semibold italic text-blue-100 text-center">
               In Collaboration With
             </p>
 
-            {/* Salesian Logo */}
             <div className="bg-white p-4 rounded-xl hover:scale-105 transition-transform duration-300">
               <img
                 src={salesianLogo}
