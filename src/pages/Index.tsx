@@ -73,14 +73,6 @@ const telecomCompanies = [
   { name: "PhonePe", logo: null, description: "Telecom/Fintech services", jobOpenings: 75, location: "Kolkata" },
 ];
 
-const fintechCompanies = [
-  { name: "Bata", logo: null, description: "Fintech company", jobOpenings: 50, location: "Kolkata" },
-];
-
-const fmcgCompanies = [
-  { name: "Sri Ganesh Grand", logo: null, description: "FMCG company", jobOpenings: 50, location: "Kolkata" },
-];
-
 const Index = () => {
   return (
     <div className="min-h-screen">
@@ -94,8 +86,6 @@ const Index = () => {
       <CompanySection title="IT & Business Services" companies={itCompanies} />
       <CompanySection title="Devyani International Ltd. (F&B Group)" companies={devyaniCompanies} />
       <CompanySection title="Telecom" companies={telecomCompanies} />
-      <CompanySection title="Fintech" companies={fintechCompanies} />
-      <CompanySection title="FMCG" companies={fmcgCompanies} />
       <EventPosters />
       <Footer />
     </div>
