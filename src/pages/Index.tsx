@@ -36,7 +36,7 @@ const tourismCompanies = [
   { name: "TAJ/Vivanta Group", logo: "/assets/health-and-tour/taj.png", description: "Luxury hospitality group", jobOpenings: 58, location: "Major Cities" },
   { name: "Udaan Resorts Siliguri", logo: "/assets/health-and-tour/udaan.png", description: "Tourism and hospitality group", jobOpenings: 20, location: "Siliguri" },
   { name: "VASSATI Services NCR", logo: "/assets/health-and-tour/vasati.png", description: "Hospitality and service company", jobOpenings: 20, location: "NCR" },
-  { name: "Yumi Yashshree Hotel", logo: "/assets/health-and-tour/yumi.png", description: "Hospitality and lodging services", jobOpenings: 20, location: "Tourist Destinations" },
+  { name: "Sumi Yashshree Hotel", logo: "/assets/health-and-tour/yumi.png", description: "Hospitality and lodging services", jobOpenings: 20, location: "Tourist Destinations" },
   { name: "AB’s (Absolute Barbecues)", logo: "/assets/retail/abs.png", description: "Food & Beverages chain", jobOpenings: null, location: "Pan India" },
   { name: "Barbeque Nation", logo: "/assets/retail/bbq.png", description: "Restaurant chain", jobOpenings: 600, location: "Major Cities" },
   { name: "Ancile Services", logo: "/assets/IT/ancil.png", description: "Hospitality services", jobOpenings: 25, location: "Metro Cities" },
