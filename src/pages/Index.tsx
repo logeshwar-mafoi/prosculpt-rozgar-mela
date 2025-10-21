@@ -5,61 +5,66 @@ import EventPosters from "@/components/EventPosters";
 import Footer from "@/components/Footer";
 
 const bankingCompanies = [
-  { name: "Axis Bank", logo: "/assets/banking/axis.png", description: "Leading private sector bank", jobOpenings: 150, location: "Pan India" },
-  { name: "Bajaj Finance", logo: "/assets/banking/bajaj.png", description: "Financial services company", jobOpenings: 200, location: "Multiple Cities" },
-  { name: "Bajaj Allianz", logo: "/assets/banking/bajajalli.png", description: "Insurance and finance", jobOpenings: 120, location: "Pan India" },
-  { name: "Bandhan Bank", logo: "/assets/banking/bandhan.png", description: "Commercial banking services", jobOpenings: 180, location: "East India" },
-  { name: "HDFC Bank", logo: "/assets/banking/hdfc.png", description: "India's largest private bank", jobOpenings: 250, location: "Pan India" },
-  { name: "SBI", logo: "/assets/banking/sbi.png", description: "State Bank of India", jobOpenings: 300, location: "Pan India" },
-  { name: "Utkarsh Small Finance Bank", logo: "/assets/banking/utkarsh.png", description: "Small finance bank", jobOpenings: 100, location: "Multiple Cities" },
+  { name: "Axis Bank", logo: "/assets/banking/axis.png", description: "Leading private sector bank", jobOpenings: 75, location: "Pan India" },
+  { name: "Bajaj Finance", logo: "/assets/banking/bajaj.png", description: "Financial services company", jobOpenings: 100, location: "Multiple Cities" },
+  { name: "Bajaj Allianz", logo: "/assets/banking/bajajalli.png", description: "Insurance and finance", jobOpenings: 100, location: "Pan India" },
+  { name: "Bandhan Bank", logo: "/assets/banking/bandhan.png", description: "Commercial banking services", jobOpenings: 75, location: "East India" },
+  { name: "HDFC Bank", logo: "/assets/banking/hdfc.png", description: "India's largest private bank", jobOpenings: 100, location: "Pan India" },
+  { name: "SBI Insurance", logo: null, description: "Insurance services (Check with Kananji)", jobOpenings: 0, location: "Check with Kananji" },
+  { name: "TVS Collections Siliguri", logo: null, description: "Finance collection services", jobOpenings: 50, location: "Siliguri" }
 ];
 
 const manufacturingCompanies = [
-  { name: "Dixon Technologies", logo: "/assets/manufacturing/dixon.png", description: "Electronics manufacturing", jobOpenings: 200, location: "North India" },
-  { name: "DLJM Group", logo: "/assets/manufacturing/dljm.png", description: "Manufacturing solutions", jobOpenings: 150, location: "West Bengal" },
-  { name: "Hero MotoCorp", logo: "/assets/manufacturing/hero.png", description: "Two-wheeler manufacturer", jobOpenings: 300, location: "Pan India" },
-  { name: "Mahindra & Mahindra", logo: "/assets/manufacturing/mahin.png", description: "Automotive & farm equipment", jobOpenings: 250, location: "Multiple Cities" },
-  { name: "Padget Electronics", logo: "/assets/manufacturing/padget.png", description: "Electronics components", jobOpenings: 120, location: "East India" },
-  { name: "SATA", logo: "/assets/manufacturing/sata.png", description: "Manufacturing equipment", jobOpenings: 100, location: "Pan India" },
-  { name: "Shriram Pistons", logo: "/assets/manufacturing/shriram.png", description: "Auto components", jobOpenings: 180, location: "North India" },
-  { name: "Tata Electronics", logo: "/assets/manufacturing/tataelec.png", description: "Electronics manufacturing", jobOpenings: 220, location: "Pan India" },
-  { name: "Tata Motors", logo: "/assets/manufacturing/tatamotors.png", description: "Automobile manufacturer", jobOpenings: 350, location: "Pan India" },
-  { name: "TVS Motor Company", logo: "/assets/manufacturing/tvs.png", description: "Two & three-wheeler manufacturer", jobOpenings: 280, location: "South India" },
+  { name: "Dixon Technologies", logo: "/assets/manufacturing/dixon.png", description: "Electronics manufacturing", jobOpenings: 1000, location: "Pan India" },
+  { name: "Padget Technology", logo: null, description: "Electronics manufacturer", jobOpenings: 500, location: "East India" },
+  { name: "SATA", logo: null, description: "Manufacturing equipment company", jobOpenings: 50, location: "Pan India" },
+  { name: "SHRIRAM Pistons", logo: null, description: "Auto components manufacturer", jobOpenings: 200, location: "North India" },
+  { name: "TATA Electronics", logo: null, description: "Electronics manufacturing", jobOpenings: 100, location: "Pan India" },
+  { name: "DLJ Group", logo: "/assets/manufacturing/dljm.png", description: "Manufacturing solutions", jobOpenings: 200, location: "West Bengal" },
 ];
 
-const healthTourismCompanies = [
-  { name: "Aeon Wellness", logo: "/assets/health-and-tour/aeon.png", description: "Wellness & healthcare", jobOpenings: 80, location: "Major Cities" },
-  { name: "Apollo Hospitals", logo: "/assets/health-and-tour/apollo.png", description: "Healthcare services", jobOpenings: 200, location: "Pan India" },
-  { name: "Aurum Lifestyle", logo: "/assets/health-and-tour/aurum.png", description: "Lifestyle & hospitality", jobOpenings: 100, location: "Metro Cities" },
-  { name: "Compass Group", logo: "/assets/health-and-tour/compass.png", description: "Food & support services", jobOpenings: 150, location: "Pan India" },
-  { name: "Mahindra Holidays", logo: "/assets/health-and-tour/mahindra.png", description: "Hospitality & resorts", jobOpenings: 120, location: "Tourist Destinations" },
-  { name: "PVR INOX", logo: "/assets/health-and-tour/pvr.png", description: "Cinema entertainment", jobOpenings: 180, location: "Major Cities" },
-  { name: "Royal Orchid Hotels", logo: "/assets/health-and-tour/royal.png", description: "Hotel chain", jobOpenings: 90, location: "South India" },
-  { name: "Sodexo", logo: "/assets/health-and-tour/sodexo.png", description: "Food & facilities management", jobOpenings: 200, location: "Pan India" },
-  { name: "Sterling Holidays", logo: "/assets/health-and-tour/sterling.png", description: "Holiday resorts", jobOpenings: 110, location: "Tourist Destinations" },
-  { name: "Taj Hotels", logo: "/assets/health-and-tour/taj.png", description: "Luxury hospitality", jobOpenings: 150, location: "Major Cities" },
-  { name: "Udaan", logo: "/assets/health-and-tour/udaan.png", description: "B2B e-commerce", jobOpenings: 130, location: "Pan India" },
-  { name: "Vasati", logo: "/assets/health-and-tour/vasati.png", description: "Real estate & property", jobOpenings: 70, location: "Metro Cities" },
-  { name: "Vivanta Hotels", logo: "/assets/health-and-tour/vivanta.png", description: "Premium hospitality", jobOpenings: 140, location: "Major Cities" },
-  { name: "Sumi Yashsree", logo: "/assets/health-and-tour/yumi.png", description: "Healthcare & wellness", jobOpenings: 60, location: "Metro Cities" },
+const automobileCompanies = [
+  { name: "Hero MotoCorp", logo: "/assets/manufacturing/hero.png", description: "Two-wheeler manufacturer", jobOpenings: 40, location: "Pan India" },
+  { name: "Mahindra & Mahindra", logo: "/assets/manufacturing/mahin.png", description: "Automotive & farm equipment", jobOpenings: 650, location: "Multiple Cities" },
+  { name: "TATA Motors", logo: "/assets/manufacturing/tatamotors.png", description: "Automobile manufacturer", jobOpenings: 150, location: "Pan India" },
 ];
 
-const retailCompanies = [
-  { name: "ABS Group", logo: "/assets/retail/abs.png", description: "Retail & distribution", jobOpenings: 100, location: "East India" },
-  { name: "Barbeque Nation", logo: "/assets/retail/bbq.png", description: "Restaurant chain", jobOpenings: 200, location: "Major Cities" },
-  { name: "Costa Coffee", logo: "/assets/retail/costa.png", description: "Coffee chain", jobOpenings: 150, location: "Metro Cities" },
-  { name: "Devi Ayni", logo: "/assets/retail/deviayni.png", description: "Retail & lifestyle", jobOpenings: 80, location: "North India" },
-  { name: "Insta Mart", logo: "/assets/retail/insta.png", description: "Quick commerce", jobOpenings: 180, location: "Major Cities" },
-  { name: "KFC", logo: "/assets/retail/kfc.png", description: "Fast food chain", jobOpenings: 250, location: "Pan India" },
-  { name: "Sanook", logo: "/assets/retail/snook.png", description: "Fashion retail", jobOpenings: 90, location: "Metro Cities" },
-  { name: "Tea Post", logo: "/assets/retail/tea.png", description: "Beverage chain", jobOpenings: 70, location: "East India" },
-  { name: "Vaango", logo: "/assets/retail/vaango.png", description: "Restaurant chain", jobOpenings: 120, location: "South India" },
+const tourismCompanies = [
+  { name: "Club Mahindra Resorts", logo: null, description: "Resort and hospitality chain", jobOpenings: 325, location: "Tourist Destinations" },
+  { name: "AEON Resorts", logo: null, description: "Luxury resort chain", jobOpenings: 50, location: "Major Cities" },
+  { name: "Sterling Holidays", logo: null, description: "Hospitality group", jobOpenings: 30, location: "Darjeeling, Siliguri, Gangtok" },
+  { name: "TAJ/Vivanta Group", logo: "/assets/tourism/taj.png", description: "Luxury hospitality group", jobOpenings: 58, location: "Major Cities" },
+  { name: "Udaan Resorts Siliguri", logo: null, description: "Tourism and hospitality group", jobOpenings: 20, location: "Siliguri" },
+  { name: "VASSATI Services NCR", logo: null, description: "Hospitality and service company", jobOpenings: 20, location: "NCR" },
+  { name: "Yumi Yashshree Hotel", logo: null, description: "Hospitality and lodging services", jobOpenings: 20, location: "Tourist Destinations" },
+  { name: "AB’s (Absolute Barbecues)", logo: null, description: "Food & Beverages chain", jobOpenings: null, location: "Pan India" },
+  { name: "Barbeque Nation", logo: "/assets/tourism/bbq.png", description: "Restaurant chain", jobOpenings: 600, location: "Major Cities" },
+  { name: "Ancil Services", logo: null, description: "Hospitality services", jobOpenings: 25, location: "Metro Cities" },
+  { name: "QUESS Corp", logo: "/assets/IT/quess.png", description: "F&B and housekeeping services", jobOpenings: 200, location: "Pan India" },
+  { name: "PVR INOX", logo: "/assets/health-and-tour/pvr.png", description: "Entertainment & hospitality", jobOpenings: 80, location: "Major Cities" },
+  { name: "Royal Orchid Hotels", logo: null, description: "Hotel chain", jobOpenings: 30, location: "North India" },
+  { name: "Sodexo", logo: "/assets/health-and-tour/sodexo.png", description: "Food and facilities management", jobOpenings: 300, location: "North East India" },
+  { name: "Apollo Sindoori Hotels Ltd.", logo: null, description: "Hospitality and catering", jobOpenings: 85, location: "Tourist Destinations" },
+];
+
+const healthcareCompanies = [
+  { name: "Apollo Hospitals", logo: "/assets/health/apollo.png", description: "Healthcare services", jobOpenings: 796, location: "Pan India" },
 ];
 
 const itCompanies = [
-  { name: "Ancil Technologies", logo: "/assets/IT/ancil.png", description: "IT services & consulting", jobOpenings: 150, location: "Metro Cities" },
+  { name: "WNS Global Services", logo: "/assets/IT/wns.png", description: "IT Associates & Finance Services", jobOpenings: 350, location: "Pan India" },
   { name: "Quess Corp", logo: "/assets/IT/quess.png", description: "Business services", jobOpenings: 300, location: "Pan India" },
-  { name: "WNS Global Services", logo: "/assets/IT/wns.png", description: "Business process management", jobOpenings: 250, location: "Major Cities" },
+  { name: "Ancil Technologies", logo: null, description: "IT services & consulting", jobOpenings: 150, location: "Metro Cities" },
+];
+
+const devyaniCompanies = [
+  { name: "KFC", logo: "/assets/devyani/kfc.png", description: "Quick service restaurant", jobOpenings: 200, location: "Pan India" },
+  { name: "Costa Coffee", logo: "/assets/devyani/costa.png", description: "Coffee chain", jobOpenings: 30, location: "Metro Cities" },
+  { name: "Vaango", logo: "/assets/devyani/vaango.png", description: "South Indian restaurant chain", jobOpenings: 40, location: "Metro Cities" },
+  { name: "Airport Food Courts", logo: null, description: "Airport dining", jobOpenings: 50, location: "Airports" },
+  { name: "Food Courts", logo: null, description: "Multi-brand dining", jobOpenings: 50, location: "Major Cities" },
+  { name: "Tea Live", logo: null, description: "Beverage outlet", jobOpenings: 10, location: "Metro Cities" },
+  { name: "Snook Kitchen", logo: null, description: "Restaurant brand", jobOpenings: 10, location: "Pan India" },
 ];
 
 const Index = () => {
@@ -68,10 +73,12 @@ const Index = () => {
       <Hero />
       <ScrollingEmployers />
       <CompanySection title="Banking & Finance" companies={bankingCompanies} />
-      <CompanySection title="Manufacturing" companies={manufacturingCompanies} />
-      <CompanySection title="Health & Tourism" companies={healthTourismCompanies} />
-      <CompanySection title="Retail & Hospitality" companies={retailCompanies} />
+      <CompanySection title="IT & Manufacturing" companies={manufacturingCompanies} />
+      <CompanySection title="Automobile & Manufacturing" companies={automobileCompanies} />
+      <CompanySection title="Tourism & Hospitality" companies={tourismCompanies} />
+      <CompanySection title="Healthcare" companies={healthcareCompanies} />
       <CompanySection title="IT & Business Services" companies={itCompanies} />
+      <CompanySection title="Devyani International Ltd. (F&B Group)" companies={devyaniCompanies} />
       <EventPosters />
       <Footer />
     </div>
