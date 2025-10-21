@@ -68,6 +68,19 @@ const devyaniCompanies = [
   { name: "Sanook Kitchen", logo: "/assets/retail/snook.png", description: "Restaurant brand", jobOpenings: 10, location: "Pan India" },
 ];
 
+const telecomCompanies = [
+  { name: "Vodafone", logo: null, description: "Telecom services", jobOpenings: 50, location: "Siliguri, Darjeeling, Kalipong, Coochbehar, Alipurduar, Jalpaiguri, Malda, Uttar Dinajpur" },
+  { name: "PhonePe", logo: null, description: "Telecom/Fintech services", jobOpenings: 75, location: "Kolkata" },
+];
+
+const fintechCompanies = [
+  { name: "Bata", logo: null, description: "Fintech company", jobOpenings: 50, location: "Kolkata" },
+];
+
+const fmcgCompanies = [
+  { name: "Sri Ganesh Grand", logo: null, description: "FMCG company", jobOpenings: 50, location: "Kolkata" },
+];
+
 const Index = () => {
   return (
     <div className="min-h-screen">
@@ -80,6 +93,9 @@ const Index = () => {
       <CompanySection title="Healthcare" companies={healthcareCompanies} />
       <CompanySection title="IT & Business Services" companies={itCompanies} />
       <CompanySection title="Devyani International Ltd. (F&B Group)" companies={devyaniCompanies} />
+      <CompanySection title="Telecom" companies={telecomCompanies} />
+      <CompanySection title="Fintech" companies={fintechCompanies} />
+      <CompanySection title="FMCG" companies={fmcgCompanies} />
       <EventPosters />
       <Footer />
     </div>
