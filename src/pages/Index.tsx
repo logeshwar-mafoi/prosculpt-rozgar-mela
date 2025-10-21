@@ -41,7 +41,7 @@ const healthTourismCompanies = [
   { name: "Udaan", logo: "/assets/health-and-tour/udaan.png", description: "B2B e-commerce", jobOpenings: 130, location: "Pan India" },
   { name: "Vasati", logo: "/assets/health-and-tour/vasati.png", description: "Real estate & property", jobOpenings: 70, location: "Metro Cities" },
   { name: "Vivanta Hotels", logo: "/assets/health-and-tour/vivanta.png", description: "Premium hospitality", jobOpenings: 140, location: "Major Cities" },
-  { name: "SUMI YASHSREE", logo: "/assets/health-and-tour/yumi.png", description: "Healthcare & wellness", jobOpenings: 60, location: "Metro Cities" },
+  { name: "Sumi Yashsree", logo: "/assets/health-and-tour/yumi.png", description: "Healthcare & wellness", jobOpenings: 60, location: "Metro Cities" },
 ];
 
 const retailCompanies = [
