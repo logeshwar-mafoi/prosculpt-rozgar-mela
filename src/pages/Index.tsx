@@ -11,7 +11,7 @@ const bankingCompanies = [
   { name: "Bandhan Bank", logo: "/assets/banking/bandhan.png", description: "Commercial banking services", jobOpenings: 75, location: "East India" },
   { name: "HDFC Bank", logo: "/assets/banking/hdfc.png", description: "India's largest private bank", jobOpenings: 100, location: "Pan India" },
   { name: "SBI Insurance", logo: "/assets/banking/sbi.png", description: "Insurance services", jobOpenings: 50, location: "Pan India" },
-  { name: "TVS Collections Siliguri", logo: "/assets/banking/TVS-Motor-Logo.png", description: "Finance collection services", jobOpenings: 50, location: "Siliguri" }
+  { name: "TVS Collections Siliguri", logo: null, description: "Finance collection services", jobOpenings: 50, location: "Siliguri" }
 ];
 
 const manufacturingCompanies = [
@@ -45,6 +45,7 @@ const tourismCompanies = [
   { name: "Royal Orchid Hotels", logo: "/assets/health-and-tour/royal.png", description: "Hotel chain", jobOpenings: 30, location: "North India" },
   { name: "Sodexo", logo: "/assets/health-and-tour/sodexo.png", description: "Food and facilities management", jobOpenings: 300, location: "North East India" },
   { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo-sindoori.png", description: "Hospitality and catering", jobOpenings: 85, location: "Tourist Destinations" },
+  { name: "Birdys", logo: "/assets/health-and-tour/Bridys.png", description: "Tourism and hospitality", jobOpenings: 25, location: "Mumbai" },
 ];
 
 const healthcareCompanies = [
