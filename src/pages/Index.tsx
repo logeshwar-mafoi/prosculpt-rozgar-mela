@@ -37,7 +37,7 @@ const tourismCompanies = [
   { name: "Udaan Resorts Siliguri", logo: "/assets/health-and-tour/udaan.png", description: "Tourism and hospitality group", jobOpenings: 20, location: "Siliguri" },
   { name: "VASSATI Services NCR", logo: "/assets/health-and-tour/vasati.png", description: "Hospitality and service company", jobOpenings: 20, location: "NCR" },
   { name: "Sumi Yashshree", logo: "/assets/health-and-tour/yumi.png", description: "Hospitality and lodging services", jobOpenings: 20, location: "Tourist Destinations" },
-  { name: "AB’s (Absolute Barbecues)", logo: "/assets/retail/abs.png", description: "Food & Beverages chain", jobOpenings: null, location: "Pan India" },
+  { name: "AB’s (Absolute Barbecues)", logo: "/assets/retail/abs.png", description: "Food & Beverages chain", jobOpenings: 200, location: "Pan India" },
   { name: "Barbeque Nation", logo: "/assets/retail/bbq.png", description: "Restaurant chain", jobOpenings: 600, location: "Major Cities" },
   { name: "Ancile Services", logo: "/assets/IT/ancil.png", description: "Hospitality services", jobOpenings: 25, location: "Metro Cities" },
   { name: "QUESS Corp", logo: "/assets/IT/quess.png", description: "F&B and housekeeping services", jobOpenings: 200, location: "Pan India" },
@@ -45,7 +45,7 @@ const tourismCompanies = [
   { name: "Royal Orchid Hotels", logo: "/assets/health-and-tour/royal.png", description: "Hotel chain", jobOpenings: 30, location: "North India" },
   { name: "Sodexo", logo: "/assets/health-and-tour/sodexo.png", description: "Food and facilities management", jobOpenings: 300, location: "North East India" },
   { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo-sindoori.png", description: "Hospitality and catering", jobOpenings: 85, location: "Tourist Destinations" },
-  { name: "Birdys", logo: "/assets/health-and-tour/Bridys.png", description: "Tourism and hospitality", jobOpenings: 25, location: "Mumbai" },
+  { name: "Birdys", logo: "/assets/health-and-tour/Birdys.png", description: "Tourism and hospitality", jobOpenings: 25, location: "Mumbai" },
 ];
 
 const healthcareCompanies = [
