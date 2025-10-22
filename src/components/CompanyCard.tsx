@@ -11,8 +11,6 @@ interface CompanyCardProps {
 }
 
 const CompanyCard = ({ name, logo, description, jobOpenings, location }: CompanyCardProps) => {
-  const applyUrl = "https://app.prosculpt.co/student-registration";
-
   return (
     <Card className="group h-full overflow-hidden border-2 border-border hover:border-pacific transition-all duration-300 hover:shadow-xl hover:shadow-honolulu/20 hover:-translate-y-2 bg-card">
       <CardContent className="p-6 flex flex-col h-full">
@@ -47,9 +45,11 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location }: Company
           </div>
         </div>
 
+        {/* Apply Now button hidden for now */}
+        {/* 
         <div className="pt-4">
           <a
-            href={applyUrl}
+            href="https://app.prosculpt.co/student-registration"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full flex justify-center"
@@ -59,6 +59,7 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location }: Company
             </button>
           </a>
         </div>
+        */}
       </CardContent>
     </Card>
   );
