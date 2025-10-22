@@ -10,10 +10,8 @@ interface CompanyCardProps {
   jobId?: string;
 }
 
-const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: CompanyCardProps) => {
-  const jobDetailUrl = jobId
-    ? `https://app.prosculpt.co/student/job-campus-drives/job-detail/${jobId}`
-    : `https://app.prosculpt.co/student/job-campus-drives/job-detail/${name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+const CompanyCard = ({ name, logo, description, jobOpenings, location }: CompanyCardProps) => {
+  const applyUrl = "https://app.prosculpt.co/student-registration";
 
   return (
     <Card className="group h-full overflow-hidden border-2 border-border hover:border-pacific transition-all duration-300 hover:shadow-xl hover:shadow-honolulu/20 hover:-translate-y-2 bg-card">
@@ -51,7 +49,7 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: 
 
         <div className="pt-4">
           <a
-            href={jobDetailUrl}
+            href={applyUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="w-full flex justify-center"
