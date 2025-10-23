@@ -21,7 +21,7 @@ const manufacturingCompanies = [
   { name: "SATA", logo: "/assets/manufacturing/sata.png", description: "Manufacturing equipment company", jobOpenings: 50, location: "Pan India", jobId: "sata-55667" },
   { name: "SHRIRAM Pistons", logo: "/assets/manufacturing/shriram.png", description: "Auto components manufacturer", jobOpenings: 200, location: "North India", jobId: "shriram-pistons-77889" },
   { name: "TATA Electronics", logo: "/assets/manufacturing/tataelec.png", description: "Electronics manufacturing", jobOpenings: 100, location: "Pan India", jobId: "tata-electronics-99001" },
-  { name: "DLJ Group", logo: "/assets/manufacturing/dljm.png", description: "Manufacturing solutions", jobOpenings: 200, location: "West Bengal", jobId: "dlj-group-44556" }
+  { name: "DLJM Group", logo: "/assets/manufacturing/dljm.png", description: "Manufacturing solutions", jobOpenings: 200, location: "West Bengal", jobId: "dlj-group-44556" }
 ];
 
 const automobileCompanies = [
