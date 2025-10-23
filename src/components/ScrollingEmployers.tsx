@@ -112,7 +112,7 @@ export default function ScrollingEmployers() {
           }
         }
         .animate-scroll-fast {
-          animation: scrollX 15s linear infinite; /* Adjust for 2x speed of previous 30s */
+          animation: scrollX 20s linear infinite; /* Adjust for 2x speed of previous 30s */
         }
       `}</style>
     </section>
