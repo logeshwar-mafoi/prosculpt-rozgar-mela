@@ -4,18 +4,63 @@ interface Employer {
 }
 
 const employers: Employer[] = [
+  // Banking & Finance
   { name: "Axis Bank", logo: "/assets/banking/axis.png" },
   { name: "HDFC Bank", logo: "/assets/banking/hdfc.png" },
-  { name: "SBI", logo: "/assets/banking/sbi.png" },
+  { name: "SBI Insurance", logo: "/assets/banking/sbi.png" },
+  { name: "Bajaj Finance", logo: "/assets/banking/bajaj.png" },
+  { name: "Bajaj Allianz", logo: "/assets/banking/bajajalli.png" },
+  { name: "Bandhan Bank", logo: "/assets/banking/bandhan.png" },
+  { name: "Utkarsh Bank", logo: "/assets/banking/utkarsh.png" },
+  { name: "TVS Collections Siliguri", logo: "/assets/banking/tvs.png" },
+
+  // Manufacturing & Automobile
   { name: "Tata Motors", logo: "/assets/manufacturing/tatamotors.png" },
   { name: "Mahindra & Mahindra", logo: "/assets/manufacturing/mahin.png" },
   { name: "Hero MotoCorp", logo: "/assets/manufacturing/hero.png" },
+  { name: "Dixon Technologies", logo: "/assets/manufacturing/dixon.png" },
+  { name: "Padget Technology", logo: "/assets/manufacturing/padget.png" },
+  { name: "SATA", logo: "/assets/manufacturing/sata.png" },
+  { name: "SHRIRAM Pistons", logo: "/assets/manufacturing/shriram.png" },
+  { name: "TATA Electronics", logo: "/assets/manufacturing/tataelec.png" },
+  { name: "DLJM Group", logo: "/assets/manufacturing/dljm.png" },
+
+  // Tourism & Hospitality
   { name: "Apollo Hospitals", logo: "/assets/health-and-tour/apollo.png" },
   { name: "PVR INOX", logo: "/assets/health-and-tour/pvr.png" },
   { name: "Taj Hotels", logo: "/assets/health-and-tour/taj.png" },
+  { name: "Club Mahindra Resorts", logo: "/assets/health-and-tour/mahindra.png" },
+  { name: "Bluspring", logo: "/assets/health-and-tour/blu-spring.jpg" },
+  { name: "AEON Resorts", logo: "/assets/health-and-tour/aeon.png" },
+  { name: "Sterling Holidays", logo: "/assets/health-and-tour/sterling.png" },
+  { name: "TAJ/Vivanta Group", logo: "/assets/health-and-tour/taj.png" },
+  { name: "Udaan Resorts Siliguri", logo: "/assets/health-and-tour/udaan.png" },
+  { name: "VASSATI Services NCR", logo: "/assets/health-and-tour/vasati.png" },
+  { name: "Sumi Yashshree", logo: "/assets/health-and-tour/yumi.png" },
+  { name: "Royal Orchid Hotels", logo: "/assets/health-and-tour/royal.png" },
+  { name: "Sodexo", logo: "/assets/health-and-tour/sodexo.png" },
+  { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo-sindoori.png" },
+  { name: "Birdys", logo: "/assets/health-and-tour/Birdys.png" },
+
+  // Retail / F&B
   { name: "KFC", logo: "/assets/retail/kfc.png" },
+  { name: "AB’s (Absolute Barbecues)", logo: "/assets/retail/abs.png" },
+  { name: "Barbeque Nation", logo: "/assets/retail/bbq.png" },
+  { name: "Costa Coffee", logo: "/assets/retail/costa.png" },
+  { name: "Vaango", logo: "/assets/retail/vaango.png" },
+  { name: "Airport Food Courts", logo: "/assets/retail/food-court.jpg" },
+  { name: "Food Courts", logo: "/assets/retail/food-court.jpg" },
+  { name: "Tea Live", logo: "/assets/retail/tea.png" },
+  { name: "Sanook Kitchen", logo: "/assets/retail/snook.png" },
+
+  // IT & Business
   { name: "Quess Corp", logo: "/assets/IT/quess.png" },
   { name: "WNS Global Services", logo: "/assets/IT/wns.png" },
+  { name: "Ancile Technologies", logo: "/assets/IT/ancil.png" },
+
+  // Telecom
+  { name: "Vodafone", logo: "/assets/telecom/vodafone.png" },
+  { name: "PhonePe", logo: "/assets/telecom/PhonePe.png" },
 ];
 
 export default function ScrollingEmployers() {
