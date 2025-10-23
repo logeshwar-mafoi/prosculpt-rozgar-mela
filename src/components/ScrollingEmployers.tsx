@@ -3,7 +3,6 @@ interface Employer {
   logo: string | null;
 }
 
-// Full list of employers from Index.tsx
 const employers: Employer[] = [
   { name: "Axis Bank", logo: "/assets/banking/axis.png" },
   { name: "HDFC Bank", logo: "/assets/banking/hdfc.png" },
@@ -53,79 +52,58 @@ const employers: Employer[] = [
 ];
 
 export default function ScrollingEmployers() {
+  // Duplicate the employers array to create two full sets
+  const employersDouble = [...employers, ...employers];
+
   return (
     <section className="relative py-12 bg-gradient-to-br from-federal via-marian to-honolulu text-white overflow-hidden">
       <div className="w-full">
-        <h2 className="text-center text-3xl md:text-5xl font-bold mb-8 text-white drop-shadow-lg">
+        <h2 className="text-center text-3xl md:text-5xl font-bold mb-8 drop-shadow-lg">
           Participating Employers
         </h2>
-
+        {/* Wrapper for marquee effect */}
         <div className="relative overflow-hidden">
-          {/* Wrapper for the scrolling content */}
+          {/* Both identical containers animated side-by-side */}
           <div className="flex">
-            {/* First set of logos */}
-            <div className="flex animate-scroll gap-12 flex-shrink-0">
+            <div className="flex animate-scroll-fast gap-12 flex-shrink-0">
               {employers.map((emp, i) => (
-                <div
-                  key={`original-${i}`}
-                  className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] flex-shrink-0"
-                >
+                <div key={`orig-${i}`} className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] flex-shrink-0">
                   <div className="bg-white rounded-xl shadow-lg p-4 w-32 h-32 md:w-36 md:h-36 flex items-center justify-center border border-white/30">
                     {emp.logo ? (
-                      <img
-                        src={emp.logo}
-                        alt={emp.name}
-                        aria-label={`${emp.name} logo`}
-                        className="object-contain max-h-20 md:max-h-24"
-                      />
+                      <img src={emp.logo} alt={`${emp.name} logo`} className="object-contain max-h-20 md:max-h-24" />
                     ) : (
                       <span className="text-xs text-black">No Logo</span>
                     )}
                   </div>
-                  <p className="text-xs md:text-sm text-blue-50 mt-2 font-medium text-center whitespace-normal max-w-[140px] md:max-w-[160px]">
-                    {emp.name}
-                  </p>
+                  <p className="text-xs md:text-sm text-blue-50 mt-2 font-medium text-center max-w-[140px] md:max-w-[160px]">{emp.name}</p>
                 </div>
               ))}
             </div>
-
-            {/* Second set of logos (duplicate for seamless loop) */}
-            <div className="flex animate-scroll gap-12 flex-shrink-0" aria-hidden="true">
+            <div className="flex animate-scroll-fast gap-12 flex-shrink-0" aria-hidden="true">
               {employers.map((emp, i) => (
-                <div
-                  key={`duplicate-${i}`}
-                  className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] flex-shrink-0"
-                >
+                <div key={`dup-${i}`} className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] flex-shrink-0">
                   <div className="bg-white rounded-xl shadow-lg p-4 w-32 h-32 md:w-36 md:h-36 flex items-center justify-center border border-white/30">
                     {emp.logo ? (
-                      <img
-                        src={emp.logo}
-                        alt={emp.name}
-                        aria-label={`${emp.name} logo`}
-                        className="object-contain max-h-20 md:max-h-24"
-                      />
+                      <img src={emp.logo} alt={`${emp.name} logo`} className="object-contain max-h-20 md:max-h-24" />
                     ) : (
                       <span className="text-xs text-black">No Logo</span>
                     )}
                   </div>
-                  <p className="text-xs md:text-sm text-blue-50 mt-2 font-medium text-center whitespace-normal max-w-[140px] md:max-w-[160px]">
-                    {emp.name}
-                  </p>
+                  <p className="text-xs md:text-sm text-blue-50 mt-2 font-medium text-center max-w-[140px] md:max-w-[160px]">{emp.name}</p>
                 </div>
               ))}
             </div>
           </div>
         </div>
-
-        {/* Decorative Blur Circles */}
+        {/* Decorative blur circles */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
           <div className="absolute -top-20 -right-20 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl"></div>
           <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl"></div>
         </div>
       </div>
-
+      {/* Animation styles */}
       <style jsx>{`
-        @keyframes scroll {
+        @keyframes scrollX {
           0% {
             transform: translateX(0);
           }
@@ -133,15 +111,8 @@ export default function ScrollingEmployers() {
             transform: translateX(-100%);
           }
         }
-
-        .animate-scroll {
-          animation: scroll 30s linear infinite;
-          will-change: transform;
-        }
-
-        /* Pause animation on hover */
-        .animate-scroll:hover {
-          animation-play-state: paused;
+        .animate-scroll-fast {
+          animation: scrollX 15s linear infinite; /* Adjust for 2x speed of previous 30s */
         }
       `}</style>
     </section>
