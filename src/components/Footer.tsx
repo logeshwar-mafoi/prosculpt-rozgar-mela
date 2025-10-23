@@ -52,7 +52,7 @@ const Footer = () => {
             size="lg"
             variant="outline"
             onClick={() =>
-              window.open("https://www.prosculpt.co/", "_blank")
+              window.open("https://app.prosculpt.co/student-registration", "_blank")
             }
             className="px-6 md:px-8 py-4 md:py-6 text-base md:text-lg font-semibold bg-white/10 text-white border-2 border-white hover:bg-white hover:text-[hsl(var(--primary))] hover:scale-105 transition-all backdrop-blur-md shadow-2xl w-full sm:w-auto"
           >
