@@ -1,11 +1,10 @@
 interface Employer {
   name: string;
-  logo: string | null; // Some companies may not have a logo
+  logo: string | null;
 }
 
-// Combined list of all employers from Index.tsx
+// Full list of employers from Index.tsx
 const employers: Employer[] = [
-  // Banking & Finance
   { name: "Axis Bank", logo: "/assets/banking/axis.png" },
   { name: "HDFC Bank", logo: "/assets/banking/hdfc.png" },
   { name: "SBI Insurance", logo: "/assets/banking/sbi.png" },
@@ -14,8 +13,6 @@ const employers: Employer[] = [
   { name: "Bandhan Bank", logo: "/assets/banking/bandhan.png" },
   { name: "Utkarsh Bank", logo: "/assets/banking/utkarsh.png" },
   { name: "TVS Collections Siliguri", logo: "/assets/banking/tvs.png" },
-
-  // Manufacturing & Automobile
   { name: "Tata Motors", logo: "/assets/manufacturing/tatamotors.png" },
   { name: "Mahindra & Mahindra", logo: "/assets/manufacturing/mahin.png" },
   { name: "Hero MotoCorp", logo: "/assets/manufacturing/hero.png" },
@@ -25,8 +22,6 @@ const employers: Employer[] = [
   { name: "SHRIRAM Pistons", logo: "/assets/manufacturing/shriram.png" },
   { name: "TATA Electronics", logo: "/assets/manufacturing/tataelec.png" },
   { name: "DLJM Group", logo: "/assets/manufacturing/dljm.png" },
-
-  // Tourism & Hospitality
   { name: "Apollo Hospitals", logo: "/assets/health-and-tour/apollo.png" },
   { name: "PVR INOX", logo: "/assets/health-and-tour/pvr.png" },
   { name: "Taj Hotels", logo: "/assets/health-and-tour/taj.png" },
@@ -42,8 +37,6 @@ const employers: Employer[] = [
   { name: "Sodexo", logo: "/assets/health-and-tour/sodexo.png" },
   { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo-sindoori.png" },
   { name: "Birdys", logo: "/assets/health-and-tour/Birdys.png" },
-
-  // Retail / F&B
   { name: "KFC", logo: "/assets/retail/kfc.png" },
   { name: "AB’s (Absolute Barbecues)", logo: "/assets/retail/abs.png" },
   { name: "Barbeque Nation", logo: "/assets/retail/bbq.png" },
@@ -53,13 +46,9 @@ const employers: Employer[] = [
   { name: "Food Courts", logo: "/assets/retail/food-court.jpg" },
   { name: "Tea Live", logo: "/assets/retail/tea.png" },
   { name: "Sanook Kitchen", logo: "/assets/retail/snook.png" },
-
-  // IT & Business
   { name: "Quess Corp", logo: "/assets/IT/quess.png" },
   { name: "WNS Global Services", logo: "/assets/IT/wns.png" },
   { name: "Ancile Technologies", logo: "/assets/IT/ancil.png" },
-
-  // Telecom
   { name: "Vodafone", logo: "/assets/telecom/vodafone.png" },
   { name: "PhonePe", logo: "/assets/telecom/PhonePe.png" },
 ];
@@ -67,19 +56,17 @@ const employers: Employer[] = [
 export default function ScrollingEmployers() {
   return (
     <section className="relative py-12 bg-gradient-to-br from-federal via-marian to-honolulu text-white overflow-hidden">
-      <div className="w-full px-4">
-        {/* Title */}
+      <div className="w-full">
         <h2 className="text-center text-3xl md:text-5xl font-bold mb-8 text-white drop-shadow-lg">
           Participating Employers
         </h2>
 
-        {/* Smooth Scrolling Logos */}
         <div className="overflow-hidden">
-          <div className="flex animate-scroll gap-12 whitespace-nowrap hover:animate-none">
+          <div className="flex animate-scroll gap-12 whitespace-nowrap">
             {[...employers, ...employers].map((emp, i) => (
               <div
                 key={i}
-                className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] hover:scale-105 transition-transform duration-300"
+                className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] transition-transform duration-300"
               >
                 <div className="bg-white rounded-xl shadow-lg p-4 w-32 h-32 md:w-36 md:h-36 flex items-center justify-center border border-white/30">
                   {emp.logo ? (
@@ -107,6 +94,18 @@ export default function ScrollingEmployers() {
           <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl"></div>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes scroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+
+        .animate-scroll {
+          display: flex;
+          animation: scroll 20s linear infinite;
+        }
+      `}</style>
     </section>
   );
 }
