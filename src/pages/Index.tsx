@@ -16,7 +16,6 @@ const bankingCompanies = [
 
 const manufacturingCompanies = [
   { name: "Dixon Technologies", logo: "/assets/manufacturing/dixon.png", description: "Electronics manufacturing", jobOpenings: 1000, location: "Pan India", jobId: "dixon-tech-11223" },
-  { name: "Bluspring", logo: "/assets/health-and-tour/blu-spring.jpg", description: "Luxury resort and hospitality chain", jobOpenings: 800, location: ["North", "East", "West", "South"], jobId: "Bluspring-85858" },
   { name: "Padget Technology", logo: "/assets/manufacturing/padget.png", description: "Electronics manufacturer", jobOpenings: 500, location: "East India", jobId: "padget-tech-33445" },
   { name: "SATA", logo: "/assets/manufacturing/sata.png", description: "Manufacturing equipment company", jobOpenings: 50, location: "Pan India", jobId: "sata-55667" },
   { name: "SHRIRAM Pistons", logo: "/assets/manufacturing/shriram.png", description: "Auto components manufacturer", jobOpenings: 200, location: "North India", jobId: "shriram-pistons-77889" },
@@ -32,6 +31,7 @@ const automobileCompanies = [
 
 const tourismCompanies = [
   { name: "Club Mahindra Resorts", logo: "/assets/health-and-tour/mahindra.png", description: "Resort and hospitality chain", jobOpenings: 325, location: "Tourist Destinations", jobId: "club-mahindra-85858" },
+  { name: "Bluspring", logo: "/assets/health-and-tour/blu-spring.jpg", description: "Luxury resort and hospitality chain", jobOpenings: 800, location: ["North", "East", "West", "South"], jobId: "Bluspring-85858" },
   { name: "AEON Resorts", logo: "/assets/health-and-tour/aeon.png", description: "Luxury resort chain", jobOpenings: 50, location: "Major Cities", jobId: "aeon-resorts-78787" },
   { name: "Sterling Holidays", logo: "/assets/health-and-tour/sterling.png", description: "Hospitality group", jobOpenings: 30, location: "Darjeeling, Siliguri, Gangtok", jobId: "sterling-holidays-67676" },
   { name: "TAJ/Vivanta Group", logo: "/assets/health-and-tour/taj.png", description: "Luxury hospitality group", jobOpenings: 58, location: "Major Cities", jobId: "taj-vivanta-45454" },
