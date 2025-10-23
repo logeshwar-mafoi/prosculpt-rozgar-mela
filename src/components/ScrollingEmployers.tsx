@@ -133,7 +133,7 @@ export default function ScrollingEmployers() {
 
         .animate-scroll {
           display: flex;
-          animation: scroll 20s linear infinite;
+          animation: scroll 10s linear infinite;
           will-change: transform;
         }
       `}</style>
