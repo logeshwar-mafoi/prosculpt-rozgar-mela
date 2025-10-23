@@ -1,8 +1,9 @@
 interface Employer {
   name: string;
-  logo: string;
+  logo: string | null; // Some companies may not have a logo
 }
 
+// Combined list of all employers from Index.tsx
 const employers: Employer[] = [
   // Banking & Finance
   { name: "Axis Bank", logo: "/assets/banking/axis.png" },
@@ -66,7 +67,7 @@ const employers: Employer[] = [
 export default function ScrollingEmployers() {
   return (
     <section className="relative py-12 bg-gradient-to-br from-federal via-marian to-honolulu text-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="w-full px-4">
         {/* Title */}
         <h2 className="text-center text-3xl md:text-5xl font-bold mb-8 text-white drop-shadow-lg">
           Participating Employers
@@ -74,18 +75,23 @@ export default function ScrollingEmployers() {
 
         {/* Smooth Scrolling Logos */}
         <div className="overflow-hidden">
-          <div className="flex animate-scroll gap-12 whitespace-nowrap">
+          <div className="flex animate-scroll gap-12 whitespace-nowrap hover:animate-none">
             {[...employers, ...employers].map((emp, i) => (
               <div
                 key={i}
                 className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] hover:scale-105 transition-transform duration-300"
               >
                 <div className="bg-white rounded-xl shadow-lg p-4 w-32 h-32 md:w-36 md:h-36 flex items-center justify-center border border-white/30">
-                  <img
-                    src={emp.logo}
-                    alt={emp.name}
-                    className="object-contain max-h-20 md:max-h-24"
-                  />
+                  {emp.logo ? (
+                    <img
+                      src={emp.logo}
+                      alt={emp.name}
+                      aria-label={`${emp.name} logo`}
+                      className="object-contain max-h-20 md:max-h-24"
+                    />
+                  ) : (
+                    <span className="text-xs text-black">No Logo</span>
+                  )}
                 </div>
                 <p className="text-xs md:text-sm text-blue-50 mt-2 font-medium text-center">
                   {emp.name}
