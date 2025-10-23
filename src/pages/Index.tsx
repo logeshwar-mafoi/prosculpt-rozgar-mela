@@ -16,6 +16,7 @@ const bankingCompanies = [
 
 const manufacturingCompanies = [
   { name: "Dixon Technologies", logo: "/assets/manufacturing/dixon.png", description: "Electronics manufacturing", jobOpenings: 1000, location: "Pan India", jobId: "dixon-tech-11223" },
+  { name: "Bluspring", logo: "/assets/health-and-tour/blu-spring.jpg", description: "Luxury resort and hospitality chain", jobOpenings: 800, location: ["North", "East", "West", "South"], jobId: "Bluspring-85858" },
   { name: "Padget Technology", logo: "/assets/manufacturing/padget.png", description: "Electronics manufacturer", jobOpenings: 500, location: "East India", jobId: "padget-tech-33445" },
   { name: "SATA", logo: "/assets/manufacturing/sata.png", description: "Manufacturing equipment company", jobOpenings: 50, location: "Pan India", jobId: "sata-55667" },
   { name: "SHRIRAM Pistons", logo: "/assets/manufacturing/shriram.png", description: "Auto components manufacturer", jobOpenings: 200, location: "North India", jobId: "shriram-pistons-77889" },
