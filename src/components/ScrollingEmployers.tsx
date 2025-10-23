@@ -12,7 +12,6 @@ const employers: Employer[] = [
   { name: "Bajaj Allianz", logo: "/assets/banking/bajajalli.png" },
   { name: "Bandhan Bank", logo: "/assets/banking/bandhan.png" },
   { name: "Utkarsh Bank", logo: "/assets/banking/utkarsh.png" },
-  { name: "TVS Collections Siliguri", logo: "/assets/banking/tvs.png" },
   { name: "Tata Motors", logo: "/assets/manufacturing/tatamotors.png" },
   { name: "Mahindra & Mahindra", logo: "/assets/manufacturing/mahin.png" },
   { name: "Hero MotoCorp", logo: "/assets/manufacturing/hero.png" },
