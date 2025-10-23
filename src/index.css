@@ -115,5 +115,5 @@
 
 .animate-scroll {
   display: flex;
-  animation: scroll 7s linear infinite;
+  animation: scroll 5s linear infinite;
 }
