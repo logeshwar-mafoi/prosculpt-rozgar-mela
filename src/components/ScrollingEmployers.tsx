@@ -54,9 +54,6 @@ const employers: Employer[] = [
 ];
 
 export default function ScrollingEmployers() {
-  // Duplicate the array multiple times for seamless scrolling
-  const duplicatedEmployers = [...employers, ...employers, ...employers];
-
   return (
     <section className="relative py-12 bg-gradient-to-br from-federal via-marian to-honolulu text-white overflow-hidden">
       <div className="w-full">
@@ -65,29 +62,59 @@ export default function ScrollingEmployers() {
         </h2>
 
         <div className="relative overflow-hidden">
-          <div className="flex animate-scroll gap-12">
-            {duplicatedEmployers.map((emp, i) => (
-              <div
-                key={`${emp.name}-${i}`}
-                className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] flex-shrink-0 transition-transform duration-300"
-              >
-                <div className="bg-white rounded-xl shadow-lg p-4 w-32 h-32 md:w-36 md:h-36 flex items-center justify-center border border-white/30">
-                  {emp.logo ? (
-                    <img
-                      src={emp.logo}
-                      alt={emp.name}
-                      aria-label={`${emp.name} logo`}
-                      className="object-contain max-h-20 md:max-h-24"
-                    />
-                  ) : (
-                    <span className="text-xs text-black">No Logo</span>
-                  )}
+          {/* Wrapper for the scrolling content */}
+          <div className="flex">
+            {/* First set of logos */}
+            <div className="flex animate-scroll gap-12 flex-shrink-0">
+              {employers.map((emp, i) => (
+                <div
+                  key={`original-${i}`}
+                  className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] flex-shrink-0"
+                >
+                  <div className="bg-white rounded-xl shadow-lg p-4 w-32 h-32 md:w-36 md:h-36 flex items-center justify-center border border-white/30">
+                    {emp.logo ? (
+                      <img
+                        src={emp.logo}
+                        alt={emp.name}
+                        aria-label={`${emp.name} logo`}
+                        className="object-contain max-h-20 md:max-h-24"
+                      />
+                    ) : (
+                      <span className="text-xs text-black">No Logo</span>
+                    )}
+                  </div>
+                  <p className="text-xs md:text-sm text-blue-50 mt-2 font-medium text-center whitespace-normal max-w-[140px] md:max-w-[160px]">
+                    {emp.name}
+                  </p>
                 </div>
-                <p className="text-xs md:text-sm text-blue-50 mt-2 font-medium text-center whitespace-normal max-w-[140px] md:max-w-[160px]">
-                  {emp.name}
-                </p>
-              </div>
-            ))}
+              ))}
+            </div>
+
+            {/* Second set of logos (duplicate for seamless loop) */}
+            <div className="flex animate-scroll gap-12 flex-shrink-0" aria-hidden="true">
+              {employers.map((emp, i) => (
+                <div
+                  key={`duplicate-${i}`}
+                  className="flex flex-col items-center justify-center min-w-[140px] md:min-w-[160px] flex-shrink-0"
+                >
+                  <div className="bg-white rounded-xl shadow-lg p-4 w-32 h-32 md:w-36 md:h-36 flex items-center justify-center border border-white/30">
+                    {emp.logo ? (
+                      <img
+                        src={emp.logo}
+                        alt={emp.name}
+                        aria-label={`${emp.name} logo`}
+                        className="object-contain max-h-20 md:max-h-24"
+                      />
+                    ) : (
+                      <span className="text-xs text-black">No Logo</span>
+                    )}
+                  </div>
+                  <p className="text-xs md:text-sm text-blue-50 mt-2 font-medium text-center whitespace-normal max-w-[140px] md:max-w-[160px]">
+                    {emp.name}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -104,16 +131,16 @@ export default function ScrollingEmployers() {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(calc(-100% / 3));
+            transform: translateX(-100%);
           }
         }
 
         .animate-scroll {
-          display: flex;
-          animation: scroll 10s linear infinite;
+          animation: scroll 30s linear infinite;
           will-change: transform;
         }
 
+        /* Pause animation on hover */
         .animate-scroll:hover {
           animation-play-state: paused;
         }
