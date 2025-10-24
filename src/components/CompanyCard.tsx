@@ -10,6 +10,12 @@ interface CompanyCardProps {
   jobId?: string; // used for View JD link
 }
 
+// Utility to check if jobId is a real UUID
+const isRealJobId = (jobId?: string) => {
+  if (!jobId) return false;
+  return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(jobId);
+};
+
 const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: CompanyCardProps) => {
   return (
     <Card className="group h-full overflow-hidden border-2 border-border hover:border-pacific transition-all duration-300 hover:shadow-xl hover:shadow-honolulu/20 hover:-translate-y-2 bg-card">
@@ -45,17 +51,18 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: 
           </div>
         </div>
 
-        {jobId && !/^[a-zA-Z]+-[0-9]+$/.test(jobId) && (
-  <div className="pt-4 flex justify-center">
-    <a
-      href={`https://app.prosculpt.co/student/job-campus-drives/job-detail/${jobId}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="w-full flex justify-center"
-    >
-      <button className="bg-pacific hover:bg-honolulu text-white py-2 px-6 rounded-lg font-semibold shadow-md transition-colors duration-300">
-        View JD
-      </button>
+        {/* Show View JD button only for real UUID jobIds */}
+        {isRealJobId(jobId) && (
+          <div className="pt-4 flex justify-center">
+            <a
+              href={`https://app.prosculpt.co/student/job-campus-drives/job-detail/${jobId}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full flex justify-center"
+            >
+              <button className="bg-pacific hover:bg-honolulu text-white py-2 px-6 rounded-lg font-semibold shadow-md transition-colors duration-300">
+                View JD
+              </button>
             </a>
           </div>
         )}
