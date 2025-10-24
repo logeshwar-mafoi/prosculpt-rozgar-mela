@@ -171,7 +171,7 @@ const FloatingFAQ = () => {
       {/* Floating Button */}
       <button
         onClick={() => setOpen(!open)}
-        className="fixed bottom-6 right-6 bg-blue-600 text-white px-4 py-3 rounded-full shadow-lg hover:bg-blue-700 z-50"
+        className="fixed bottom-16 sm:bottom-6 right-4 bg-blue-600 text-white px-4 py-3 rounded-full shadow-lg hover:bg-blue-700 z-50"
       >
         FAQ
       </button>
