@@ -54,7 +54,7 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: 
               className="w-full flex justify-center"
             >
               <button className="bg-pacific hover:bg-honolulu text-white py-2 px-6 rounded-lg font-semibold shadow-md transition-colors duration-300">
-                View JD
+                View
               </button>
             </a>
           </div>
