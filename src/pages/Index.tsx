@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import FloatingFAQ from "@/components/FloatingFAQ";
 
 const bankingCompanies = [
-  { name: "Axis Bank", logo: "/assets/banking/axis.png", description: "Leading private sector bank", jobOpenings: 75, location: "Pan India", jobId: "1c01c58f-f1fd-4def-b099-ea9d46f547ff" },
+  { name: "Axis Bank", logo: "/assets/banking/axis.png", description: "Leading private sector bank", jobOpenings: 75, location: "Pan India", jobId: "axix-10093" },
   { name: "Bajaj Finance", logo: "/assets/banking/bajaj.png", description: "Financial services company", jobOpenings: 100, location: "Multiple Cities", jobId: "bajaj-10092" },
   { name: "Bajaj Allianz", logo: "/assets/banking/bajajalli.png", description: "Insurance and finance", jobOpenings: 100, location: "Pan India", jobId: "bajaj-allianz-23456" },
   { name: "Bandhan Bank", logo: "/assets/banking/bandhan.png", description: "Commercial banking services", jobOpenings: 75, location: "East India", jobId: "bandhan-bank-17645" },
