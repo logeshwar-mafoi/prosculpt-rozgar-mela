@@ -45,17 +45,17 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: 
           </div>
         </div>
 
-        {jobId && (
-          <div className="pt-4 flex justify-center">
-            <a
-              href={`https://app.prosculpt.co/student/job-campus-drives/job-detail/${jobId}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full flex justify-center"
-            >
-              <button className="bg-pacific hover:bg-honolulu text-white py-2 px-6 rounded-lg font-semibold shadow-md transition-colors duration-300">
-                View
-              </button>
+        {jobId && !/^[a-zA-Z]+-[0-9]+$/.test(jobId) && (
+  <div className="pt-4 flex justify-center">
+    <a
+      href={`https://app.prosculpt.co/student/job-campus-drives/job-detail/${jobId}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-full flex justify-center"
+    >
+      <button className="bg-pacific hover:bg-honolulu text-white py-2 px-6 rounded-lg font-semibold shadow-md transition-colors duration-300">
+        View JD
+      </button>
             </a>
           </div>
         )}
