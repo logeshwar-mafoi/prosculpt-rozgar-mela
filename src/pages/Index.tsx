@@ -67,8 +67,7 @@ const devyaniCompanies = [
   { name: "Vaango", logo: "/assets/retail/vaango.png", description: "South Indian restaurant chain", jobOpenings: 40, location: "Metro Cities", jobId: "vaango-98765" },
   { name: "Airport Food Courts", logo: "/assets/retail/food-court.jpg", description: "Airport dining", jobOpenings: 50, location: "Airports", jobId: "airport-food-courts-11222" },
   { name: "Food Courts", logo: "/assets/retail/food-court.jpg", description: "Multi-brand dining", jobOpenings: 50, location: "Major Cities", jobId: "food-courts-33444" },
-  { name: "Tea Live", logo: "/assets/retail/tea.png", description: "Beverage outlet", jobOpenings: 10, location: "Metro Cities", jobId: "tea-live-77889" },
-  { name: "Sanook Kitchen", logo: "/assets/retail/snook.png", description: "Restaurant brand", jobOpenings: 10, location: "Pan India", jobId: "sanook-kitchen-55566" },
+  { name: "Biriyani by Kilo", logo: "/assets/retail/Biryani.png", description: "Beverage outlet", jobOpenings: 10, location: "Metro Cities", jobId: "tea-live-77889" },
 ];
 
 const telecomCompanies = [
