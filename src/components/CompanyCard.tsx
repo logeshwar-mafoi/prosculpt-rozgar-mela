@@ -65,7 +65,7 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: 
               </button>
             </a>
             <span className="text-xs text-muted-foreground mt-2 text-center">
-              Please login/signup to view the Job Description
+              Please login/signup to view the Job
             </span>
           </div>
         )}
