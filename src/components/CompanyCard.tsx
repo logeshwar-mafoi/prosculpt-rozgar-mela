@@ -48,7 +48,7 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: 
         {jobId && (
           <div className="pt-4 flex justify-center">
             <a
-              href={`/job/${jobId}`} // replace with your JD URL route
+              href={`https://app.prosculpt.co/student/job-campus-drives/job-detail/${jobId}`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full flex justify-center"
