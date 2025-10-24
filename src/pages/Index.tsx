@@ -3,6 +3,7 @@ import ScrollingEmployers from "@/components/ScrollingEmployers";
 import CompanySection from "@/components/CompanySection";
 import EventPosters from "@/components/EventPosters";
 import Footer from "@/components/Footer";
+import FloatingFAQ from "@/components/FloatingFAQ";
 
 const bankingCompanies = [
   { name: "Axis Bank", logo: "/assets/banking/axis.png", description: "Leading private sector bank", jobOpenings: 75, location: "Pan India", jobId: "1c01c58f-f1fd-4def-b099-ea9d46f547ff" },
@@ -89,6 +90,7 @@ const Index = () => {
       <CompanySection title="Devyani International Ltd. (F&B Group)" companies={devyaniCompanies} />
       <CompanySection title="Telecom" companies={telecomCompanies} />
       <EventPosters />
+      <FloatingFAQ />
       <Footer />
     </div>
   );
