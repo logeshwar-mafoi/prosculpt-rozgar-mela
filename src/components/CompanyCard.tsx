@@ -7,10 +7,10 @@ interface CompanyCardProps {
   description: string;
   jobOpenings: number | null;
   location: string;
-  jobId?: string;
+  jobId?: string; // used for View JD link
 }
 
-const CompanyCard = ({ name, logo, description, jobOpenings, location }: CompanyCardProps) => {
+const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: CompanyCardProps) => {
   return (
     <Card className="group h-full overflow-hidden border-2 border-border hover:border-pacific transition-all duration-300 hover:shadow-xl hover:shadow-honolulu/20 hover:-translate-y-2 bg-card">
       <CardContent className="p-6 flex flex-col h-full">
@@ -45,21 +45,20 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location }: Company
           </div>
         </div>
 
-        {/* Apply Now button hidden for now */}
-        {/* 
-        <div className="pt-4">
-          <a
-            href="https://app.prosculpt.co/student-registration"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full flex justify-center"
-          >
-            <button className="bg-[hsl(var(--accent))] hover:bg-pacific text-white py-2 px-6 rounded-lg font-semibold shadow transition-colors duration-300">
-              Apply Now
-            </button>
-          </a>
-        </div>
-        */}
+        {jobId && (
+          <div className="pt-4 flex justify-center">
+            <a
+              href={`/job/${jobId}`} // replace with your JD URL route
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full flex justify-center"
+            >
+              <button className="bg-[hsl(var(--accent))] hover:bg-pacific text-white py-2 px-6 rounded-lg font-semibold shadow transition-colors duration-300">
+                View JD
+              </button>
+            </a>
+          </div>
+        )}
       </CardContent>
     </Card>
   );
