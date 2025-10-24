@@ -53,7 +53,7 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: 
 
         {/* Show View JD button only for real UUID jobIds */}
         {isRealJobId(jobId) && (
-          <div className="pt-4 flex justify-center">
+          <div className="pt-4 flex flex-col items-center">
             <a
               href={`https://app.prosculpt.co/student/job-campus-drives/job-detail/${jobId}`}
               target="_blank"
@@ -64,6 +64,9 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: 
                 View
               </button>
             </a>
+            <span className="text-xs text-muted-foreground mt-2 text-center">
+              Please login/signup to view the Job Description
+            </span>
           </div>
         )}
       </CardContent>
