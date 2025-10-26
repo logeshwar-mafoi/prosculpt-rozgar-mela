@@ -117,16 +117,8 @@ const Hero = () => {
               Register Now
             </Button>
 
-            {/* Sign Up Button */}
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={() => window.open("https://app.prosculpt.co/student-registration", "_blank")}
-              className="px-8 py-6 text-lg font-semibold bg-blue-600/10 text-white border-2 border-white hover:bg-white hover:text-blue-700 hover:scale-105 transition-all backdrop-blur-md shadow-2xl"
-            >
-              Sign Up
-            </Button>
-
+        
+            
             {/* Download Employer List Button */}
             <Button
               size="lg"
