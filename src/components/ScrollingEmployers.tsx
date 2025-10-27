@@ -47,7 +47,7 @@ const employers: Employer[] = [
   { name: "Sanook Kitchen", logo: "/assets/retail/snook.png" },
   { name: "Quess Corp", logo: "/assets/IT/quess.png" },
   { name: "WNS Global Services", logo: "/assets/IT/wns.png" },
-  { name: "Ancile Technologies", logo: "/assets/IT/ancil.png" },
+  { name: "Ancile Servies", logo: "/assets/IT/ancil.png" },
   { name: "Vodafone", logo: "/assets/telecom/vodafone.png" },
   { name: "PhonePe", logo: "/assets/telecom/PhonePe.png" },
 ];
