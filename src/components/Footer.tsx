@@ -47,7 +47,7 @@ const Footer = () => {
           >
             Register Now
           </Button>
-
+</div>
       
 
         {/* Bottom Bar */}
