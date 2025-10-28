@@ -48,17 +48,7 @@ const Footer = () => {
             Register Now
           </Button>
 
-          <Button
-            size="lg"
-            variant="outline"
-            onClick={() =>
-              window.open("https://app.prosculpt.co/student-registration", "_blank")
-            }
-            className="px-6 md:px-8 py-4 md:py-6 text-base md:text-lg font-semibold bg-white/10 text-white border-2 border-white hover:bg-white hover:text-[hsl(var(--primary))] hover:scale-105 transition-all backdrop-blur-md shadow-2xl w-full sm:w-auto"
-          >
-            Sign Up
-          </Button>
-        </div>
+      
 
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-6 md:pt-8 text-center text-xs md:text-sm text-white/60">
