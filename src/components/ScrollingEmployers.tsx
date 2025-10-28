@@ -29,7 +29,7 @@ const employers: Employer[] = [
   { name: "AEON Resorts", logo: "/assets/health-and-tour/aeon.png" },
   { name: "Sterling Holidays", logo: "/assets/health-and-tour/sterling.png" },
   { name: "TAJ/Vivanta Group", logo: "/assets/health-and-tour/taj.png" },
-  { name: "TAJ/Aurum Resorts", logo: "/assets/health-and-tour/aurum.png" },
+  { name: "Aurum Resorts", logo: "/assets/health-and-tour/aurum.png" },
   { name: "Udaan Resorts Siliguri", logo: "/assets/health-and-tour/udaan.png" },
   { name: "VASSATI Services NCR", logo: "/assets/health-and-tour/vasati.png" },
   { name: "Sumi Yashshree", logo: "/assets/health-and-tour/yumi.png" },
