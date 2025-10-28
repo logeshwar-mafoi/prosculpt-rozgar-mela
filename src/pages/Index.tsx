@@ -64,8 +64,8 @@ const healthcareCompanies = [
 ];
 
 const itCompanies = [
- { name: "Quess Corp", logo: "/assets/IT/quess.png", description: "Business services", jobOpenings: 300, location: "Pan India", jobId: "quess-corp-67676" },
-  { name: "Ancile Technologies", logo: "/assets/IT/ancil.png", description: "IT services & consulting", jobOpenings: 150, location: "Metro Cities", jobId: "ancile-tech-33432" },
+  { name: "Quess Corp", logo: "/assets/IT/quess.png", description: "Business services", jobOpenings: 300, location: "Pan India", jobId: "quess-corp-67676" },
+  { name: "Aeon Research", logo: "/assets/IT/aeon-research.jpeg", contact: "Pankaj Chandel / Roshan Jha", description: "IT solutions & services", jobOpenings: 50, location: "Delhi NCR, Bihar, UP", jobId: "aeon-research-55221" }
 ];
 
 const devyaniCompanies = [
