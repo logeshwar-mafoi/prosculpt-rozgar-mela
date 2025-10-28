@@ -60,8 +60,7 @@ const healthcareCompanies = [
 ];
 
 const itCompanies = [
-  { name: "WNS Global Services", logo: "/assets/IT/wns.png", description: "IT Associates & Finance Services", jobOpenings: 300, location: "Pan India", jobId: "0e83686f-664d-4308-94af-b83fcc87676e" },
-  { name: "Quess Corp", logo: "/assets/IT/quess.png", description: "Business services", jobOpenings: 300, location: "Pan India", jobId: "quess-corp-67676" },
+ { name: "Quess Corp", logo: "/assets/IT/quess.png", description: "Business services", jobOpenings: 300, location: "Pan India", jobId: "quess-corp-67676" },
   { name: "Ancile Technologies", logo: "/assets/IT/ancil.png", description: "IT services & consulting", jobOpenings: 150, location: "Metro Cities", jobId: "ancile-tech-33432" },
 ];
 
