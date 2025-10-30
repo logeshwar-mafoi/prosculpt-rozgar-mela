@@ -28,7 +28,7 @@ const RegistrationForm = ({ companies }) => {
     setStatus("Submitting...");
 
     try {
-      const res = await fetch("https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec", {
+      const res = await fetch("https://script.google.com/a/macros/mafoigroup.com/s/AKfycbwDySF7oFey94oD5O3AA1YaeQAKiPFfcCwzBxZskHSJjfcLpSVSaS0A-G0nW_Z05tpMQQ/exec", {
         method: "POST",
         body: JSON.stringify(formData),
         headers: { "Content-Type": "application/json" },
