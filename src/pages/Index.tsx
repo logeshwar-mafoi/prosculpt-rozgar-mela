@@ -56,6 +56,7 @@ const tourismCompanies = [
   { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo-sindoori.png", description: "Hospitality and catering", jobOpenings: 85, location: "Tourist Destinations", jobId: "apollo-sindoori-55665" },
   { name: "Birdys", logo: "/assets/health-and-tour/Birdys.png", description: "Tourism and hospitality", jobOpenings: 25, location: "Mumbai", jobId: "birdys-11223" },
   { name: "Ziatoon Restaurant and Grill Pvt. Ltd.", logo: "/assets/health-and-tour/zaitoon.png", description: "Tourism and hospitality", jobOpenings: 15, location: "Pan India", jobId: "zaitoon-11223" },
+  { name: "TFS Travel Food Services", logo: null, description: "Airport and travel hospitality services", jobOpenings: 200, location: "Multiple Locations", jobId: "tfs-travel-food-services-2025" },
 ];
 
 const healthcareCompanies = [
@@ -82,6 +83,10 @@ const telecomCompanies = [
   { name: "PhonePe", logo: "/assets/telecom/PhonePe.png", description: "Telecom/Fintech services", jobOpenings: 75, location: "Kolkata", jobId: "phonepe-44556" },
 ];
 
+const creativeCompanies = [
+  { name: "CREATIVE IMPERIAL PVT LTD", logo: null, description: "Creative design and media services", jobOpenings: 20, location: "Siliguri", jobId: "creative-imperial-001" },
+];
+
 const Index = () => {
   return (
     <div className="min-h-screen">
@@ -95,6 +100,7 @@ const Index = () => {
       <CompanySection title="IT & Business Services" companies={itCompanies} />
       <CompanySection title="Devyani International Ltd. (F&B Group)" companies={devyaniCompanies} />
       <CompanySection title="Telecom" companies={telecomCompanies} />
+      <CompanySection title="Creative & Media" companies={creativeCompanies} />
       <EventPosters />
       <FloatingFAQ />
       <Footer />
