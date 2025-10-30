@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   const handleWhatsAppJoin = () => {
-    window.open("https://www.whatsapp.com/channel/0029VbBSszV35fLmf10xZu2g", "_blank");
+    window.open("https://whatsapp.com/channel/0029VbBSszV35fLmf10xZu2g", "_blank");
   };
 
   return (
