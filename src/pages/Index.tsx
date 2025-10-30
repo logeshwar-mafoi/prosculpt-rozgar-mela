@@ -65,6 +65,7 @@ const healthcareCompanies = [
 
 const itCompanies = [
   { name: "Quess Corp", logo: "/assets/IT/quess.png", description: "Business services", jobOpenings: 300, location: "Pan India", jobId: "quess-corp-67676" },
+  { name: "Ancile Services", logo: "/assets/IT/ancil.png", description: "IT Services", jobOpenings: 25, location: "Metro Cities", jobId: "ec31a997-de8a-4470-9810-82b1ce32de71" },
   { name: "Aeon Research", logo: "/assets/IT/aeon-research.jpeg", contact: "Pankaj Chandel / Roshan Jha", description: "IT solutions & services", jobOpenings: 50, location: "Delhi NCR, Bihar, UP", jobId: "aeon-research-55221" }
 ];
 
