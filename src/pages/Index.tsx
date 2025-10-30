@@ -34,8 +34,7 @@ const manufacturingCompanies = [
 const automobileCompanies = [
   { name: "Hero MotoCorp", logo: "/assets/manufacturing/hero.png", description: "Two-wheeler manufacturer", jobOpenings: 40, location: "Pan India", jobId: "hero-motocorp-22334" },
   { name: "Mahindra & Mahindra", logo: "/assets/manufacturing/mahin.png", description: "Automotive & farm equipment", jobOpenings: 650, location: "Multiple Cities", jobId: "92fce6ca-74bc-4fc5-9fff-0150133dda3d" },
-  { name: "TATA Motors", logo: "/assets/manufacturing/tatamotors.png", description: "Automobile manufacturer", jobOpenings: 150, location: "Pan India", jobId: "tata-motors-56789" },
-];
+  ];
 
 const tourismCompanies = [
   { name: "Club Mahindra Resorts", logo: "/assets/health-and-tour/mahindra.png", description: "Resort and hospitality chain", jobOpenings: 325, location: "Tourist Destinations", jobId: "b26eb748-cb48-498d-bd2f-a4277a64a507" },
