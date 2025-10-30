@@ -1,4 +1,4 @@
-import { Calendar, MapPin, Users, Briefcase, Download } from "lucide-react";
+import { Calendar, MapPin, Users, Briefcase, Download, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import darjeelingLogo from "/assets/darjeeling-welfare-logo.jpg";
 import thscLogo from "/assets/thsc-logo.jpg";
@@ -11,6 +11,10 @@ const Hero = () => {
     link.href = "/assets/Employer List.pdf"; // ✅ Path to your PDF
     link.download = "ROZGAR_MELA_2.0_Employers_List_2025.pdf";
     link.click();
+  };
+
+  const handleWhatsAppJoin = () => {
+    window.open("https://www.whatsapp.com/channel/0029VbBSszV35fLmf10xZu2g", "_blank");
   };
 
   return (
@@ -117,8 +121,16 @@ const Hero = () => {
               Register Now
             </Button>
 
-        
-            
+            {/* WhatsApp Channel Button */}
+            <Button
+              size="lg"
+              onClick={handleWhatsAppJoin}
+              className="px-8 py-6 text-lg font-semibold bg-green-500 hover:bg-green-600 hover:scale-105 transition-all shadow-2xl flex items-center gap-2"
+            >
+              <MessageCircle className="w-5 h-5" />
+              Join WhatsApp Channel
+            </Button>
+
             {/* Download Employer List Button */}
             <Button
               size="lg"
