@@ -30,8 +30,7 @@ const manufacturingCompanies = [
   { name: "Nissan", logo: "/assets/manufacturing/nissan.jpg", description: "Automobile manufacturer", jobOpenings: 300, location: "Pan India", jobId: "nissan-22771" },
   { name: "Rialto Enterprises", logo: "/assets/manufacturing/railto.jpeg", description: "Manufacturing industry", jobOpenings: 120, location: "Pan India", jobId: "rialto-enterprises-99332" },
   { name: "Joyson Safety", logo: "/assets/manufacturing/joyson.jpg", description: "Automotive safety systems manufacturing", jobOpenings: 180, location: "Pan India", jobId: "joyson-safety-11664" },
-  { name: "Iksha Resorts", logo: "/assets/manufacturing/iksha.webp", description: "Greetings from Iksha Resorts! Hospitality and operations roles available.", jobOpenings: 15, location: "Rajrappa, Jharkhand", jobId: "iksha-resorts-77123" },
-];
+  ];
 
 
 const automobileCompanies = [
@@ -60,6 +59,7 @@ const tourismCompanies = [
   { name: "Ziatoon Restaurant and Grill Pvt. Ltd.", logo: "/assets/health-and-tour/zaitoon.png", description: "Tourism and hospitality", jobOpenings: 300, location: "Pan India", jobId: "zaitoon-11223" },
   { name: "ConnectED (Kukje India Group Initiative)", logo: "/assets/health-and-tour/ConnectED.jpg", description: "ON-THE-JOB TRAINING (OJT)", jobOpenings: 150, location: "SOUTH KOREA", jobId: "zai-11223" },
   { name: "TFS Travel Food Services", logo: "/assets/health-and-tour/TFS.jpg", description: "Airport and travel hospitality services", jobOpenings: 200, location: "Multiple Locations", jobId: "tfs-travel-food-services-2025" },
+  { name: "Iksha Resorts", logo: "/assets/health-and-tour/iksha.webp", description: "Greetings from Iksha Resorts! Hospitality and operations roles available.", jobOpenings: 15, location: "Rajrappa, Jharkhand", jobId: "iksha-resorts-77123" },
 ];
 
 const healthcareCompanies = [
