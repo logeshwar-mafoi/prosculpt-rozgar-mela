@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import hourglassImage from "/assets/sandclock.png"; // sandclock
-import rozgarMelaPoster from "/assets/rozgar-mela-poster.png"; // poster
+import rozgarMelaPoster from "/assets/rozgar-mela-poster.jpg"; // poster
 
 const EventDetails = () => {
   const targetDate = new Date("2025-11-15T00:00:00").getTime();
