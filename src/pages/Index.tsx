@@ -55,6 +55,7 @@ const tourismCompanies = [
   { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo-sindoori.png", description: "Hospitality and catering", jobOpenings: 85, location: "Tourist Destinations", jobId: "apollo-sindoori-55665" },
   { name: "Birdys", logo: "/assets/health-and-tour/Birdys.png", description: "Tourism and hospitality", jobOpenings: 25, location: "Mumbai", jobId: "birdys-11223" },
   { name: "Ziatoon Restaurant and Grill Pvt. Ltd.", logo: "/assets/health-and-tour/zaitoon.png", description: "Tourism and hospitality", jobOpenings: 300, location: "Pan India", jobId: "zaitoon-11223" },
+  { name: "ConnectED (Kukje India Group Initiative)", logo: "/assets/health-and-tour/kukjeoverseas.jpg", description: "Tourism and hospitality", jobOpenings: 150, location: "Korea", jobId: "zai-11223" },
   { name: "TFS Travel Food Services", logo: "/assets/health-and-tour/TFS.jpg", description: "Airport and travel hospitality services", jobOpenings: 200, location: "Multiple Locations", jobId: "tfs-travel-food-services-2025" },
 ];
 
