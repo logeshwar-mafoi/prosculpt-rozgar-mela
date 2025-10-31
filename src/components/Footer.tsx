@@ -57,7 +57,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-sm md:text-base font-semibold text-white underline hover:text-[hsl(var(--accent))] transition-all"
           >
-            Click here to register for Helevate
+            Click here to register
           </a>
         </div>
 
