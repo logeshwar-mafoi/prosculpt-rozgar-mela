@@ -18,6 +18,7 @@ const bankingCompanies = [
 ];
 
 const manufacturingCompanies = [
+  { name: "ITC", logo: "/assets/manufacturing/ITC.png", description: "Associates and Apprentices in the manufacturing sector", jobOpenings: 10, location: "West Bengal", jobId: "itc-55221" },
   { name: "Dixon Technologies", logo: "/assets/manufacturing/dixon.png", description: "Electronics manufacturing", jobOpenings: 1000, location: "Pan India", jobId: "dixon-tech-11223" },
   { name: "Padget Technology", logo: "/assets/manufacturing/padget.png", description: "Electronics manufacturer", jobOpenings: 500, location: "East India", jobId: "padget-tech-33445" },
   { name: "Idmela Syseom India Pvt Ltd", logo: "/assets/manufacturing/idemia.jpg", description: "Manufacturing - Production, Operator, Assembly roles", jobOpenings: 70, location: "Noida (UP)", jobId: "padget-tech-33445" },
