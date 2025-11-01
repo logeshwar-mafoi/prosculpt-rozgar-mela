@@ -24,15 +24,8 @@ interface CompanyCardProps {
   description: string;
   jobOpenings: number | null;
   location: string;
-  jobId?: string;
-  applicationLink?: string;
-  jobs?: JobDetail[]; // ✅ New field for multiple job roles
+  jobs?: JobDetail[]; // ✅ Multiple job roles
 }
-
-const isRealJobId = (jobId?: string) => {
-  if (!jobId) return false;
-  return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(jobId);
-};
 
 const CompanyCard = ({
   name,
@@ -40,8 +33,6 @@ const CompanyCard = ({
   description,
   jobOpenings,
   location,
-  jobId,
-  applicationLink,
   jobs = [],
 }: CompanyCardProps) => {
   const [open, setOpen] = useState(false);
@@ -82,54 +73,18 @@ const CompanyCard = ({
             </div>
           </div>
 
-          {/* Buttons */}
-          {applicationLink ? (
-            <div className="pt-4 flex flex-col items-center">
-              <a
-                href={applicationLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full flex justify-center"
-              >
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white w-full">
-                  Attend Pre-Assessment Test
-                </Button>
-              </a>
-              <span className="text-xs text-muted-foreground mt-2 text-center">
-                Complete this test before HR interaction
-              </span>
-            </div>
-          ) : jobs.length > 0 ? (
-            <div className="pt-4 flex flex-col items-center">
-              <Button
-                onClick={() => setOpen(true)}
-                className="bg-pacific hover:bg-honolulu text-white w-full"
-              >
-                View
-              </Button>
-              <span className="text-xs text-muted-foreground mt-2 text-center">
-                Click to view job descriptions
-              </span>
-            </div>
-          ) : (
-            isRealJobId(jobId) && (
-              <div className="pt-4 flex flex-col items-center">
-                <a
-                  href={`https://app.prosculpt.co/student/job-campus-drives/job-detail/${jobId}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full flex justify-center"
-                >
-                  <Button className="bg-pacific hover:bg-honolulu text-white w-full">
-                    View
-                  </Button>
-                </a>
-                <span className="text-xs text-muted-foreground mt-2 text-center">
-                  Please login/signup to view the Job
-                </span>
-              </div>
-            )
-          )}
+          {/* ✅ Always show View button */}
+          <div className="pt-4 flex flex-col items-center">
+            <Button
+              onClick={() => setOpen(true)}
+              className="bg-pacific hover:bg-honolulu text-white w-full"
+            >
+              View
+            </Button>
+            <span className="text-xs text-muted-foreground mt-2 text-center">
+              Click to view job descriptions
+            </span>
+          </div>
         </CardContent>
       </Card>
 
@@ -147,37 +102,47 @@ const CompanyCard = ({
               <X className="h-5 w-5" />
             </Button>
           </DialogHeader>
+
           <DialogDescription>
             <p className="text-sm text-muted-foreground mb-4">
               Explore available roles and their descriptions below.
             </p>
+
             <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-2">
-              {jobs.map((job, index) => (
-                <div
-                  key={index}
-                  className="border rounded-xl p-4 bg-muted/20 hover:bg-muted/30 transition-all"
-                >
-                  <h4 className="text-base font-semibold text-card-foreground">
-                    {job.title}
-                  </h4>
-                  {job.location && (
-                    <p className="text-sm text-muted-foreground mb-1">
-                      📍 {job.location}
-                    </p>
-                  )}
-                  {job.salary && (
-                    <p className="text-sm text-muted-foreground mb-1">
-                      💰 {job.salary}
-                    </p>
-                  )}
-                  {job.eligibility && (
-                    <p className="text-sm text-muted-foreground mb-1">
-                      🎓 {job.eligibility}
-                    </p>
-                  )}
-                  <p className="text-sm leading-relaxed mt-2">{job.jd}</p>
-                </div>
-              ))}
+              {jobs.length > 0 ? (
+                jobs.map((job, index) => (
+                  <div
+                    key={index}
+                    className="border rounded-xl p-4 bg-muted/20 hover:bg-muted/30 transition-all"
+                  >
+                    <h4 className="text-base font-semibold text-card-foreground">
+                      {job.title}
+                    </h4>
+
+                    {job.location && (
+                      <p className="text-sm text-muted-foreground mb-1">
+                        📍 {job.location}
+                      </p>
+                    )}
+                    {job.salary && (
+                      <p className="text-sm text-muted-foreground mb-1">
+                        💰 {job.salary}
+                      </p>
+                    )}
+                    {job.eligibility && (
+                      <p className="text-sm text-muted-foreground mb-1">
+                        🎓 {job.eligibility}
+                      </p>
+                    )}
+
+                    <p className="text-sm leading-relaxed mt-2">{job.jd}</p>
+                  </div>
+                ))
+              ) : (
+                <p className="text-sm text-muted-foreground italic text-center py-8">
+                  No job descriptions available at the moment.
+                </p>
+              )}
             </div>
           </DialogDescription>
         </DialogContent>
