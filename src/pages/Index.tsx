@@ -87,7 +87,7 @@ Hospitality, Tourism, F&B, Caregiving, Electronics, Automotive Engineering
 - Accommodation: ₹95,000 per semester
 - Living Expenses: ₹90,000 per semester
 - One-time other expenses: ₹60,000 (travel, visa, insurance, etc.)
-- Service/Implementation Fee: ₹1,75,000 + GST
+- Service/Implementation Fee: ₹1,75,000 + GST,
 
       },
     ],
