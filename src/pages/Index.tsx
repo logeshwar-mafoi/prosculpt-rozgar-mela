@@ -32,6 +32,20 @@ const manufacturingCompanies = [
   { name: "Joyson Safety", logo: "/assets/manufacturing/joyson.jpg", description: "Automotive safety systems manufacturing", jobOpenings: 180, location: "Pan India", jobId: "joyson-safety-11664" },
   ];
 
+const aviationCompanies = [
+  {
+    name: "IndiGo Airlines",
+    logo: "/assets/aviation/indigo.png", // add logo to /assets/aviation/
+    description:
+      "IndiGo Airlines is recruiting for Ground Operations roles across India. Candidates must complete the pre-assessment before HR interaction.",
+    jobOpenings: null, // optional, or put actual number if available
+    location: "Pan India",
+    applicationLink:
+      "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403",
+  },
+];
+
+
 
 const automobileCompanies = [
   { name: "Hero MotoCorp", logo: "/assets/manufacturing/hero.png", description: "Two-wheeler manufacturer", jobOpenings: 40, location: "Pan India", jobId: "hero-motocorp-22334" },
@@ -99,6 +113,7 @@ const Index = () => {
       <CompanySection title="IT & Manufacturing" companies={manufacturingCompanies} />
       <CompanySection title="Automobile & Manufacturing" companies={automobileCompanies} />
       <CompanySection title="Tourism & Hospitality" companies={tourismCompanies} />
+      <CompanySection title="Aviation & Airlines" companies={aviationCompanies} />
       <CompanySection title="Healthcare" companies={healthcareCompanies} />
       <CompanySection title="IT & Business Services" companies={itCompanies} />
       <CompanySection title="Devyani International Ltd. (F&B Group)" companies={devyaniCompanies} />
