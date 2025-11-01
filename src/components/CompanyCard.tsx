@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MapPin, Briefcase, X } from "lucide-react";
+import { MapPin, Briefcase, ExternalLink } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Dialog,
@@ -24,7 +24,8 @@ interface CompanyCardProps {
   description: string;
   jobOpenings: number | null;
   location: string;
-  jobs?: JobDetail[]; // ✅ Multiple job roles
+  jobs?: JobDetail[];
+  applicationLink?: string; // ✅ Added for job application URL
 }
 
 const CompanyCard = ({
@@ -34,6 +35,7 @@ const CompanyCard = ({
   jobOpenings,
   location,
   jobs = [],
+  applicationLink,
 }: CompanyCardProps) => {
   const [open, setOpen] = useState(false);
 
@@ -73,7 +75,7 @@ const CompanyCard = ({
             </div>
           </div>
 
-          {/* ✅ Always show View button */}
+          {/* View Button */}
           <div className="pt-4 flex flex-col items-center">
             <Button
               onClick={() => setOpen(true)}
@@ -88,63 +90,68 @@ const CompanyCard = ({
         </CardContent>
       </Card>
 
-      {/* ✅ Popup Modal */}
+      {/* Job Description Popup */}
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="max-w-2xl">
-          <DialogHeader className="flex flex-row justify-between items-center">
+          <DialogHeader>
             <DialogTitle>{name} — Job Openings</DialogTitle>
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setOpen(false)}
-              className="text-muted-foreground"
-            >
-              <X className="h-5 w-5" />
-            </Button>
+            <DialogDescription>
+              <p className="text-sm text-muted-foreground mb-4">
+                Explore available roles and their details below.
+              </p>
+            </DialogDescription>
           </DialogHeader>
 
-          <DialogDescription>
-            <p className="text-sm text-muted-foreground mb-4">
-              Explore available roles and their descriptions below.
-            </p>
+          <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-2">
+            {jobs.length > 0 ? (
+              jobs.map((job, index) => (
+                <div
+                  key={index}
+                  className="border rounded-xl p-4 bg-muted/20 hover:bg-muted/30 transition-all"
+                >
+                  <h4 className="text-base font-semibold text-card-foreground">
+                    {job.title}
+                  </h4>
 
-            <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-2">
-              {jobs.length > 0 ? (
-                jobs.map((job, index) => (
-                  <div
-                    key={index}
-                    className="border rounded-xl p-4 bg-muted/20 hover:bg-muted/30 transition-all"
-                  >
-                    <h4 className="text-base font-semibold text-card-foreground">
-                      {job.title}
-                    </h4>
+                  {job.location && (
+                    <p className="text-sm text-muted-foreground mb-1">
+                      📍 {job.location}
+                    </p>
+                  )}
+                  {job.salary && (
+                    <p className="text-sm text-muted-foreground mb-1">
+                      💰 {job.salary}
+                    </p>
+                  )}
+                  {job.eligibility && (
+                    <p className="text-sm text-muted-foreground mb-1">
+                      🎓 {job.eligibility}
+                    </p>
+                  )}
 
-                    {job.location && (
-                      <p className="text-sm text-muted-foreground mb-1">
-                        📍 {job.location}
-                      </p>
-                    )}
-                    {job.salary && (
-                      <p className="text-sm text-muted-foreground mb-1">
-                        💰 {job.salary}
-                      </p>
-                    )}
-                    {job.eligibility && (
-                      <p className="text-sm text-muted-foreground mb-1">
-                        🎓 {job.eligibility}
-                      </p>
-                    )}
+                  <p className="text-sm leading-relaxed mt-2">{job.jd}</p>
+                </div>
+              ))
+            ) : (
+              <p className="text-sm text-muted-foreground italic text-center py-8">
+                No job descriptions available at the moment.
+              </p>
+            )}
+          </div>
 
-                    <p className="text-sm leading-relaxed mt-2">{job.jd}</p>
-                  </div>
-                ))
-              ) : (
-                <p className="text-sm text-muted-foreground italic text-center py-8">
-                  No job descriptions available at the moment.
-                </p>
-              )}
+          {/* ✅ Application Link */}
+          {applicationLink && (
+            <div className="mt-6 flex justify-center">
+              <Button
+                asChild
+                className="bg-honolulu hover:bg-pacific text-white flex items-center gap-2"
+              >
+                <a href={applicationLink} target="_blank" rel="noopener noreferrer">
+                  Apply Now <ExternalLink className="h-4 w-4" />
+                </a>
+              </Button>
             </div>
-          </DialogDescription>
+          )}
         </DialogContent>
       </Dialog>
     </>
