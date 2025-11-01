@@ -25,7 +25,7 @@ interface CompanyCardProps {
   jobOpenings: number | null;
   location: string;
   jobs?: JobDetail[];
-  applicationLink?: string; // ✅ Added for job application URL
+  applicationLink?: string; // Optional link for IndiGo or others
 }
 
 const CompanyCard = ({
@@ -38,6 +38,14 @@ const CompanyCard = ({
   applicationLink,
 }: CompanyCardProps) => {
   const [open, setOpen] = useState(false);
+
+  // ✅ Determine which link/button to show
+  const isIndiGo = name.toLowerCase().includes("indigo");
+  const actionLabel = isIndiGo ? "Take Test" : "Register Now";
+  const actionLink = isIndiGo
+    ? applicationLink ||
+      "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403"
+    : "https://forms.gle/B2ifFxQVmuhP6UHU7";
 
   return (
     <>
@@ -139,19 +147,21 @@ const CompanyCard = ({
             )}
           </div>
 
-          {/* ✅ Application Link */}
-          {applicationLink && (
-            <div className="mt-6 flex justify-center">
-              <Button
-                asChild
-                className="bg-honolulu hover:bg-pacific text-white flex items-center gap-2"
-              >
-                <a href={applicationLink} target="_blank" rel="noopener noreferrer">
-                  Apply Now <ExternalLink className="h-4 w-4" />
-                </a>
-              </Button>
-            </div>
-          )}
+          {/* ✅ Conditional Button (Take Test or Register Now) */}
+          <div className="mt-6 flex justify-center">
+            <Button
+              asChild
+              className={`${
+                isIndiGo
+                  ? "bg-honolulu hover:bg-pacific"
+                  : "bg-pacific hover:bg-honolulu"
+              } text-white flex items-center gap-2`}
+            >
+              <a href={actionLink} target="_blank" rel="noopener noreferrer">
+                {actionLabel} <ExternalLink className="h-4 w-4" />
+              </a>
+            </Button>
+          </div>
         </DialogContent>
       </Dialog>
     </>
