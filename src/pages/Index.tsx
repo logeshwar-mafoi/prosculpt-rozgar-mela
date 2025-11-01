@@ -114,6 +114,7 @@ const Index = () => {
       <CompanySection title="Automobile & Manufacturing" companies={automobileCompanies} />
       <CompanySection title="Tourism & Hospitality" companies={tourismCompanies} />
       <CompanySection title="Aviation & Airlines" companies={aviationCompanies} />
+      <CompanySection title="Training Programs" companies={trainingCompanies} />
       <CompanySection title="Healthcare" companies={healthcareCompanies} />
       <CompanySection title="IT & Business Services" companies={itCompanies} />
       <CompanySection title="Devyani International Ltd. (F&B Group)" companies={devyaniCompanies} />
