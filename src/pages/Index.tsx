@@ -62,7 +62,74 @@ const automobileCompanies = [
   ];
 
 const tourismCompanies = [
-  { name: "Club Mahindra Resorts", logo: "/assets/health-and-tour/mahindra.png", description: "Resort and hospitality chain", jobOpenings: 325, location: "Tourist Destinations", jobId: "b26eb748-cb48-498d-bd2f-a4277a64a507" },
+  // 🏨 Club Mahindra (Mahindra Holidays & Resorts India Ltd.)
+{
+  "name": "Club Mahindra (Mahindra Holidays and Resorts India Ltd.)",
+  "logo": "/assets/health-and-tour/mahindra.png",
+  "description": "Mahindra Holidays & Resorts is hiring for multiple hospitality roles across India.",
+  "jobOpenings": 315,
+  "location": "Rajasthan, Haryana, MP, Maharashtra, Goa and more",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "Guest Service Associate (Housekeeping)",
+      "description": "Room preparation, handling guest requests, maintaining cleanliness standards.",
+      "availableJobs": 70,
+      "location": "Resorts across India",
+      "industryType": "Hospitality - Housekeeping"
+    },
+    {
+      "title": "Kitchen Helper",
+      "description": "Assist in food preparation, cleaning equipment, and maintaining kitchen hygiene.",
+      "availableJobs": 30,
+      "location": "Resorts across India",
+      "industryType": "Hospitality - Kitchen Operations"
+    },
+    {
+      "title": "Pantry Associate",
+      "description": "Assist in meal ingredient preparation, receive inventory, and maintain kitchen setup.",
+      "availableJobs": 35,
+      "location": "Resorts across India",
+      "industryType": "Hospitality - Food Preparation"
+    },
+    {
+      "title": "Commis Chef",
+      "description": "Prepare dishes under supervision, follow kitchen SOPs, and ensure food quality.",
+      "availableJobs": 50,
+      "location": "Resorts across India",
+      "industryType": "Hospitality - Culinary"
+    },
+    {
+      "title": "F&B Service Steward",
+      "description": "Serve food and beverages, maintain service quality, and ensure customer satisfaction.",
+      "availableJobs": 80,
+      "location": "Resorts across India",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Counter Sales Executive",
+      "description": "Membership sales and resort customer engagement.",
+      "availableJobs": 25,
+      "location": "Resorts across India",
+      "industryType": "Hospitality - Sales"
+    },
+    {
+      "title": "Bar Tender",
+      "description": "Manage bar operations, prepare and serve beverages, ensure bar hygiene.",
+      "availableJobs": 10,
+      "location": "Resorts across India",
+      "industryType": "Hospitality - Beverage Service"
+    },
+    {
+      "title": "Demi Chef De Partie",
+      "description": "Assist kitchen executive/chef, oversee section prep, ensure food quality and hygiene.",
+      "availableJobs": 15,
+      "location": "Resorts across India",
+      "industryType": "Hospitality - Culinary Operations"
+    }
+  ]
+}
+
   { name: "Bluspring", logo: "/assets/health-and-tour/blu-spring.jpg", description: "Luxury resort and hospitality chain", jobOpenings: 800, location: ["North", "East", "West", "South"], jobId: "Bluspring-85858" },
   { name: "AEON Resorts", logo: "/assets/health-and-tour/aeon.png", description: "Luxury resort chain", jobOpenings: 50, location: "Major Cities", jobId: "aeon-resorts-78787" },
   { name: "Aurum Resorts", logo: "/assets/health-and-tour/aurum.png", description: "Premium luxury resort chain", jobOpenings: 50, location: "Siliguri", jobId: "aeon-resorts-78787" },
