@@ -7,16 +7,24 @@ interface CompanyCardProps {
   description: string;
   jobOpenings: number | null;
   location: string;
-  jobId?: string; // used for View JD link
+  jobId?: string;
+  applicationLink?: string; // ✅ NEW
 }
 
-// Utility to check if jobId is a real UUID
 const isRealJobId = (jobId?: string) => {
   if (!jobId) return false;
   return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(jobId);
 };
 
-const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: CompanyCardProps) => {
+const CompanyCard = ({
+  name,
+  logo,
+  description,
+  jobOpenings,
+  location,
+  jobId,
+  applicationLink, // ✅ NEW
+}: CompanyCardProps) => {
   return (
     <Card className="group h-full overflow-hidden border-2 border-border hover:border-pacific transition-all duration-300 hover:shadow-xl hover:shadow-honolulu/20 hover:-translate-y-2 bg-card">
       <CardContent className="p-6 flex flex-col h-full">
@@ -42,7 +50,7 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: 
           <div className="flex items-center gap-2 text-honolulu">
             <Briefcase className="h-4 w-4" />
             <span className="text-sm font-semibold">
-              {jobOpenings !== null ? `${jobOpenings} Openings` : "No Openings"}
+              {jobOpenings !== null ? `${jobOpenings} Openings` : "Open Roles"}
             </span>
           </div>
           <div className="flex items-center gap-2 text-muted-foreground">
@@ -51,23 +59,41 @@ const CompanyCard = ({ name, logo, description, jobOpenings, location, jobId }: 
           </div>
         </div>
 
-        {/* Show View JD button only for real UUID jobIds */}
-        {isRealJobId(jobId) && (
+        {/* ✅ IndiGo or external link button */}
+        {applicationLink ? (
           <div className="pt-4 flex flex-col items-center">
             <a
-              href={`https://app.prosculpt.co/student/job-campus-drives/job-detail/${jobId}`}
+              href={applicationLink}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full flex justify-center"
             >
-              <button className="bg-pacific hover:bg-honolulu text-white py-2 px-6 rounded-lg font-semibold shadow-md transition-colors duration-300">
-                View
+              <button className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg font-semibold shadow-md transition-colors duration-300">
+                Attend Pre-Assessment Test
               </button>
             </a>
             <span className="text-xs text-muted-foreground mt-2 text-center">
-              Please login/signup to view the Job
+              Complete this test before HR interaction
             </span>
           </div>
+        ) : (
+          isRealJobId(jobId) && (
+            <div className="pt-4 flex flex-col items-center">
+              <a
+                href={`https://app.prosculpt.co/student/job-campus-drives/job-detail/${jobId}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex justify-center"
+              >
+                <button className="bg-pacific hover:bg-honolulu text-white py-2 px-6 rounded-lg font-semibold shadow-md transition-colors duration-300">
+                  View
+                </button>
+              </a>
+              <span className="text-xs text-muted-foreground mt-2 text-center">
+                Please login/signup to view the Job
+              </span>
+            </div>
+          )
         )}
       </CardContent>
     </Card>
