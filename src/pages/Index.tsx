@@ -35,15 +35,24 @@ const manufacturingCompanies = [
 const aviationCompanies = [
   {
     name: "IndiGo Airlines",
-    logo: "/assets/aviation/indigo.png", // add logo to /assets/aviation/
+    logo: "/assets/aviation/indigo.png",
     description:
       "IndiGo Airlines is recruiting for Ground Operations roles across India. Candidates must complete the pre-assessment before HR interaction.",
-    jobOpenings: null, // optional, or put actual number if available
+    jobOpenings: null,
     location: "Pan India",
-    applicationLink:
-      "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403",
+    jobs: [
+      {
+        title: "Ground Operations Executive",
+        jd: "Responsible for handling passenger services, baggage handling, and ramp coordination at airports.",
+        eligibility: "Graduate (any discipline), age below 27 preferred.",
+        location: "Pan India",
+        applicationLink:
+          "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403",
+      },
+    ],
   },
 ];
+
 const trainingCompanies = [
   {
     name: "ConnectED (Kukje India Group Initiative)",
