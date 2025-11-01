@@ -44,7 +44,16 @@ const aviationCompanies = [
       "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403",
   },
 ];
-
+const trainingCompanies = [
+  {
+    name: "ConnectED (Kukje India Group Initiative)",
+    logo: "/assets/health-and-tour/ConnectED.jpg",
+    description: "ON-THE-JOB TRAINING (OJT)",
+    jobOpenings: 150,
+    location: "SOUTH KOREA",
+    jobId: "zai-11223",
+  },
+];
 
 
 const automobileCompanies = [
