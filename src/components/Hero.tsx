@@ -101,7 +101,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2 px-4 py-3 rounded-xl bg-blue-600/15 backdrop-blur-md border border-blue-300/20 shadow-lg hover:bg-blue-600/20 transition-all">
               <Briefcase className="h-5 w-5" />
-              <span className="text-sm md:text-base font-medium">7000+ Jobs</span>
+              <span className="text-sm md:text-base font-medium">10000+ Jobs</span>
             </div>
           </div>
 
