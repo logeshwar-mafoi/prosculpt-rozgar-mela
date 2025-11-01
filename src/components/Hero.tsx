@@ -145,7 +145,7 @@ const Hero = () => {
 
           {/* === Last Date to Apply with Blink === */}
           <p className="mt-4 text-lg md:text-xl font-bold text-red-500 animate-blink">
-            Last Date to Apply: 31st October 2025
+            Last Date to Apply: 7th November 2025
           </p>
         </div>
       </div>
