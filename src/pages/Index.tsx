@@ -57,42 +57,49 @@ const trainingCompanies = [
   {
     name: "ConnectED (Kukje India Group Initiative)",
     logo: "/assets/health-and-tour/ConnectED.jpg",
-    description: "On-the-Job Training (OJT) + Employment Pathway Program in South Korea",
+    description:
+      "International On-the-Job Training (OJT) and Employment Pathway Program in South Korea for Indian youth.",
     jobOpenings: 150,
     location: "South Korea",
     jobs: [
       {
-        title: "Learn & Earn in Korea — On-Job-Training (Up to 2 Years)",
+        title: "Learn & Earn in Korea — On-the-Job Training (Up to 2 Years)",
         location: "South Korea",
-        industry: "Hospitality, Tourism, F&B, Caregiving, Electronics, Automotive Engineering",
-        jd: `ConnectED, a Kukje India Group initiative, offers an international training and employment pathway program that enables Indian youth to study, train, and work in South Korea. The initiative provides industry-aligned On-the-Job Training (OJT) opportunities with future employment options across key sectors such as hospitality, tourism, caregiving, electronics, and automotive engineering.
+        industry:
+          "Hospitality, Tourism, F&B, Caregiving, Electronics, Automotive Engineering",
+        jd: `
+<b>About the Program:</b><br/>
+ConnectED, a Kukje India Group initiative, offers an international training and employment pathway program in South Korea. 
+It helps Indian students and graduates gain industry exposure, skill development, and job opportunities in key sectors such as hospitality, caregiving, tourism, electronics, and automotive engineering.<br/><br/>
 
-**Program Highlights:**
-- On-the-Job-Training (up to 2 years) with a transition to full-time employment.
-- International exposure through structured upskilling and academic partnerships.
-- Monthly stipend during OJT (approx. ₹50,000 – ₹70,000).
-- Post-training full-time salaries up to ₹1.38 lakh/month (as per Korean labor laws).
-- Partner universities include Jangan University, Seoyoung University, Kimpo University, and others.
+<b>Program Highlights:</b><br/>
+• On-the-Job Training (up to 2 years) leading to full-time employment.<br/>
+• International exposure through university and industry partnerships.<br/>
+• Monthly stipend during OJT: approx. ₹50,000 – ₹70,000.<br/>
+• Post-training salary: up to ₹1.38 lakh/month (as per Korean labor laws).<br/>
+• Partner universities: Jangan University, Seoyoung University, Kimpo University, and others.<br/><br/>
 
-**Industry Sectors:**
-Hospitality, Tourism, F&B, Caregiving, Electronics, Automotive Engineering
+<b>Industry Sectors:</b><br/>
+Hospitality, Tourism, F&B, Caregiving, Electronics, Automotive Engineering<br/><br/>
 
-**Eligibility:**
-- Graduates from any stream may apply (preference for Hospitality, Nursing, Business, or Service backgrounds).
-- Must have English as Medium of Instruction (MOI).
-- Willingness to learn Korean language and adapt to Korean work culture.
+<b>Eligibility:</b><br/>
+• Graduates from any stream (preferred: Hospitality, Nursing, Business, or Service backgrounds).<br/>
+• English Medium of Instruction (MOI) required.<br/>
+• Must be willing to learn Korean language and adapt to Korean work culture.<br/><br/>
 
-**Program Fees (Indicative):**
-- Tuition Fee: ₹2,50,000 per semester
-- Scholarship: Up to 30% tuition waiver (performance-based)
-- Accommodation: ₹95,000 per semester
-- Living Expenses: ₹90,000 per semester
-- One-time other expenses: ₹60,000 (travel, visa, insurance, etc.)
-- Service/Implementation Fee: ₹1,75,000 + GST`,
+<b>Program Fees (Approximate):</b><br/>
+• Tuition Fee: ₹2,50,000 per semester<br/>
+• Scholarship: Up to 30% tuition waiver (based on performance)<br/>
+• Accommodation: ₹95,000 per semester<br/>
+• Living Expenses: ₹90,000 per semester<br/>
+• One-time expenses: ₹60,000 (travel, visa, insurance, etc.)<br/>
+• Service / Implementation Fee: ₹1,75,000 + GST
+        `,
       },
     ],
   },
 ];
+
 
 
 
