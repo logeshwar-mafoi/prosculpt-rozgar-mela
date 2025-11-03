@@ -25,7 +25,7 @@ interface CompanyCardProps {
   jobOpenings: number | null;
   location: string;
   jobs?: JobDetail[];
-  applicationLink?: string; // Optional link for IndiGo or others
+  applicationLink?: string;
 }
 
 const CompanyCard = ({
@@ -39,13 +39,13 @@ const CompanyCard = ({
 }: CompanyCardProps) => {
   const [open, setOpen] = useState(false);
 
-  // ✅ Determine which link/button to show
-  const isIndiGo = name.toLowerCase().includes("indigo");
-  const actionLabel = isIndiGo ? "Take Test" : "Register Now";
-  const actionLink = isIndiGo
-    ? applicationLink ||
-      "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403"
-    : "https://forms.gle/B2ifFxQVmuhP6UHU7";
+  // ✅ Show button & popup ONLY if company name matches exactly "IndiGo Airlines"
+  const isIndiGo = name.trim().toLowerCase() === "indigo airlines";
+
+  const actionLabel = "Take Test";
+  const actionLink =
+    applicationLink ||
+    "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403";
 
   return (
     <>
@@ -83,87 +83,87 @@ const CompanyCard = ({
             </div>
           </div>
 
-          {/* View Button */}
-          <div className="pt-4 flex flex-col items-center">
-            <Button
-              onClick={() => setOpen(true)}
-              className="bg-pacific hover:bg-honolulu text-white w-full"
-            >
-              View
-            </Button>
-            <span className="text-xs text-muted-foreground mt-2 text-center">
-              Click to view job descriptions
-            </span>
-          </div>
+          {/* ✅ View button only for IndiGo Airlines */}
+          {isIndiGo && (
+            <div className="pt-4 flex flex-col items-center">
+              <Button
+                onClick={() => setOpen(true)}
+                className="bg-pacific hover:bg-honolulu text-white w-full"
+              >
+                View
+              </Button>
+              <span className="text-xs text-muted-foreground mt-2 text-center">
+                Click to view job descriptions
+              </span>
+            </div>
+          )}
         </CardContent>
       </Card>
 
-      {/* Job Description Popup */}
-      <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-2xl">
-          <DialogHeader>
-            <DialogTitle>{name} — Job Openings</DialogTitle>
-            <DialogDescription>
-              <p className="text-sm text-muted-foreground mb-4">
-                Explore available roles and their details below.
-              </p>
-            </DialogDescription>
-          </DialogHeader>
+      {/* ✅ IndiGo Airlines Popup */}
+      {isIndiGo && (
+        <Dialog open={open} onOpenChange={setOpen}>
+          <DialogContent className="max-w-2xl">
+            <DialogHeader>
+              <DialogTitle>{name} — Job Openings</DialogTitle>
+              <DialogDescription>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Explore available roles and their details below.
+                </p>
+              </DialogDescription>
+            </DialogHeader>
 
-          <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-2">
-            {jobs.length > 0 ? (
-              jobs.map((job, index) => (
-                <div
-                  key={index}
-                  className="border rounded-xl p-4 bg-muted/20 hover:bg-muted/30 transition-all"
-                >
-                  <h4 className="text-base font-semibold text-card-foreground">
-                    {job.title}
-                  </h4>
+            <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-2">
+              {jobs.length > 0 ? (
+                jobs.map((job, index) => (
+                  <div
+                    key={index}
+                    className="border rounded-xl p-4 bg-muted/20 hover:bg-muted/30 transition-all"
+                  >
+                    <h4 className="text-base font-semibold text-card-foreground">
+                      {job.title}
+                    </h4>
 
-                  {job.location && (
-                    <p className="text-sm text-muted-foreground mb-1">
-                      📍 {job.location}
-                    </p>
-                  )}
-                  {job.salary && (
-                    <p className="text-sm text-muted-foreground mb-1">
-                      💰 {job.salary}
-                    </p>
-                  )}
-                  {job.eligibility && (
-                    <p className="text-sm text-muted-foreground mb-1">
-                      🎓 {job.eligibility}
-                    </p>
-                  )}
+                    {job.location && (
+                      <p className="text-sm text-muted-foreground mb-1">
+                        📍 {job.location}
+                      </p>
+                    )}
+                    {job.salary && (
+                      <p className="text-sm text-muted-foreground mb-1">
+                        💰 {job.salary}
+                      </p>
+                    )}
+                    {job.eligibility && (
+                      <p className="text-sm text-muted-foreground mb-1">
+                        🎓 {job.eligibility}
+                      </p>
+                    )}
 
-                  <p className="text-sm leading-relaxed mt-2">{job.jd}</p>
-                </div>
-              ))
-            ) : (
-              <p className="text-sm text-muted-foreground italic text-center py-8">
-                No job descriptions available at the moment.
-              </p>
-            )}
-          </div>
+                    <p className="text-sm leading-relaxed mt-2">{job.jd}</p>
+                  </div>
+                ))
+              ) : (
+                <p className="text-sm text-muted-foreground italic text-center py-8">
+                  No job descriptions available at the moment.
+                </p>
+              )}
+            </div>
 
-          {/* ✅ Conditional Button (Take Test or Register Now) */}
-          <div className="mt-6 flex justify-center">
-            <Button
-              asChild
-              className={`${
-                isIndiGo
-                  ? "bg-honolulu hover:bg-pacific"
-                  : "bg-pacific hover:bg-honolulu"
-              } text-white flex items-center gap-2`}
-            >
-              <a href={actionLink} target="_blank" rel="noopener noreferrer">
-                {actionLabel} <ExternalLink className="h-4 w-4" />
-              </a>
-            </Button>
-          </div>
-        </DialogContent>
-      </Dialog>
+            {/* Take Test Button */}
+            <div className="mt-6 flex justify-center">
+              <Button
+                asChild
+                className="bg-honolulu hover:bg-pacific text-white flex items-center gap-2"
+              >
+                <a href={actionLink} target="_blank" rel="noopener noreferrer">
+                  {actionLabel} <ExternalLink className="h-4 w-4" />
+                </a>
+              </Button>
+            </div>
+          </DialogContent>
+        </Dialog>
+      )}
     </>
   );
 };
