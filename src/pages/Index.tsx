@@ -192,7 +192,6 @@ const tourismCompanies = [
   { name: "Birdys", logo: "/assets/health-and-tour/Birdys.png", description: "Tourism and hospitality", jobOpenings: 25, location: "Mumbai", jobId: "birdys-11223" },
   { name: "Ziatoon Restaurant and Grill Pvt. Ltd.", logo: "/assets/health-and-tour/zaitoon.png", description: "Tourism and hospitality", jobOpenings: 300, location: "Pan India", jobId: "zaitoon-11223" },
    { name: "TFS Travel Food Services", logo: "/assets/health-and-tour/TFS.jpg", description: "Airport and travel hospitality services", jobOpenings: 200, location: "Multiple Locations", jobId: "tfs-travel-food-services-2025" },
-  { name: "Iksha Resorts", logo: "/assets/health-and-tour/iksha.webp", description: "Greetings from Iksha Resorts! Hospitality and operations roles available.", jobOpenings: 15, location: "Rajrappa, Jharkhand", jobId: "iksha-resorts-77123" },
 ];
 
 const healthcareCompanies = [
