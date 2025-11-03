@@ -39,13 +39,19 @@ const CompanyCard = ({
 }: CompanyCardProps) => {
   const [open, setOpen] = useState(false);
 
-  // ✅ Show button & popup ONLY if company name matches exactly "IndiGo Airlines"
-  const isIndiGo = name.trim().toLowerCase() === "indigo airlines";
+  // ✅ Allow popup for IndiGo Airlines & ConnectED (Kukje India Group Initiative)
+  const normalizedName = name.trim().toLowerCase();
+  const isSpecialCompany =
+    normalizedName === "indigo airlines" ||
+    normalizedName === "connected (kukje india group initiative)";
 
-  const actionLabel = "Take Test";
-  const actionLink =
-    applicationLink ||
-    "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403";
+  const isIndiGo = normalizedName === "indigo airlines";
+
+  const actionLabel = isIndiGo ? "Take Test" : "Register Now";
+  const actionLink = isIndiGo
+    ? applicationLink ||
+      "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403"
+    : "https://forms.gle/B2ifFxQVmuhP6UHU7";
 
   return (
     <>
@@ -83,8 +89,8 @@ const CompanyCard = ({
             </div>
           </div>
 
-          {/* ✅ View button only for IndiGo Airlines */}
-          {isIndiGo && (
+          {/* ✅ View button only for IndiGo or ConnectED */}
+          {isSpecialCompany && (
             <div className="pt-4 flex flex-col items-center">
               <Button
                 onClick={() => setOpen(true)}
@@ -100,8 +106,8 @@ const CompanyCard = ({
         </CardContent>
       </Card>
 
-      {/* ✅ IndiGo Airlines Popup */}
-      {isIndiGo && (
+      {/* ✅ Popup for IndiGo Airlines & ConnectED */}
+      {isSpecialCompany && (
         <Dialog open={open} onOpenChange={setOpen}>
           <DialogContent className="max-w-2xl">
             <DialogHeader>
@@ -150,11 +156,15 @@ const CompanyCard = ({
               )}
             </div>
 
-            {/* Take Test Button */}
+            {/* ✅ Action Button: IndiGo = Take Test, ConnectED = Register Now */}
             <div className="mt-6 flex justify-center">
               <Button
                 asChild
-                className="bg-honolulu hover:bg-pacific text-white flex items-center gap-2"
+                className={`${
+                  isIndiGo
+                    ? "bg-honolulu hover:bg-pacific"
+                    : "bg-pacific hover:bg-honolulu"
+                } text-white flex items-center gap-2`}
               >
                 <a href={actionLink} target="_blank" rel="noopener noreferrer">
                   {actionLabel} <ExternalLink className="h-4 w-4" />
