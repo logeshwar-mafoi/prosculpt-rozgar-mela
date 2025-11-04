@@ -227,7 +227,6 @@ const Index = () => {
       <Hero />
       <ScrollingEmployers />
       <CompanySection title="Automobile & Manufacturing" companies={automobileCompanies} />
-      <CompanySection title="Banking & Finance" companies={bankingCompanies} />
       <CompanySection title="IT & Manufacturing" companies={manufacturingCompanies} />
       <CompanySection title="Tourism & Hospitality" companies={tourismCompanies} />
       <CompanySection title="Aviation & Airlines" companies={aviationCompanies} />
@@ -237,6 +236,7 @@ const Index = () => {
       <CompanySection title="Devyani International Ltd. (F&B Group)" companies={devyaniCompanies} />
       <CompanySection title="Telecom" companies={telecomCompanies} />
       <CompanySection title="Creative & Media" companies={creativeCompanies} />
+       <CompanySection title="Banking & Finance" companies={bankingCompanies} />
       <EventPosters />
       <FloatingFAQ />
       <Footer />
