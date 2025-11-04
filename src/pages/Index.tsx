@@ -226,9 +226,9 @@ const Index = () => {
     <div className="min-h-screen">
       <Hero />
       <ScrollingEmployers />
+      <CompanySection title="Automobile & Manufacturing" companies={automobileCompanies} />
       <CompanySection title="Banking & Finance" companies={bankingCompanies} />
       <CompanySection title="IT & Manufacturing" companies={manufacturingCompanies} />
-      <CompanySection title="Automobile & Manufacturing" companies={automobileCompanies} />
       <CompanySection title="Tourism & Hospitality" companies={tourismCompanies} />
       <CompanySection title="Aviation & Airlines" companies={aviationCompanies} />
       <CompanySection title="Training Programs" companies={trainingCompanies} />
