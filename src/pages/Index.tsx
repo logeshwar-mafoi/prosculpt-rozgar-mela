@@ -1045,7 +1045,44 @@ const tourismCompanies = [
 },
   
   { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo-sindoori.png", description: "Hospitality and catering", jobOpenings: 85, location: "Tourist Destinations", jobId: "apollo-sindoori-55665" },
-  { name: "Birdys", logo: "/assets/health-and-tour/Birdys.png", description: "Tourism and hospitality", jobOpenings: 25, location: "Mumbai", jobId: "birdys-11223" },
+
+
+ // 🍰 Birdys Company
+{
+  "name": "Birdys Company",
+  "logo": "/assets/hospitality/birdys.png",
+  "description": "Birdys Company, a renowned name in the bakery and hospitality industry, is hiring for culinary and customer service roles across Mumbai.",
+  "jobOpenings": 50,
+  "location": "Mumbai",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "Customer Service Executive",
+      "description": "Greet and assist customers, handle orders and billing, and ensure a pleasant in-store experience.",
+      "availableJobs": 20,
+      "location": "Mumbai",
+      "industryType": "Hospitality - Customer Service"
+    },
+    {
+      "title": "Commis Chef",
+      "description": "Support the kitchen team in preparing bakery and confectionery items while maintaining hygiene standards.",
+      "availableJobs": 20,
+      "location": "Mumbai",
+      "industryType": "Hospitality - Culinary"
+    },
+    {
+      "title": "Chef de Partie",
+      "description": "Supervise a kitchen section, ensure food quality, and train junior staff in recipe preparation and presentation.",
+      "availableJobs": 10,
+      "location": "Mumbai",
+      "industryType": "Hospitality - Culinary Leadership"
+    }
+  ],
+  "qualification": "12th Pass or Diploma/Degree in Hotel Management or Culinary Arts",
+  "salary": "₹15,000 - ₹25,000",
+  "benefits": "Meals & Uniform Provided"
+},
+
   { name: "Ziatoon Restaurant and Grill Pvt. Ltd.", logo: "/assets/health-and-tour/zaitoon.png", description: "Tourism and hospitality", jobOpenings: 300, location: "Pan India", jobId: "zaitoon-11223" },
    { name: "TFS Travel Food Services", logo: "/assets/health-and-tour/TFS.jpg", description: "Airport and travel hospitality services", jobOpenings: 200, location: "Multiple Locations", jobId: "tfs-travel-food-services-2025" },
 ];
