@@ -269,7 +269,78 @@ const tourismCompanies = [
 },
   
   { name: "TAJ/Vivanta Group", logo: "/assets/health-and-tour/taj.png", description: "Luxury hospitality group", jobOpenings: 58, location: "Major Cities", jobId: "taj-vivanta-45454" },
-  { name: "Udaan Resorts Siliguri", logo: "/assets/health-and-tour/udaan.png", description: "Tourism and hospitality group", jobOpenings: 20, location: "Siliguri", jobId: "udaan-resorts-34343" },
+
+  // 🏨 Udaan Hotels & Resorts
+{
+  "name": "Udaan Hotels & Resorts",
+  "logo": "/assets/health-and-tour/udaan.png",
+  "description": "Udaan Hotels & Resorts is hiring for multiple hospitality positions in Siliguri.",
+  "jobOpenings": 20,
+  "location": "Siliguri, West Bengal",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages, assist guests, and maintain service standards.",
+      "availableJobs": 5,
+      "location": "Siliguri",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Front Office Associate",
+      "description": "Manage guest check-ins/check-outs, reservations, and front desk operations.",
+      "availableJobs": 4,
+      "location": "Siliguri",
+      "industryType": "Hospitality - Front Office"
+    },
+    {
+      "title": "Housekeeping Associate",
+      "description": "Ensure cleanliness of rooms and common areas, and provide housekeeping support.",
+      "availableJobs": 6,
+      "location": "Siliguri",
+      "industryType": "Hospitality - Housekeeping"
+    },
+    {
+      "title": "Commis (Kitchen)",
+      "description": "Assist chefs in food preparation, maintain kitchen hygiene, and follow recipes.",
+      "availableJobs": 5,
+      "location": "Siliguri",
+      "industryType": "Hospitality - Culinary"
+    }
+  ],
+  "qualification": "12th Pass, Undergraduate, or Diploma in Hotel Management",
+  "salary": "₹10,000 - ₹15,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+ // 🏨 Compass Group
+{
+  "name": "Compass Group",
+  "logo": "/assets/health-and-tour/compass.png",
+  "description": "Compass Group is hiring for large-scale hospitality operations across India, offering roles in food service and housekeeping.",
+  "jobOpenings": 600,
+  "location": "North, East, South & West India",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages, maintain service quality, and ensure guest satisfaction across multiple client locations.",
+      "availableJobs": 350,
+      "location": "Pan India",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Housekeeping Associate",
+      "description": "Maintain cleanliness, handle guest requests, and ensure hygiene standards at client premises.",
+      "availableJobs": 250,
+      "location": "Pan India",
+      "industryType": "Hospitality - Housekeeping"
+    }
+  ],
+  "qualification": "10th, 12th, Undergraduate, or Diploma",
+  "salary": "₹10,000 - ₹16,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
   { name: "VASATI Services", logo: "/assets/health-and-tour/vasati.png", description: "Hospitality and service company", jobOpenings: 20, location: "NCR", jobId: "c7cc3bbb-b3b8-4c0c-8f0e-52186c1478f0" },
   { name: "Sumi Yashshree", logo: "/assets/health-and-tour/yumi.png", description: "Hospitality and lodging services", jobOpenings: 20, location: "Tourist Destinations", jobId: "d64ca8c7-020c-4514-9fb6-c787220a3234" },
   { name: "AB’s (Absolute Barbecues)", logo: "/assets/retail/abs.png", description: "Food & Beverages chain", jobOpenings: 200, location: "Pan India", jobId: "abs-barbecues-21321" },
