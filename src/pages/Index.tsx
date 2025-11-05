@@ -377,7 +377,7 @@ const manufacturingCompanies = [
  // ⚙ TATA Electronics Pvt. Ltd. (Hosur)
 {
   "name": "TATA Electronics Pvt. Ltd.",
-  "logo": "/assets/manufacturing/tataelectronics.png",
+  "logo": "/assets/manufacturing/tataelec.png",
   "description": "TATA Electronics Pvt. Ltd., a leading electronics manufacturing company under the Tata Group, is hiring for mobile assembly roles at its Hosur facility.",
   "jobOpenings": 400,
   "location": "Hosur, Tamil Nadu",
