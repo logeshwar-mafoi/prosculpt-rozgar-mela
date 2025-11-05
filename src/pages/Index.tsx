@@ -171,7 +171,46 @@ const bankingCompanies = [
   "benefits": "Performance Incentives, Travel Allowance, Career Growth Opportunities"
 },
   
-  { name: "SBI Insurance", logo: "/assets/banking/sbi.png", description: "Insurance services", jobOpenings: 50, location: "Pan India", jobId: "sbi-insurance-89452" },
+  // 🏦 SBI Insurance
+{
+  "name": "SBI Insurance",
+  "logo": "/assets/banking/sbi.png",
+  "description": "SBI Insurance, a leading insurance service provider in India, is hiring across various roles in sales, customer service, and insurance operations.",
+  "jobOpenings": 50,
+  "location": "Pan India",
+  "industry": "Insurance / Banking",
+  "jobs": [
+    {
+      "title": "Insurance Sales Executive",
+      "description": "Promote and sell insurance products, maintain client relationships, assist customers with claims and policy servicing, and achieve sales targets.",
+      "eligibility": "Graduate in any discipline, good communication skills, customer-focused.",
+      "skills": [
+        "Sales and persuasion",
+        "Customer service",
+        "Teamwork",
+        "Problem solving",
+        "Basic knowledge of insurance products"
+      ],
+      "location": "Pan India"
+    },
+    {
+      "title": "Customer Service / Operations Associate",
+      "description": "Assist customers with policy queries, manage documentation, support claims processing, and ensure compliance with company guidelines.",
+      "eligibility": "Graduate or Diploma in relevant field, good communication and organizational skills.",
+      "skills": [
+        "Customer service orientation",
+        "Documentation handling",
+        "Teamwork",
+        "Attention to detail",
+        "Problem solving"
+      ],
+      "location": "Pan India"
+    }
+  ],
+  "qualification": "Graduate / Diploma in relevant field",
+  "salary": "As per company standards",
+  "benefits": "Health insurance, professional development, performance incentives"
+},
  
 // 🏦 Utkarsh Bank
 {
