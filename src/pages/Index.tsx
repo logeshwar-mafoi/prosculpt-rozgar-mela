@@ -1363,7 +1363,43 @@ const telecomCompanies = [
   "salary": "₹12,000 - ₹20,000 (including incentives)",
   "benefits": "Mobile Allowance & Performance Incentives"
 },
-  { name: "PhonePe", logo: "/assets/telecom/PhonePe.png", description: "Telecom/Fintech services", jobOpenings: 75, location: "Kolkata", jobId: "phonepe-44556" },
+
+
+ // 💳 PhonePe
+{
+  "name": "PhonePe",
+  "logo": "/assets/telecom/phonepe.png",
+  "description": "PhonePe, one of India’s leading digital payment and financial service platforms, is hiring for customer engagement and business development roles in Kolkata.",
+  "jobOpenings": 100,
+  "location": "Kolkata",
+  "industry": "Telecom & Fintech",
+  "jobs": [
+    {
+      "title": "Business Development Executive",
+      "description": "Acquire and onboard merchants to the PhonePe platform, ensure device activation, and maintain merchant relationships.",
+      "availableJobs": 50,
+      "location": "Kolkata",
+      "industryType": "Fintech - Merchant Acquisition"
+    },
+    {
+      "title": "Customer Support Executive",
+      "description": "Assist customers and merchants with app-related queries, resolve payment issues, and provide product support.",
+      "availableJobs": 30,
+      "location": "Kolkata",
+      "industryType": "Fintech - Customer Support"
+    },
+    {
+      "title": "Field Sales Executive",
+      "description": "Conduct field visits to promote PhonePe services, generate leads, and achieve monthly sales targets.",
+      "availableJobs": 20,
+      "location": "Kolkata",
+      "industryType": "Telecom - Field Sales"
+    }
+  ],
+  "qualification": "12th Pass or Graduate (Any Stream)",
+  "salary": "₹14,000 - ₹22,000 (including incentives)",
+  "benefits": "Travel Allowance & Incentives"
+},
 ];
 
 const creativeCompanies = [
