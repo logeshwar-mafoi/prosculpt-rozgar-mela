@@ -1015,7 +1015,7 @@ const tourismCompanies = [
 // 🍽 Absolute Barbeque
 {
   "name": "Absolute Barbeque",
-  "logo": "/assets/health-and-tour/abs.png",
+  "logo": "/assets/retail/abs.png",
   "description": "Absolute Barbeque is hiring for restaurant and hospitality service roles across India.",
   "jobOpenings": 200,
   "location": "North, East, South & West India",
@@ -1037,7 +1037,7 @@ const tourismCompanies = [
   // 🍽 Barbeque Nation
 {
   "name": "Barbeque Nation",
-  "logo": "/assets/health-and-tour/bbq.png",
+  "logo": "/assets/retail/bbq.png",
   "description": "Barbeque Nation is hiring for large-scale restaurant operations across India.",
   "jobOpenings": 600,
   "location": "North, East, South & West India",
