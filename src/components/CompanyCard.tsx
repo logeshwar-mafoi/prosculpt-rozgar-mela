@@ -51,7 +51,7 @@ const CompanyCard = ({
   return (
     <>
       {/* 🌟 Company Card */}
-      <Card className="group h-full overflow-hidden border-2 border-yellow-300 bg-white hover:border-yellow-500 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+      <Card className="group h-full overflow-hidden border-2 border-blue-300 bg-white hover:border-blue-500 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
         <CardContent className="p-6 flex flex-col h-full">
           {/* Logo */}
           <div className="mb-4 flex items-center justify-center h-20">
@@ -65,7 +65,7 @@ const CompanyCard = ({
           </div>
 
           {/* Name */}
-          <h3 className="text-xl font-bold text-gray-800 mb-2 text-center group-hover:text-yellow-600 transition-colors">
+          <h3 className="text-xl font-bold text-gray-800 mb-2 text-center group-hover:text-blue-600 transition-colors">
             {name}
           </h3>
 
@@ -93,7 +93,7 @@ const CompanyCard = ({
 
           {/* Stats */}
           <div className="flex items-center justify-between pt-3 border-t border-gray-200">
-            <div className="flex items-center gap-2 text-yellow-600">
+            <div className="flex items-center gap-2 text-blue-600">
               <Briefcase className="h-4 w-4" />
               <span className="text-sm font-semibold">
                 {jobOpenings !== null ? `${jobOpenings} Openings` : "Open Roles"}
@@ -109,7 +109,7 @@ const CompanyCard = ({
           <div className="pt-4 flex flex-col items-center">
             <Button
               onClick={() => setOpen(true)}
-              className="bg-yellow-500 hover:bg-yellow-600 text-white w-full font-medium"
+              className="bg-blue-500 hover:bg-blue-600 text-white w-full font-medium"
             >
               View
             </Button>
@@ -178,7 +178,7 @@ const CompanyCard = ({
             <div className="mt-6 flex justify-center">
               <Button
                 asChild
-                className="bg-yellow-600 hover:bg-yellow-700 text-white flex items-center gap-2"
+                className="bg-blue-600 hover:bg-blue-700 text-white flex items-center gap-2"
               >
                 <a href={actionLink} target="_blank" rel="noopener noreferrer">
                   {actionLabel} <ExternalLink className="h-4 w-4" />
