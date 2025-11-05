@@ -196,47 +196,6 @@ const bankingCompanies = [
 },
   
   { name: "TVS Collections Siliguri", logo: null, description: "Finance collection services", jobOpenings: 50, location: "Siliguri", jobId: "tvs-collections-siliguri-54920" },
- 
-  
- // 🏢 WNS Limited
-{
-  "name": "WNS Limited",
-  "logo": "/assets/IT/wns.png",
-  "description": "WNS Limited (NYSE: WNS) is a digital-led business transformation and services company that co-creates smarter businesses with over 700 clients across 10 industries. With AI-powered platforms and analytics, WNS helps enterprises innovate, scale, and adapt swiftly in a world defined by disruption. The company operates across 4 continents, 13 countries, and 65 delivery centers, employing over 66,000 professionals globally.",
-  "jobOpenings": 300,
-  "location": "Gurgaon, Pune, Mumbai",
-  "industry": "Business Process Management (BPM) / Customer Experience",
-  "jobs": [
-    {
-      "title": "Associate - Customer Experience Process",
-      "description": "Handle customer inquiries and issues via chat and voice channels, ensuring timely, accurate, and professional support. Maintain records in CRM systems and resolve billing, technical, or general queries to ensure customer satisfaction.",
-      "availableJobs": 300,
-      "location": "Gurgaon, Pune, Mumbai",
-      "industryType": "Customer Support / BPM",
-      "qualification": "Any Graduate (2022 / 2023 / 2024 / 2025 Batch, Any Stream)",
-      "workMode": "Work From Office",
-      "workDays": "5 Days / Rotational Shifts / Rotational Offs (Night Shifts Included)",
-      "ctc": "₹2.8 LPA - ₹3.0 LPA (Fixed) + Performance Incentives",
-      "requiredSkills": [
-        "Excellent communication and grammar skills",
-        "Clear and correct business communication",
-        "Good listening and comprehension skills",
-        "Ability to adapt to different accents",
-        "Strong command of English language",
-        "Willingness to work in night/rotational shifts"
-      ],
-      "selectionProcess": [
-        "Online Aptitude / SVAR / Writex Assessment",
-        "HR Interview",
-        "Ops Interview"
-      ]
-    }
-  ],
-  "qualification": "Graduate (Any Stream)",
-  "salary": "₹2.8 LPA - ₹3.0 LPA + Incentives",
-  "benefits": "Performance-based Incentives",
-  "workMode": "Work From Office"
-},
 
 ];
 
@@ -1585,6 +1544,45 @@ const healthcareCompanies = [
 ];
 
 const itCompanies = [
+// 🏢 WNS Limited
+{
+  "name": "WNS Limited",
+  "logo": "/assets/IT/wns.png",
+  "description": "WNS Limited (NYSE: WNS) is a digital-led business transformation and services company that co-creates smarter businesses with over 700 clients across 10 industries. With AI-powered platforms and analytics, WNS helps enterprises innovate, scale, and adapt swiftly in a world defined by disruption. The company operates across 4 continents, 13 countries, and 65 delivery centers, employing over 66,000 professionals globally.",
+  "jobOpenings": 300,
+  "location": "Gurgaon, Pune, Mumbai",
+  "industry": "Business Process Management (BPM) / Customer Experience",
+  "jobs": [
+    {
+      "title": "Associate - Customer Experience Process",
+      "description": "Handle customer inquiries and issues via chat and voice channels, ensuring timely, accurate, and professional support. Maintain records in CRM systems and resolve billing, technical, or general queries to ensure customer satisfaction.",
+      "availableJobs": 300,
+      "location": "Gurgaon, Pune, Mumbai",
+      "industryType": "Customer Support / BPM",
+      "qualification": "Any Graduate (2022 / 2023 / 2024 / 2025 Batch, Any Stream)",
+      "workMode": "Work From Office",
+      "workDays": "5 Days / Rotational Shifts / Rotational Offs (Night Shifts Included)",
+      "ctc": "₹2.8 LPA - ₹3.0 LPA (Fixed) + Performance Incentives",
+      "requiredSkills": [
+        "Excellent communication and grammar skills",
+        "Clear and correct business communication",
+        "Good listening and comprehension skills",
+        "Ability to adapt to different accents",
+        "Strong command of English language",
+        "Willingness to work in night/rotational shifts"
+      ],
+      "selectionProcess": [
+        "Online Aptitude / SVAR / Writex Assessment",
+        "HR Interview",
+        "Ops Interview"
+      ]
+    }
+  ],
+  "qualification": "Graduate (Any Stream)",
+  "salary": "₹2.8 LPA - ₹3.0 LPA + Incentives",
+  "benefits": "Performance-based Incentives",
+  "workMode": "Work From Office"
+},
 
   {
     name: "Ancile Services",
