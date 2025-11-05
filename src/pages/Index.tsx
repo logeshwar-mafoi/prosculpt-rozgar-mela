@@ -6,25 +6,403 @@ import Footer from "@/components/Footer";
 import FloatingFAQ from "@/components/FloatingFAQ";
 
 const bankingCompanies = [
-  { name: "Axis Bank", logo: "/assets/banking/axis.png", description: "Leading private sector bank", jobOpenings: 75, location: "Pan India", jobId: "axix-10093" },
-  { name: "Bajaj Finance", logo: "/assets/banking/bajaj.png", description: "Financial services company", jobOpenings: 100, location: "Multiple Cities", jobId: "bajaj-10092" },
-  { name: "Bajaj Allianz", logo: "/assets/banking/bajajalli.png", description: "Insurance and finance", jobOpenings: 100, location: "Pan India", jobId: "bajaj-allianz-23456" },
-  { name: "Bandhan Bank", logo: "/assets/banking/bandhan.png", description: "Commercial banking services", jobOpenings: 75, location: "East India", jobId: "bandhan-bank-17645" },
-  { name: "HDFC Bank", logo: "/assets/banking/hdfc.png", description: "India's largest private bank", jobOpenings: 100, location: "Pan India", jobId: "hdfc-20987" },
+ // 🏦 Axis Bank
+{
+  "name": "Axis Bank",
+  "logo": "/assets/banking/axis.png",
+  "description": "Axis Bank, one of India’s leading private sector banks, is hiring for Customer Relationship Executive roles across PAN India.",
+  "jobOpenings": 350,
+  "location": "Pan India",
+  "industry": "Banking & Financial Services",
+  "jobs": [
+    {
+      "title": "Customer Relationship Executive",
+      "description": "Build and maintain strong customer relationships, assist in banking transactions, and promote banking products and services.",
+      "availableJobs": 250,
+      "location": "Pan India",
+      "industryType": "Banking - Customer Relationship Management"
+    },
+    {
+      "title": "Sales Officer - Retail Banking",
+      "description": "Generate new customer leads, cross-sell bank products, and support account opening and loan processes.",
+      "availableJobs": 70,
+      "location": "Pan India",
+      "industryType": "Banking - Sales & Marketing"
+    },
+    {
+      "title": "Operations Executive",
+      "description": "Handle backend operations, documentation, and support daily branch functions ensuring compliance and efficiency.",
+      "availableJobs": 30,
+      "location": "Pan India",
+      "industryType": "Banking - Operations"
+    }
+  ],
+  "qualification": "Graduate (Any Stream) or MBA Preferred",
+  "salary": "₹18,000 - ₹30,000 + Incentives",
+  "benefits": "Performance Incentives, Health Insurance, Career Growth Opportunities"
+},
+// 💰 Bajaj Finance
+{
+  "name": "Bajaj Finance Ltd.",
+  "logo": "/assets/banking/bajajfinance.png",
+  "description": "Bajaj Finance Limited, one of India’s leading non-banking financial companies (NBFC), is hiring for loan processing and customer service roles across PAN India.",
+  "jobOpenings": 400,
+  "location": "Pan India",
+  "industry": "Banking & Financial Services",
+  "jobs": [
+    {
+      "title": "Loan Processing Executive",
+      "description": "Handle end-to-end loan processing activities including document verification, data entry, and loan disbursement support.",
+      "availableJobs": 250,
+      "location": "Pan India",
+      "industryType": "Finance - Loan Operations"
+    },
+    {
+      "title": "Customer Relationship Executive",
+      "description": "Assist customers with loan applications, explain product details, and ensure smooth processing of financial services.",
+      "availableJobs": 100,
+      "location": "Pan India",
+      "industryType": "Finance - Customer Support"
+    },
+    {
+      "title": "Sales Executive - Loans",
+      "description": "Promote and sell personal, consumer durable, and business loans to potential customers while maintaining strong client relationships.",
+      "availableJobs": 50,
+      "location": "Pan India",
+      "industryType": "Finance - Sales & Marketing"
+    }
+  ],
+  "qualification": "12th Pass, Graduate, or Postgraduate (Any Stream)",
+  "salary": "₹15,000 - ₹25,000 + Incentives",
+  "benefits": "Incentives, Travel Allowance, Career Growth Opportunities"
+},
+  
+  // 🛡 Bajaj Allianz
+{
+  "name": "Bajaj Allianz General Insurance Co. Ltd.",
+  "logo": "/assets/banking/bajajallianz.png",
+  "description": "Bajaj Allianz, one of India’s leading insurance companies, is hiring for insurance process and customer service roles across PAN India.",
+  "jobOpenings": 300,
+  "location": "Pan India",
+  "industry": "Banking & Insurance Services",
+  "jobs": [
+    {
+      "title": "Insurance Process Executive",
+      "description": "Manage policy issuance, claims processing, and renewals while ensuring accuracy and compliance with company policies.",
+      "availableJobs": 150,
+      "location": "Pan India",
+      "industryType": "Insurance - Operations"
+    },
+    {
+      "title": "Customer Support Associate",
+      "description": "Assist customers with policy information, claims status, and premium payments via phone and email.",
+      "availableJobs": 100,
+      "location": "Pan India",
+      "industryType": "Insurance - Customer Service"
+    },
+    {
+      "title": "Sales Executive - Insurance",
+      "description": "Promote and sell life, health, and general insurance products, ensuring customer satisfaction and achieving sales targets.",
+      "availableJobs": 50,
+      "location": "Pan India",
+      "industryType": "Insurance - Sales & Marketing"
+    }
+  ],
+  "qualification": "12th Pass, Graduate, or Postgraduate (Any Stream)",
+  "salary": "₹15,000 - ₹28,000 + Incentives",
+  "benefits": "Incentives, Insurance Coverage, Training & Career Growth"
+},
+  
+ // 🏦 Bandhan Bank
+{
+  "name": "Bandhan Bank",
+  "logo": "/assets/banking/bandhan.png",
+  "description": "Bandhan Bank, one of India’s fastest-growing private sector banks, is hiring for Customer Relationship Executive roles across PAN India.",
+  "jobOpenings": 280,
+  "location": "Pan India",
+  "industry": "Banking & Financial Services",
+  "jobs": [
+    {
+      "title": "Customer Relationship Executive",
+      "description": "Engage with customers, understand their banking needs, and promote relevant products such as savings, loans, and deposits.",
+      "availableJobs": 180,
+      "location": "Pan India",
+      "industryType": "Banking - Customer Relationship Management"
+    },
+    {
+      "title": "Branch Sales Executive",
+      "description": "Acquire new customers, open savings/current accounts, and ensure branch sales targets are met effectively.",
+      "availableJobs": 70,
+      "location": "Pan India",
+      "industryType": "Banking - Sales & Business Development"
+    },
+    {
+      "title": "Operations Support Executive",
+      "description": "Assist in branch operations, documentation, and daily transaction support ensuring compliance with bank policies.",
+      "availableJobs": 30,
+      "location": "Pan India",
+      "industryType": "Banking - Operations"
+    }
+  ],
+  "qualification": "Graduate (Any Stream) or MBA Preferred",
+  "salary": "₹16,000 - ₹28,000 + Incentives",
+  "benefits": "Performance Incentives, Health Insurance, Career Development Programs"
+},
+  
+  // 🏦 HDFC Bank
+{
+  "name": "HDFC Bank",
+  "logo": "/assets/banking/hdfc.png",
+  "description": "HDFC Bank, one of India’s leading private sector banks, is hiring for CASA roles across PAN India to strengthen its retail banking operations.",
+  "jobOpenings": 150,
+  "location": "Pan India",
+  "industry": "Banking & Financial Services",
+  "jobs": [
+    {
+      "title": "CASA Sales Executive",
+      "description": "Responsible for acquiring new customers for Current and Savings Account (CASA), maintaining relationships with clients, and achieving assigned sales targets.",
+      "availableJobs": 150,
+      "location": "Pan India",
+      "industryType": "Banking - Retail Sales"
+    }
+  ],
+  "qualification": "Graduate in any stream (Freshers & Experienced can apply)",
+  "salary": "₹15,000 - ₹25,000 + Incentives",
+  "benefits": "Performance Incentives, Travel Allowance, Career Growth Opportunities"
+},
+  
   { name: "SBI Insurance", logo: "/assets/banking/sbi.png", description: "Insurance services", jobOpenings: 50, location: "Pan India", jobId: "sbi-insurance-89452" },
-  { name: "Utkarsh Bank", logo: "/assets/banking/utkarsh.png", description: "Banking services – Collection Executive roles", jobOpenings: 100, location: "Pan India", jobId: "utkarsh-bank-001" },
+ 
+// 🏦 Utkarsh Bank
+{
+  "name": "Utkarsh Bank",
+  "logo": "/assets/banking/utkarsh.png",
+  "description": "Utkarsh Bank is hiring Collection Executives for its Banking and Financial Services operations across India.",
+  "jobOpenings": 100,
+  "location": "Pan India",
+  "industry": "Banking & Finance",
+  "jobs": [
+    {
+      "title": "Collection Executive",
+      "description": "Responsible for recovery and collection of loan payments from customers, maintaining customer relationships, and ensuring timely follow-ups.",
+      "availableJobs": 100,
+      "location": "Pan India",
+      "industryType": "Banking - Collections & Recovery"
+    }
+  ],
+  "qualification": "12th Pass, Graduate (any stream)",
+  "salary": "₹12,000 - ₹18,000 + Incentives",
+  "benefits": "Travel Allowance and Performance Incentives"
+},
+  
   { name: "TVS Collections Siliguri", logo: null, description: "Finance collection services", jobOpenings: 50, location: "Siliguri", jobId: "tvs-collections-siliguri-54920" },
-  { name: "WNS Global Services", logo: "/assets/IT/wns.png", description: "Finance & Accounts Associate", jobOpenings: 50, location: "Pan India", jobId: "0e83686f-664d-4308-94af-b83fcc87676e" },
+ 
+  
+ // 🏢 WNS (Holdings) Limited
+{
+  "name": "WNS (Holdings) Limited",
+  "logo": "/assets/bpo/wns.png",
+  "description": "WNS (Holdings) Limited (NYSE: WNS) is a digital-led business transformation and services company that co-creates smarter businesses with over 700 clients across 10 industries. With AI-powered platforms and analytics, WNS helps enterprises innovate, scale, and adapt swiftly in a world defined by disruption. The company operates across 4 continents, 13 countries, and 65 delivery centers, employing over 66,000 professionals globally.",
+  "jobOpenings": 300,
+  "location": "Gurgaon, Pune, Mumbai",
+  "industry": "Business Process Management (BPM) / Customer Experience",
+  "jobs": [
+    {
+      "title": "Associate - Customer Experience Process",
+      "description": "Handle customer inquiries and issues via chat and voice channels, ensuring timely, accurate, and professional support. Maintain records in CRM systems and resolve billing, technical, or general queries to ensure customer satisfaction.",
+      "availableJobs": 300,
+      "location": "Gurgaon, Pune, Mumbai",
+      "industryType": "Customer Support / BPM",
+      "qualification": "Any Graduate (2022 / 2023 / 2024 / 2025 Batch, Any Stream)",
+      "workMode": "Work From Office",
+      "workDays": "5 Days / Rotational Shifts / Rotational Offs (Night Shifts Included)",
+      "ctc": "₹2.8 LPA - ₹3.0 LPA (Fixed) + Performance Incentives",
+      "requiredSkills": [
+        "Excellent communication and grammar skills",
+        "Clear and correct business communication",
+        "Good listening and comprehension skills",
+        "Ability to adapt to different accents",
+        "Strong command of English language",
+        "Willingness to work in night/rotational shifts"
+      ],
+      "selectionProcess": [
+        "Online Aptitude / SVAR / Writex Assessment",
+        "HR Interview",
+        "Ops Interview"
+      ]
+    }
+  ],
+  "qualification": "Graduate (Any Stream)",
+  "salary": "₹2.8 LPA - ₹3.0 LPA + Incentives",
+  "benefits": "Performance-based Incentives",
+  "workMode": "Work From Office"
+},
+
 ];
 
 const manufacturingCompanies = [
   { name: "ITC", logo: "/assets/manufacturing/ITC.png", description: "Associates and Apprentices in the manufacturing sector", jobOpenings: 10, location: "West Bengal", jobId: "itc-55221" },
   { name: "Dixon Technologies", logo: "/assets/manufacturing/dixon.png", description: "Electronics manufacturing", jobOpenings: 1000, location: "Pan India", jobId: "dixon-tech-11223" },
-  { name: "Padget Technology", logo: "/assets/manufacturing/padget.png", description: "Electronics manufacturer", jobOpenings: 500, location: "East India", jobId: "padget-tech-33445" },
-  { name: "Idmela Syseom India Pvt Ltd", logo: "/assets/manufacturing/idemia.jpg", description: "Manufacturing - Production, Operator, Assembly roles", jobOpenings: 70, location: "Noida (UP)", jobId: "idemia-77854" },
-  { name: "SATA", logo: "/assets/manufacturing/sata.png", description: "Manufacturing equipment company", jobOpenings: 50, location: "Pan India", jobId: "sata-55667" },
-  { name: "SHRIRAM Pistons", logo: "/assets/manufacturing/shriram.png", description: "Auto components manufacturer", jobOpenings: 200, location: "North India", jobId: "shriram-pistons-77889" },
-  { name: "TATA Electronics", logo: "/assets/manufacturing/tataelec.png", description: "Electronics manufacturing", jobOpenings: 100, location: "Pan India", jobId: "tata-electronics-99001" },
+ 
+ // 🏭 Padget Technology Ltd. (Noida)
+{
+  "name": "Padget Technology Ltd.",
+  "logo": "/assets/manufacturing/padget.png",
+  "description": "Padget Technology Ltd., a leading electronics manufacturing company under Dixon Technologies, is hiring for production, operator, and assembly roles at its Noida facility.",
+  "jobOpenings": 350,
+  "location": "Noida, Uttar Pradesh",
+  "industry": "Electronics Manufacturing",
+  "jobs": [
+    {
+      "title": "Production Operator",
+      "description": "Operate production line machinery, ensure smooth workflow, and maintain safety and quality standards.",
+      "availableJobs": 200,
+      "location": "Noida, Uttar Pradesh",
+      "industryType": "Manufacturing - Production"
+    },
+    {
+      "title": "Assembly Line Operator",
+      "description": "Assemble electronic components and products as per design specifications, ensuring accuracy and efficiency.",
+      "availableJobs": 100,
+      "location": "Noida, Uttar Pradesh",
+      "industryType": "Manufacturing - Assembly Operations"
+    },
+    {
+      "title": "Machine Operator",
+      "description": "Handle automated machines, perform routine checks, and assist with troubleshooting minor production issues.",
+      "availableJobs": 50,
+      "location": "Noida, Uttar Pradesh",
+      "industryType": "Manufacturing - Machine Operations"
+    }
+  ],
+  "qualification": "10th, 12th, ITI, or Diploma in Electronics/Mechanical",
+  "salary": "₹12,000 - ₹17,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+ 
+  // ⚙ Idemia Syseom India Pvt. Ltd.
+{
+  "name": "Idemia Syseom India Pvt. Ltd.",
+  "logo": "/assets/manufacturing/idemia.jpg",
+  "description": "Idemia Syseom India Pvt. Ltd. is a leading manufacturer in smart card and security technology, hiring for production, operator, and assembly roles at its Noida facility.",
+  "jobOpenings": 70,
+  "location": "Noida, Uttar Pradesh",
+  "industry": "Electronics & Smart Card Manufacturing",
+  "jobs": [
+    {
+      "title": "Production Operator",
+      "description": "Operate manufacturing equipment for smart card production, monitor process efficiency, and maintain safety standards.",
+      "availableJobs": 25,
+      "location": "Noida, Uttar Pradesh",
+      "industryType": "Manufacturing - Production"
+    },
+    {
+      "title": "Machine Operator",
+      "description": "Handle operating machines, perform setup and calibration, and ensure smooth production flow.",
+      "availableJobs": 20,
+      "location": "Noida, Uttar Pradesh",
+      "industryType": "Manufacturing - Machine Operation"
+    },
+    {
+      "title": "Assembly Operator",
+      "description": "Assemble smart card components, perform quality checks, and support packaging and dispatch operations.",
+      "availableJobs": 25,
+      "location": "Noida, Uttar Pradesh",
+      "industryType": "Manufacturing - Assembly Line"
+    }
+  ],
+  "qualification": "10th, 12th, ITI, or Diploma in Electronics/Mechanical",
+  "salary": "₹12,000 - ₹17,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
+  // ⚙ SATA Vikas Pvt. Ltd.
+{
+  "name": "SATA Vikas Pvt. Ltd.",
+  "logo": "/assets/manufacturing/satavikas.png",
+  "description": "SATA Vikas Pvt. Ltd., a leading automotive component manufacturing company, is hiring CNC and VMC Machine Operators for its Haryana plant.",
+  "jobOpenings": 120,
+  "location": "Haryana",
+  "industry": "Manufacturing & Engineering",
+  "jobs": [
+    {
+      "title": "CNC Machine Operator",
+      "description": "Operate CNC machines to produce precision automotive components as per design specifications and safety standards.",
+      "availableJobs": 70,
+      "location": "Haryana",
+      "industryType": "Manufacturing - CNC Operations"
+    },
+    {
+      "title": "VMC Machine Operator",
+      "description": "Set up and operate VMC machines, maintain production quality, and ensure equipment functionality.",
+      "availableJobs": 50,
+      "location": "Haryana",
+      "industryType": "Manufacturing - VMC Operations"
+    }
+  ],
+  "qualification": "ITI, Diploma, or Technical Training in Mechanical/Production",
+  "salary": "₹13,000 - ₹18,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
+// ⚙ Shriram Pistons & Rings Ltd. (Ghaziabad)
+{
+  "name": "Shriram Pistons & Rings Ltd.",
+  "logo": "/assets/manufacturing/shrirampistons.png",
+  "description": "Shriram Pistons & Rings Ltd., a leading manufacturer of engine components, is hiring for production and assembly roles at its Ghaziabad plant.",
+  "jobOpenings": 300,
+  "location": "Ghaziabad, Uttar Pradesh",
+  "industry": "Automotive Component Manufacturing",
+  "jobs": [
+    {
+      "title": "Production Operator",
+      "description": "Operate machines for piston and ring manufacturing, monitor production quality, and ensure adherence to process standards.",
+      "availableJobs": 180,
+      "location": "Ghaziabad, Uttar Pradesh",
+      "industryType": "Manufacturing - Production"
+    },
+    {
+      "title": "Assembly Line Operator",
+      "description": "Assemble engine components, check for dimensional accuracy, and maintain quality standards in the assembly line.",
+      "availableJobs": 120,
+      "location": "Ghaziabad, Uttar Pradesh",
+      "industryType": "Manufacturing - Assembly Operations"
+    }
+  ],
+  "qualification": "10th, 12th, ITI, or Diploma in Mechanical/Automobile",
+  "salary": "₹13,000 - ₹18,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
+ // ⚙ TATA Electronics Pvt. Ltd. (Hosur)
+{
+  "name": "TATA Electronics Pvt. Ltd.",
+  "logo": "/assets/manufacturing/tataelectronics.png",
+  "description": "TATA Electronics Pvt. Ltd., a leading electronics manufacturing company under the Tata Group, is hiring for mobile assembly roles at its Hosur facility.",
+  "jobOpenings": 400,
+  "location": "Hosur, Tamil Nadu",
+  "industry": "Electronics Manufacturing",
+  "jobs": [
+    {
+      "title": "Mobile Assembly Operator",
+      "description": "Assemble smartphone components on the production line, ensure quality control, and maintain workflow efficiency.",
+      "availableJobs": 300,
+      "location": "Hosur, Tamil Nadu",
+      "industryType": "Manufacturing - Assembly Operations"
+    },
+    {
+      "title": "Quality Inspector",
+      "description": "Inspect assembled mobile units for defects, perform quality assurance checks, and ensure compliance with manufacturing standards.",
+      "availableJobs": 100,
+      "location": "Hosur, Tamil Nadu",
+      "industryType": "Manufacturing - Quality Control"
+    }
+  ],
+  "qualification": "10th, 12th, ITI, or Diploma in Electronics/Mechanical",
+  "salary": "₹13,000 - ₹18,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
   { name: "DLJM Group", logo: "/assets/manufacturing/dljm.png", description: "Manufacturing solutions", jobOpenings: 200, location: "West Bengal", jobId: "dlj-group-44556" },
   { name: "MRF Tyres", logo: "/assets/manufacturing/mrf.png", description: "Tyre manufacturing", jobOpenings: 150, location: "Pan India", jobId: "mrf-tyres-88442" },
   { name: "Nissan", logo: "/assets/manufacturing/nissan.jpg", description: "Automobile manufacturer", jobOpenings: 300, location: "Pan India", jobId: "nissan-22771" },
@@ -101,8 +479,44 @@ PROGRAM FEES (Approximate):
 
 
 const automobileCompanies = [
-  { name: "Hero MotoCorp", logo: "/assets/manufacturing/hero.png", description: "Two-wheeler manufacturer", jobOpenings: 40, location: "Pan India", jobId: "hero-motocorp-22334" },
-  { name: "Mahindra & Mahindra", logo: "/assets/manufacturing/mahin.png", description: "Automotive & farm equipment", jobOpenings: 650, location: "Multiple Cities", jobId: "92fce6ca-74bc-4fc5-9fff-0150133dda3d" },
+ // 🏭 Hero Motors
+{
+  "name": "Hero Motors",
+  "logo": "/assets/manufacturing/hero.png",
+  "description": "Hero Motors is a leading automobile and component manufacturer hiring for production, operator, and assembly roles at its Dujana-Dadri plant.",
+  "jobOpenings": 40,
+  "location": "Dujana, Dadri (Uttar Pradesh)",
+  "industry": "Automobile & Manufacturing",
+  "jobs": [
+    {
+      "title": "Production Operator",
+      "description": "Operate production machinery, ensure process efficiency, and maintain safety and quality standards.",
+      "availableJobs": 15,
+      "location": "Dujana, Dadri",
+      "industryType": "Manufacturing - Production"
+    },
+    {
+      "title": "Machine Operator",
+      "description": "Handle CNC and assembly machines, assist in production flow, and perform quality checks.",
+      "availableJobs": 10,
+      "location": "Dujana, Dadri",
+      "industryType": "Manufacturing - Machine Operation"
+    },
+    {
+      "title": "Assembly Line Worker",
+      "description": "Assemble mechanical parts and components, follow SOPs, and support daily manufacturing operations.",
+      "availableJobs": 15,
+      "location": "Dujana, Dadri",
+      "industryType": "Manufacturing - Assembly"
+    }
+  ],
+  "qualification": "10th, 12th, ITI, or Diploma in Mechanical/Electrical",
+  "salary": "₹13,000 - ₹18,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+
+
+    { name: "Mahindra & Mahindra", logo: "/assets/manufacturing/mahin.png", description: "Automotive & farm equipment", jobOpenings: 650, location: "Multiple Cities", jobId: "92fce6ca-74bc-4fc5-9fff-0150133dda3d" },
   ];
 
 const tourismCompanies = [
@@ -174,8 +588,50 @@ const tourismCompanies = [
   ]
 },
 
-  { name: "Bluspring", logo: "/assets/health-and-tour/blu-spring.jpg", description: "Luxury resort and hospitality chain", jobOpenings: 800, location: ["North", "East", "West", "South"], jobId: "Bluspring-85858" },
-  { name: "AEON Resorts", logo: "/assets/health-and-tour/aeon.png", description: "Luxury resort chain", jobOpenings: 50, location: "Major Cities", jobId: "aeon-resorts-78787" },
+// 🏨 Bluspring Enterprises Ltd
+{
+  "name": "Bluspring Enterprises Ltd",
+  "logo": "/assets/health-and-tour/bluspring.png",
+  "description": "Bluspring Enterprises Ltd is hiring for multiple hospitality and facility management roles across India.",
+  "jobOpenings": 800,
+  "location": "North, East, South & West India",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "Housekeeping Associate",
+      "description": "Maintain cleanliness, ensure hygiene standards, and handle guest service requests.",
+      "availableJobs": 250,
+      "location": "Pan India",
+      "industryType": "Hospitality - Housekeeping"
+    },
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages, ensure customer satisfaction, and maintain service quality.",
+      "availableJobs": 200,
+      "location": "Pan India",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Kitchen Helper",
+      "description": "Assist in food preparation, maintain kitchen cleanliness, and support culinary staff.",
+      "availableJobs": 150,
+      "location": "Pan India",
+      "industryType": "Hospitality - Kitchen Operations"
+    },
+    {
+      "title": "Counter Sales Executive",
+      "description": "Engage with customers, promote products or services, and handle billing and queries.",
+      "availableJobs": 200,
+      "location": "Pan India",
+      "industryType": "Sales - Retail & Customer Service"
+    }
+  ],
+  "qualification": "10th, 12th, or Diploma",
+  "salary": "₹12,000 - ₹15,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
+    { name: "AEON Resorts", logo: "/assets/health-and-tour/aeon.png", description: "Luxury resort chain", jobOpenings: 50, location: "Major Cities", jobId: "aeon-resorts-78787" },
   
   
   // 🏨 Aurum by RJ Resorts
@@ -341,10 +797,66 @@ const tourismCompanies = [
   "benefits": "Food & Sharing Accommodation"
 },
   
-  { name: "VASATI Services", logo: "/assets/health-and-tour/vasati.png", description: "Hospitality and service company", jobOpenings: 20, location: "NCR", jobId: "c7cc3bbb-b3b8-4c0c-8f0e-52186c1478f0" },
+  // 🏨 Vasati Services
+{
+  "name": "Vasati Services",
+  "logo": "/assets/health-and-tour/vasati.png",
+  "description": "Vasati Services is hiring for multiple hospitality and service roles across Delhi NCR and Uttar Pradesh.",
+  "jobOpenings": 20,
+  "location": "Delhi NCR, Uttar Pradesh",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "Chef",
+      "description": "Prepare meals, manage kitchen operations, and ensure food quality and hygiene standards.",
+      "availableJobs": 6,
+      "location": "Delhi NCR, Uttar Pradesh",
+      "industryType": "Hospitality - Culinary"
+    },
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages, ensure customer satisfaction, and maintain service standards.",
+      "availableJobs": 8,
+      "location": "Delhi NCR, Uttar Pradesh",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Front Office Associate",
+      "description": "Handle guest check-ins/check-outs, reservations, and manage customer interactions.",
+      "availableJobs": 6,
+      "location": "Delhi NCR, Uttar Pradesh",
+      "industryType": "Hospitality - Front Office"
+    }
+  ],
+  "qualification": "12th Pass, Undergraduate, or Postgraduate",
+  "salary": "₹13,000 - ₹17,000",
+  "benefits": "On Duty Meal"
+},
+  
   { name: "Sumi Yashshree", logo: "/assets/health-and-tour/yumi.png", description: "Hospitality and lodging services", jobOpenings: 20, location: "Tourist Destinations", jobId: "d64ca8c7-020c-4514-9fb6-c787220a3234" },
-  { name: "AB’s (Absolute Barbecues)", logo: "/assets/retail/abs.png", description: "Food & Beverages chain", jobOpenings: 200, location: "Pan India", jobId: "abs-barbecues-21321" },
 
+// 🍽 Absolute Barbeque
+{
+  "name": "Absolute Barbeque",
+  "logo": "/assets/health-and-tour/absolute-barbeque.png",
+  "description": "Absolute Barbeque is hiring for restaurant and hospitality service roles across India.",
+  "jobOpenings": 200,
+  "location": "North, East, South & West India",
+  "industry": "Food & Beverage / Hospitality",
+  "jobs": [
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages, provide excellent customer service, and maintain restaurant hygiene and service quality.",
+      "availableJobs": 200,
+      "location": "Pan India",
+      "industryType": "Hospitality - Food & Beverage Service"
+    }
+  ],
+  "qualification": "10th Pass",
+  "salary": "₹12,000 - ₹16,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
   // 🍽 Barbeque Nation
 {
   "name": "Barbeque Nation",
@@ -367,9 +879,85 @@ const tourismCompanies = [
   "benefits": "Food & Sharing Accommodation"
 },
   
-  { name: "PVR INOX", logo: "/assets/health-and-tour/pvr.png", description: "Entertainment & hospitality", jobOpenings: 80, location: "Major Cities", jobId: "pvr-inox-22112" },
-  { name: "Royal Orchid Hotels", logo: "/assets/health-and-tour/royal.png", description: "Hotel chain", jobOpenings: 30, location: "North India", jobId: "royal-orchid-33443" },
-
+ // 🎬 PVR INOX
+{
+  "name": "PVR INOX",
+  "logo": "/assets/health-and-tour/pvr-inox.png",
+  "description": "PVR INOX is hiring for multiple cinema hospitality and management roles across India.",
+  "jobOpenings": 80,
+  "location": "North, East, South & West India",
+  "industry": "Entertainment & Hospitality",
+  "jobs": [
+    {
+      "title": "Duty Manager",
+      "description": "Oversee daily cinema operations, manage staff, ensure guest satisfaction, and handle escalations.",
+      "availableJobs": 20,
+      "location": "Pan India",
+      "industryType": "Hospitality - Management"
+    },
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages at cinema outlets, maintain service quality, and ensure a great customer experience.",
+      "availableJobs": 30,
+      "location": "Pan India",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Counter Sales Executive",
+      "description": "Handle customer interactions at box office and concession counters, manage billing, and promote offers.",
+      "availableJobs": 30,
+      "location": "Pan India",
+      "industryType": "Sales - Retail & Customer Service"
+    }
+  ],
+  "qualification": "12th Pass, Graduate, or Diploma",
+  "salary": "₹12,000 - ₹18,000",
+  "benefits": "On Duty Meal"
+},
+  
+ // 🏨 Royal Orchid Hotel
+{
+  "name": "Royal Orchid Hotel",
+  "logo": "/assets/health-and-tour/royal-orchid.png",
+  "description": "Royal Orchid Hotel is hiring for multiple hospitality roles across North India.",
+  "jobOpenings": 30,
+  "location": "North India",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages, maintain service quality, and ensure guest satisfaction.",
+      "availableJobs": 8,
+      "location": "North India",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Front Office Associate",
+      "description": "Handle guest check-ins/check-outs, reservations, and provide quality front desk support.",
+      "availableJobs": 6,
+      "location": "North India",
+      "industryType": "Hospitality - Front Office"
+    },
+    {
+      "title": "Housekeeping Associate",
+      "description": "Maintain guest room cleanliness, handle requests, and ensure hygiene standards.",
+      "availableJobs": 8,
+      "location": "North India",
+      "industryType": "Hospitality - Housekeeping"
+    },
+    {
+      "title": "Commis (Kitchen)",
+      "description": "Assist chefs in food preparation, maintain kitchen hygiene, and follow recipes and SOPs.",
+      "availableJobs": 8,
+      "location": "North India",
+      "industryType": "Hospitality - Culinary"
+    }
+  ],
+  "qualification": "12th Pass, Graduate, or Diploma",
+  "salary": "₹13,000 - ₹17,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
   // 🏨 Sodexo Group
 {
   "name": "Sodexo Group",
@@ -469,7 +1057,49 @@ const healthcareCompanies = [
 const itCompanies = [
   { name: "Quess Corp", logo: "/assets/IT/quess.png", description: "Business services", jobOpenings: 300, location: "Pan India", jobId: "quess-corp-67676" },
   { name: "Ancile Services", logo: "/assets/IT/ancil.png", description: "IT Services", jobOpenings: 25, location: "Metro Cities", jobId: "ec31a997-de8a-4470-9810-82b1ce32de71" },
-  { name: "Aeon Research", logo: "/assets/IT/aeon-research.jpeg", contact: "Pankaj Chandel / Roshan Jha", description: "IT solutions & services", jobOpenings: 50, location: "Delhi NCR, Bihar, UP", jobId: "aeon-research-55221" }
+  
+    // 🏢 Aeon Research
+{
+  "name": "Aeon Research",
+  "logo": "/assets/health-and-tour/aeon.png",
+  "description": "Aeon Research is hiring for multiple field and service roles across Delhi NCR, Bihar, and Uttar Pradesh.",
+  "jobOpenings": 50,
+  "location": "Delhi NCR, Bihar, Uttar Pradesh",
+  "industry": "Research & Field Operations",
+  "jobs": [
+    {
+      "title": "Field Staff",
+      "description": "Conduct on-ground data collection, interact with customers, and support field operations.",
+      "availableJobs": 15,
+      "location": "Delhi NCR, Bihar, Uttar Pradesh",
+      "industryType": "Research - Field Operations"
+    },
+    {
+      "title": "Surveyor",
+      "description": "Perform surveys, gather accurate data, and report insights as per project requirements.",
+      "availableJobs": 10,
+      "location": "Delhi NCR, Bihar, Uttar Pradesh",
+      "industryType": "Research - Data Collection"
+    },
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages, ensure guest satisfaction, and maintain service standards.",
+      "availableJobs": 10,
+      "location": "Delhi NCR, Bihar, Uttar Pradesh",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Counter Sales Executive",
+      "description": "Manage customer engagement, assist in product sales, and ensure positive client experience.",
+      "availableJobs": 15,
+      "location": "Delhi NCR, Bihar, Uttar Pradesh",
+      "industryType": "Sales - Retail & Customer Service"
+    }
+  ],
+  "qualification": "12th Pass, Graduate, Diploma, or MBA",
+  "salary": "₹12,000 - ₹18,000",
+  "benefits": "No"
+},
 ];
 
 const devyaniCompanies = [
