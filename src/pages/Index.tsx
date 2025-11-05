@@ -471,7 +471,44 @@ const manufacturingCompanies = [
   "benefits": "PF, ESI, Canteen & Accommodation Facilities"
 },
 
-  { name: "Nissan", logo: "/assets/manufacturing/nissan.jpg", description: "Automobile manufacturer", jobOpenings: 300, location: "Pan India", jobId: "nissan-22771" },
+
+
+ // 🚗 Nissan
+{
+  "name": "Nissan",
+  "logo": "/assets/manufacturing/nissan.jpg",
+  "description": "Nissan Motor India, a leading global automobile manufacturer, is hiring for multiple production and engineering roles across its plants and service locations in India.",
+  "jobOpenings": 300,
+  "location": "Pan India",
+  "industry": "Automobile Manufacturing",
+  "jobs": [
+    {
+      "title": "Production Operator",
+      "description": "Operate assembly line machinery, handle vehicle components, and maintain production quality standards.",
+      "availableJobs": 150,
+      "location": "Pan India",
+      "industryType": "Automobile - Production"
+    },
+    {
+      "title": "Quality Inspector",
+      "description": "Inspect automotive parts and vehicles, ensure compliance with quality specifications, and report deviations.",
+      "availableJobs": 80,
+      "location": "Pan India",
+      "industryType": "Automobile - Quality Assurance"
+    },
+    {
+      "title": "Maintenance Technician",
+      "description": "Perform maintenance and troubleshooting of production equipment to minimize downtime and improve efficiency.",
+      "availableJobs": 70,
+      "location": "Pan India",
+      "industryType": "Automobile - Maintenance"
+    }
+  ],
+  "qualification": "ITI, Diploma, or Graduate in Mechanical / Electrical / Automobile Engineering",
+  "salary": "₹15,000 - ₹25,000",
+  "benefits": "PF, ESI, Subsidized Meals, Accommodation & Transport"
+},
+
   { name: "Rialto Enterprises", logo: "/assets/manufacturing/railto.jpeg", description: "Manufacturing industry", jobOpenings: 120, location: "Pan India", jobId: "rialto-enterprises-99332" },
   { name: "Joyson Safety", logo: "/assets/manufacturing/joyson.jpg", description: "Automotive safety systems manufacturing", jobOpenings: 180, location: "Pan India", jobId: "joyson-safety-11664" },
   ];
