@@ -509,7 +509,44 @@ const manufacturingCompanies = [
   "benefits": "PF, ESI, Subsidized Meals, Accommodation & Transport"
 },
 
-  { name: "Rialto Enterprises", logo: "/assets/manufacturing/railto.jpeg", description: "Manufacturing industry", jobOpenings: 120, location: "Pan India", jobId: "rialto-enterprises-99332" },
+
+
+ // 🏭 Rialto Enterprises
+{
+  "name": "Rialto Enterprises",
+  "logo": "/assets/manufacturing/railto.jpeg",
+  "description": "Rialto Enterprises, a reputed manufacturing company, is hiring for production, assembly, and quality roles across India. The company specializes in high-quality consumer and industrial products.",
+  "jobOpenings": 120,
+  "location": "Pan India",
+  "industry": "Manufacturing & Production",
+  "jobs": [
+    {
+      "title": "Production Operator",
+      "description": "Operate manufacturing machines, ensure smooth production flow, and maintain quality standards.",
+      "availableJobs": 50,
+      "location": "Pan India",
+      "industryType": "Manufacturing - Production"
+    },
+    {
+      "title": "Assembly Line Worker",
+      "description": "Handle product assembly, packaging, and quality checks as per company standards.",
+      "availableJobs": 40,
+      "location": "Pan India",
+      "industryType": "Manufacturing - Assembly"
+    },
+    {
+      "title": "Quality Inspector",
+      "description": "Monitor production output, inspect materials, and ensure adherence to quality parameters.",
+      "availableJobs": 30,
+      "location": "Pan India",
+      "industryType": "Manufacturing - Quality Control"
+    }
+  ],
+  "qualification": "10th, 12th, ITI, or Diploma in relevant field",
+  "salary": "₹12,000 - ₹18,000",
+  "benefits": "PF, ESI, Canteen & Accommodation Facilities"
+},
+
   { name: "Joyson Safety", logo: "/assets/manufacturing/joyson.jpg", description: "Automotive safety systems manufacturing", jobOpenings: 180, location: "Pan India", jobId: "joyson-safety-11664" },
   ];
 
