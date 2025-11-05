@@ -780,7 +780,30 @@ const automobileCompanies = [
 },
 
 
-    { name: "Mahindra & Mahindra", logo: "/assets/manufacturing/mahin.png", description: "Automotive & farm equipment", jobOpenings: 650, location: "Multiple Cities", jobId: "92fce6ca-74bc-4fc5-9fff-0150133dda3d" },
+    // 🏭 Mahindra Automotive - ITI Trainee
+{
+  "name": "Mahindra Automotive",
+  "logo": "/assets/manufacturing/mahindra-automotive.png",
+  "description": "ITI Trainee / Apprentice roles in Automotive Manufacturing & Support Activities",
+  "jobOpenings": 650,
+  "location": "Chakan (Pune), Nashik (Maharashtra)",
+  "jobId": "mahindra-auto-65231",
+  "industry": "Automotive Manufacturing",
+  "jobs": [
+    {
+      "title": "ITI Trainee / Apprentice",
+      "description": "Technical roles across Automotive Manufacturing & Support Activities, including Assembly, Operations & Maintenance.",
+      "availableJobs": 650,
+      "location": "Mfg. Plant - Chakan (Pune) & Nashik (Maharashtra)",
+      "industryType": "Automotive - Technical",
+      "qualification": "ITI with any one of the following specializations: Electrician, Electronics, Mechanic, Fitter, Machine Mechanic tool maintenance, Machinist, Mechanic (Motor Vehicle), Mechanic Diesel / Painter (General), Sheet Metal Worker, Tool and Die Maker (Press Tools), Jigs and Fixtures, Turner, Welder (Gas and Electric), Draughtsman (Civil), Information and Communication, Technology System, Maintenance, Plastic Processing Operator, Pump Operator Cum Mechanic",
+      "ctc": "₹18,000 + Office Meals",
+      "language": "English, Hindi / Marathi",
+      "preference": "No Preference"
+    }
+  ]
+},
+
   ];
 
 const tourismCompanies = [
