@@ -1455,7 +1455,92 @@ const tourismCompanies = [
   "benefits": "Meals Provided"
 },
 
-   { name: "TFS Travel Food Services", logo: "/assets/health-and-tour/TFS.jpg", description: "Airport and travel hospitality services", jobOpenings: 200, location: "Multiple Locations", jobId: "tfs-travel-food-services-2025" },
+   // ✈️ TFS Travel Food Services
+{
+  "name": "TFS Travel Food Services",
+  "logo": "/assets/health-and-tour/TFS.jpg",
+  "description": "TFS Travel Food Services, a leading provider of airport and travel hospitality services, is hiring for Guest Service and Lounge roles across multiple locations.",
+  "jobOpenings": 200,
+  "location": "Multiple Locations",
+  "industry": "Airport & Travel Hospitality",
+  "jobs": [
+    {
+      "title": "Guest Service Associate (GSA)",
+      "description": "Ensure guest comfort during service, serve guests courteously, use upselling techniques, handle counter sales including POS and payment transactions, maintain cleanliness and presentation, and check quality of food & beverage.",
+      "availableJobs": 50,
+      "location": "Delhi",
+      "industryType": "Guest Service"
+    },
+    {
+      "title": "Guest Service Associate (GSA)",
+      "description": "Ensure guest comfort during service, serve guests courteously, use upselling techniques, handle counter sales including POS and payment transactions, maintain cleanliness and presentation, and check quality of food & beverage.",
+      "availableJobs": 30,
+      "location": "Noida",
+      "industryType": "Guest Service"
+    },
+    {
+      "title": "Guest Service Associate (GSA)",
+      "description": "Ensure guest comfort during service, serve guests courteously, use upselling techniques, handle counter sales including POS and payment transactions, maintain cleanliness and presentation, and check quality of food & beverage.",
+      "availableJobs": 30,
+      "location": "Cochin",
+      "industryType": "Guest Service"
+    },
+    {
+      "title": "Guest Service Associate (GSA)",
+      "description": "Ensure guest comfort during service, serve guests courteously, use upselling techniques, handle counter sales including POS and payment transactions, maintain cleanliness and presentation, and check quality of food & beverage.",
+      "availableJobs": 30,
+      "location": "Bangalore",
+      "industryType": "Guest Service"
+    },
+    {
+      "title": "GSA / Lounge Hostess",
+      "description": "Welcome guests warmly, verify lounge access, escort to seating, ensure comfort, coordinate refreshments, assist check-ins, provide lounge info, and respond courteously to inquiries or complaints.",
+      "availableJobs": 20,
+      "location": "Kolkata",
+      "industryType": "Lounge & Guest Service"
+    },
+    {
+      "title": "Guest Service Associate (GSA)",
+      "description": "Ensure guest comfort during service, serve guests courteously, use upselling techniques, handle counter sales including POS and payment transactions, maintain cleanliness and presentation, and check quality of food & beverage.",
+      "availableJobs": 10,
+      "location": "Bhubaneshwar",
+      "industryType": "Guest Service"
+    },
+    {
+      "title": "Guest Service Associate (GSA)",
+      "description": "Ensure guest comfort during service, serve guests courteously, use upselling techniques, handle counter sales including POS and payment transactions, maintain cleanliness and presentation, and check quality of food & beverage.",
+      "availableJobs": 20,
+      "location": "Bangalore",
+      "industryType": "Guest Service"
+    },
+    {
+      "title": "Guest Service Associate (GSA)",
+      "description": "Ensure guest comfort during service, serve guests courteously, use upselling techniques, handle counter sales including POS and payment transactions, maintain cleanliness and presentation, and check quality of food & beverage.",
+      "availableJobs": 20,
+      "location": "Chennai",
+      "industryType": "Guest Service"
+    },
+    {
+      "title": "Guest Service Associate (GSA)",
+      "description": "Ensure guest comfort during service, serve guests courteously, use upselling techniques, handle counter sales including POS and payment transactions, maintain cleanliness and presentation, and check quality of food & beverage.",
+      "availableJobs": 6,
+      "location": "Goa",
+      "industryType": "Guest Service"
+    },
+    {
+      "title": "Commi",
+      "description": "Prepare meals and assist in kitchen operations, ensuring hygiene and quality standards are maintained.",
+      "availableJobs": 4,
+      "location": "Goa",
+      "industryType": "Kitchen / F&B Production"
+    }
+  ],
+  "qualification": "10+2 / Higher Secondary / Diploma in Hotel Management and Catering Technology or relevant degree",
+  "salary": "As per state minimum wages",
+  "benefits": "Professional training, work experience in airport hospitality, exposure to multiple locations"
+},
+ 
+
 ];
 
 const healthcareCompanies = [
