@@ -344,7 +344,29 @@ const tourismCompanies = [
   { name: "VASATI Services", logo: "/assets/health-and-tour/vasati.png", description: "Hospitality and service company", jobOpenings: 20, location: "NCR", jobId: "c7cc3bbb-b3b8-4c0c-8f0e-52186c1478f0" },
   { name: "Sumi Yashshree", logo: "/assets/health-and-tour/yumi.png", description: "Hospitality and lodging services", jobOpenings: 20, location: "Tourist Destinations", jobId: "d64ca8c7-020c-4514-9fb6-c787220a3234" },
   { name: "AB’s (Absolute Barbecues)", logo: "/assets/retail/abs.png", description: "Food & Beverages chain", jobOpenings: 200, location: "Pan India", jobId: "abs-barbecues-21321" },
-  { name: "Barbeque Nation", logo: "/assets/retail/bbq.png", description: "Restaurant chain", jobOpenings: 600, location: "Major Cities", jobId: "barbeque-nation-54321" },
+
+  // 🍽 Barbeque Nation
+{
+  "name": "Barbeque Nation",
+  "logo": "/assets/health-and-tour/barbeque-nation.png",
+  "description": "Barbeque Nation is hiring for large-scale restaurant operations across India.",
+  "jobOpenings": 600,
+  "location": "North, East, South & West India",
+  "industry": "Food & Beverage / Hospitality",
+  "jobs": [
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages, assist guests, and maintain high service and hygiene standards in restaurant operations.",
+      "availableJobs": 600,
+      "location": "Pan India",
+      "industryType": "Hospitality - Food & Beverage Service"
+    }
+  ],
+  "qualification": "10th Pass",
+  "salary": "₹12,000 - ₹16,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
   { name: "PVR INOX", logo: "/assets/health-and-tour/pvr.png", description: "Entertainment & hospitality", jobOpenings: 80, location: "Major Cities", jobId: "pvr-inox-22112" },
   { name: "Royal Orchid Hotels", logo: "/assets/health-and-tour/royal.png", description: "Hotel chain", jobOpenings: 30, location: "North India", jobId: "royal-orchid-33443" },
 
@@ -395,6 +417,42 @@ const tourismCompanies = [
   ],
   "qualification": "10th, 12th, Undergraduate, or Diploma",
   "salary": "₹10,000 - ₹16,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+
+  // 🏨 Quess Corp
+{
+  "name": "Quess Corp",
+  "logo": "/assets/health-and-tour/quess.png",
+  "description": "Quess Corp is hiring for multiple hospitality and facility management roles across India.",
+  "jobOpenings": 200,
+  "location": "North, East, South & West India",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "Front Office Associate",
+      "description": "Manage guest check-ins/check-outs, reservations, and handle front desk operations.",
+      "availableJobs": 70,
+      "location": "Pan India",
+      "industryType": "Hospitality - Front Office"
+    },
+    {
+      "title": "GDA (General Duty Assistant)",
+      "description": "Provide guest and patient support, ensure comfort, and maintain service standards.",
+      "availableJobs": 60,
+      "location": "Pan India",
+      "industryType": "Hospitality - General Duty Assistance"
+    },
+    {
+      "title": "Housekeeping Associate",
+      "description": "Maintain room and area cleanliness, handle guest requests, and ensure hygiene compliance.",
+      "availableJobs": 70,
+      "location": "Pan India",
+      "industryType": "Hospitality - Housekeeping"
+    }
+  ],
+  "qualification": "Graduate or Diploma in Hotel Management",
+  "salary": "₹12,000 - ₹15,000",
   "benefits": "Food & Sharing Accommodation"
 },
   
