@@ -348,7 +348,7 @@ const manufacturingCompanies = [
 // ⚙ Shriram Pistons & Rings Ltd. (Ghaziabad)
 {
   "name": "Shriram Pistons & Rings Ltd.",
-  "logo": "/assets/manufacturing/shrirampistons.png",
+  "logo": "/assets/manufacturing/shriram.png",
   "description": "Shriram Pistons & Rings Ltd., a leading manufacturer of engine components, is hiring for production and assembly roles at its Ghaziabad plant.",
   "jobOpenings": 300,
   "location": "Ghaziabad, Uttar Pradesh",
