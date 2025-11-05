@@ -1432,7 +1432,123 @@ const devyaniCompanies = [
   { name: "Vaango", logo: "/assets/retail/vaango.png", description: "South Indian restaurant chain", jobOpenings: 40, location: "Metro Cities", jobId: "vaango-98765" },
   { name: "Airport Food Courts", logo: "/assets/retail/food-court.jpg", description: "Airport dining", jobOpenings: 50, location: "Airports", jobId: "airport-food-courts-11222" },
   { name: "Food Courts", logo: "/assets/retail/food-court.jpg", description: "Multi-brand dining", jobOpenings: 50, location: "Major Cities", jobId: "food-courts-33444" },
-  { name: "Biriyani by Kilo", logo: "/assets/retail/Biryani.png", description: "Beverage outlet", jobOpenings: 50, location: "Metro Cities", jobId: "tea-live-77889" },
+  {
+  "name": "Biriyani by Kilo",
+  "logo": "/assets/retail/Biryani.png",
+  "description": "Beverage outlet",
+  "jobOpenings": 50,
+  "location": "Metro Cities",
+  "industry": "F&B / Hospitality",
+  "roles": [
+    {
+      "department": "F&B Service",
+      "positions": [
+        {
+          "designation": "Restaurant Manager",
+          "experience": "5 years above",
+          "salary": "30,000/- to 35,000/-",
+          "qualification": "BHM (3 Years)"
+        },
+        {
+          "designation": "Asst Restaurant Manager",
+          "experience": "3 years above",
+          "salary": "27,000/- to 30,000/-",
+          "qualification": "BHM (3 Years)"
+        },
+        {
+          "designation": "GRE (Female)",
+          "experience": "0 to 3 years",
+          "salary": "15,000/- to 22,000/-",
+          "qualification": "12th Std"
+        },
+        {
+          "designation": "Sr Captains (Male / Female)",
+          "experience": "3 years to 5 years",
+          "salary": "20,000/- to 25,000/-",
+          "qualification": "HM (1 year)"
+        },
+        {
+          "designation": "Captains (Male / Female)",
+          "experience": "2 years to 3 years",
+          "salary": "18,000/- to 22,000/-",
+          "qualification": "HM (1 year)"
+        },
+        {
+          "designation": "Trainee Captains (Male / Female)",
+          "experience": "1 year to 2 years",
+          "salary": "16,000/- to 18,000/-",
+          "qualification": "HM (1 year)"
+        },
+        {
+          "designation": "Sr Stewards (Male / Female)",
+          "experience": "2 years",
+          "salary": "14,000/- to 16,000/-",
+          "qualification": "HM (6 Months)"
+        },
+        {
+          "designation": "Stewards (Male / Female)",
+          "experience": "Fresher",
+          "salary": "14,000/-",
+          "qualification": "HM (6 Months)"
+        }
+      ]
+    },
+    {
+      "department": "F&B Production",
+      "positions": [
+        {
+          "designation": "CDP (Tandoori / Chinese / Arabian / Conti / South Indian / North Indian / Pantry)",
+          "experience": "5 years above",
+          "salary": "30,000/- to 35,000/-",
+          "qualification": "BHM (3 Years)"
+        },
+        {
+          "designation": "Commi I (Tandoori / Chinese / Arabian / Conti / South Indian / North Indian)",
+          "experience": "3 years to 5 years",
+          "salary": "25,000/- to 30,000/-",
+          "qualification": "HM (1 year)"
+        },
+        {
+          "designation": "Commi II (Tandoori / Chinese / Arabian / Conti / South Indian / North Indian)",
+          "experience": "3 years above",
+          "salary": "20,000/- to 22,000/-",
+          "qualification": "Work Experience"
+        },
+        {
+          "designation": "Commi III (Tandoori / Chinese / Arabian / Conti / South Indian / North Indian)",
+          "experience": "Fresher",
+          "salary": "14,000/- to 16,000/-",
+          "qualification": "Work Experience"
+        },
+        {
+          "designation": "Briyani Master",
+          "experience": "5 years above",
+          "salary": "35,000/-",
+          "qualification": "Work Experience"
+        }
+      ]
+    },
+    {
+      "department": "Housekeeping",
+      "positions": [
+        {
+          "designation": "Housekeeping Supervisor",
+          "experience": "3 years to 5 years",
+          "salary": "20,000/- to 25,000/-",
+          "qualification": "HM (1 year)"
+        },
+        {
+          "designation": "Housekeeping / Washing",
+          "experience": "Fresher",
+          "salary": "14,000/- to 16,000/-",
+          "qualification": "No Need"
+        }
+      ]
+    }
+  ],
+  "jobId": "tea-live-77889"
+},
+
 ];
 
 const telecomCompanies = [
