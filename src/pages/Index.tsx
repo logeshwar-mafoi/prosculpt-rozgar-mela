@@ -1548,14 +1548,6 @@ const healthcareCompanies = [
 ];
 
 const itCompanies = [
-  {
-    name: "Quess Corp",
-    logo: "/assets/IT/quess.png",
-    description: "Business services",
-    jobOpenings: 300,
-    location: "Pan India",
-    jobId: "quess-corp-67676",
-  },
 
   {
     name: "Ancile Services",
