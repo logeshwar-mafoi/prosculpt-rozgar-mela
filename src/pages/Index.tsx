@@ -768,7 +768,7 @@ const tourismCompanies = [
 // 🏨 Bluspring Enterprises Ltd
 {
   "name": "Bluspring Enterprises Ltd",
-  "logo": "/assets/health-and-tour/bluspring.png",
+  "logo": "/assets/health-and-tour/blu-spring.jpg",
   "description": "Bluspring Enterprises Ltd is hiring for multiple hospitality and facility management roles across India.",
   "jobOpenings": 800,
   "location": "North, East, South & West India",
