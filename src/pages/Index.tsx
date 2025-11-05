@@ -821,7 +821,7 @@ const automobileCompanies = [
     // 🏭 Mahindra Automotive - ITI Trainee
 {
   "name": "Mahindra Automotive",
-  "logo": "/assets/manufacturing/mahindra-automotive.png",
+  "logo": "/assets/manufacturing/mahin.png",
   "description": "ITI Trainee / Apprentice roles in Automotive Manufacturing & Support Activities",
   "jobOpenings": 650,
   "location": "Chakan (Pune), Nashik (Maharashtra)",
