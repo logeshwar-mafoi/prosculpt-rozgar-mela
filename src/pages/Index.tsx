@@ -1380,7 +1380,48 @@ const healthcareCompanies = [
 
 const itCompanies = [
   { name: "Quess Corp", logo: "/assets/IT/quess.png", description: "Business services", jobOpenings: 300, location: "Pan India", jobId: "quess-corp-67676" },
-  { name: "Ancile Services", logo: "/assets/IT/ancil.png", description: "IT Services", jobOpenings: 25, location: "Metro Cities", jobId: "ec31a997-de8a-4470-9810-82b1ce32de71" },
+  {
+  "name": "Ancile Services",
+  "logo": "/assets/IT/ancil.png",
+  "description": "IT Services",
+  "jobOpenings": 25,
+  "location": "Kolkata",
+  "industry": "IT / Recruitment Services",
+  "roles": [
+    {
+      "department": "Recruitment",
+      "positions": [
+        {
+          "designation": "Voice-based US Recruitment Associate",
+          "experience": "2 years minimum in international BPO (voice/non-voice)",
+          "salary": "Highly competitive pay structure",
+          "qualification": "Excellent verbal and written English; basic computer skills",
+          "responsibilities": [
+            "Work on Job Boards",
+            "Manage listings on Job Portals",
+            "Screen and shortlist candidates as per eligibility criteria",
+            "Initiate follow ups & engage in chats and emails with candidates across different stages of hiring",
+            "Maintain Daily MIS reports"
+          ],
+          "requisites": [
+            "Minimum 2 years of international BPO related voice/non-voice process experience",
+            "Prior exposure in overseas voice-based non-technical recruitment is an advantage",
+            "Should be at ease at managing work-related pressure",
+            "Must be willing to start immediately"
+          ],
+          "benefits": [
+            "Highly competitive pay structure",
+            "Health Insurance (with options to add parents and dependents)",
+            "Paid Training"
+          ],
+          "workSchedule": "5 days/week (Monday through Friday), Night Shift, Work from Office",
+          "transportFacility": "Drop facility available within transport boundary"
+        }
+      ]
+    }
+  ],
+  "jobId": "ec31a997-de8a-4470-9810-82b1ce32de71"
+},
   
     // 🏢 Aeon Research
 {
