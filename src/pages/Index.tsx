@@ -1962,7 +1962,7 @@ const devyaniCompanies = [
   {
     name: "KFC",
     logo: "/assets/retail/kfc.png",
-    description: "Quick service restaurant chain hiring for service and culinary roles across India.",
+    description: "Quick service restaurant chain hiring for culinary and service roles across India.",
     jobOpenings: 200,
     location: "Pan India",
     industry: "F&B / Hospitality",
@@ -1970,22 +1970,13 @@ const devyaniCompanies = [
     jobs: [
       {
         title: "Crew / Trainee",
-        description: "Customer interaction, food preparation, service, hygiene, and cash handling.",
-        availableJobs: 100,
+        description: "Customer Interaction & Brand Representation\nFood Preparation & Service\nMaintaining Food Quality\nCleanliness & Hygiene\nCash Handling & Billing\nTeam Work",
+        availableJobs: 200,
         location: "Pan India",
-        industryType: "F&B Service"
-      },
-      {
-        title: "Supervisor / Manager",
-        description: "Oversee operations, staff management, and service quality.",
-        availableJobs: 50,
-        location: "Pan India",
-        industryType: "F&B Service - Management"
+        industryType: "F&B Service",
+        salary: "As per Minimum Wages of respective state"
       }
-    ],
-    qualification: "10th / 12th / Diploma in HM preferred",
-    salary: "₹12,000 - ₹30,000",
-    benefits: "Meals Provided"
+    ]
   },
   {
     name: "Costa Coffee",
@@ -1998,22 +1989,13 @@ const devyaniCompanies = [
     jobs: [
       {
         title: "Barista / Crew",
-        description: "Prepare and serve coffee, maintain cleanliness, interact with customers, handle cash.",
-        availableJobs: 20,
+        description: "Customer Interaction & Brand Representation\nFood Preparation & Service\nMaintaining Food Quality\nCleanliness & Hygiene\nCash Handling & Billing\nTeam Work",
+        availableJobs: 30,
         location: "Metro Cities",
-        industryType: "F&B Service"
-      },
-      {
-        title: "Store Supervisor",
-        description: "Manage store operations, staff, and service quality.",
-        availableJobs: 10,
-        location: "Metro Cities",
-        industryType: "F&B Service - Management"
+        industryType: "F&B Service",
+        salary: "As per Minimum Wages of respective state"
       }
-    ],
-    qualification: "10th / 12th / Diploma in HM preferred",
-    salary: "₹12,000 - ₹25,000",
-    benefits: "Meals Provided"
+    ]
   },
   {
     name: "Vaango",
@@ -2026,22 +2008,13 @@ const devyaniCompanies = [
     jobs: [
       {
         title: "Crew / Captains",
-        description: "Serve customers, maintain dining area, follow service standards.",
-        availableJobs: 25,
+        description: "Customer Interaction & Brand Representation\nFood Preparation & Service\nMaintaining Food Quality\nCleanliness & Hygiene\nCash Handling & Billing\nTeam Work",
+        availableJobs: 40,
         location: "Metro Cities",
-        industryType: "F&B Service"
-      },
-      {
-        title: "Kitchen Staff / Commi",
-        description: "Assist in food preparation and maintain hygiene standards.",
-        availableJobs: 15,
-        location: "Metro Cities",
-        industryType: "F&B Production"
+        industryType: "F&B Service",
+        salary: "As per Minimum Wages of respective state"
       }
-    ],
-    qualification: "HM (1-3 Years) or relevant experience",
-    salary: "₹14,000 - ₹22,000",
-    benefits: "Meals Provided"
+    ]
   },
   {
     name: "Airport Food Courts",
@@ -2054,15 +2027,13 @@ const devyaniCompanies = [
     jobs: [
       {
         title: "Crew / Service Staff",
-        description: "Customer interaction, food service, hygiene, cash handling, teamwork.",
+        description: "Customer Interaction & Brand Representation\nFood Preparation & Service\nMaintaining Food Quality\nCleanliness & Hygiene\nCash Handling & Billing\nTeam Work",
         availableJobs: 50,
         location: "Airports",
-        industryType: "F&B Service"
+        industryType: "F&B Service",
+        salary: "As per Minimum Wages of respective state"
       }
-    ],
-    qualification: "10th / 12th / Diploma in HM preferred",
-    salary: "₹12,000 - ₹20,000",
-    benefits: "Meals Provided"
+    ]
   },
   {
     name: "Food Courts",
@@ -2075,15 +2046,13 @@ const devyaniCompanies = [
     jobs: [
       {
         title: "Crew / Service Staff",
-        description: "Customer interaction, food service, cleanliness, cash handling, teamwork.",
+        description: "Customer Interaction & Brand Representation\nFood Preparation & Service\nMaintaining Food Quality\nCleanliness & Hygiene\nCash Handling & Billing\nTeam Work",
         availableJobs: 50,
         location: "Major Cities",
-        industryType: "F&B Service"
+        industryType: "F&B Service",
+        salary: "As per Minimum Wages of respective state"
       }
-    ],
-    qualification: "10th / 12th / Diploma in HM preferred",
-    salary: "₹12,000 - ₹22,000",
-    benefits: "Meals Provided"
+    ]
   },
   {
     name: "Biriyani by Kilo",
@@ -2095,67 +2064,17 @@ const devyaniCompanies = [
     jobId: "biriyani-by-kilo-55677",
     jobs: [
       {
-        title: "Restaurant Manager",
-        description: "Oversee restaurant operations, manage staff, and ensure high-quality service standards.",
-        availableJobs: 5,
+        title: "Restaurant Manager / Asst Restaurant Manager / Captains / Trainee Captains / Stewards / CDP / Commi / Briyani Master / Housekeeping Staff",
+        description: "Customer Interaction & Brand Representation\nFood Preparation & Service\nMaintaining Food Quality\nCleanliness & Hygiene\nCash Handling & Billing\nTeam Work",
+        availableJobs: 50,
         location: "Metro Cities",
-        industryType: "F&B Service - Management"
-      },
-      {
-        title: "Asst Restaurant Manager",
-        description: "Assist the Restaurant Manager in daily operations and staff management.",
-        availableJobs: 5,
-        location: "Metro Cities",
-        industryType: "F&B Service - Management"
-      },
-      {
-        title: "Captains / Sr Captains",
-        description: "Serve customers, manage dining area, and ensure smooth service.",
-        availableJobs: 15,
-        location: "Metro Cities",
-        industryType: "F&B Service"
-      },
-      {
-        title: "Trainee Captains",
-        description: "Learn service standards and assist senior staff in customer service.",
-        availableJobs: 5,
-        location: "Metro Cities",
-        industryType: "F&B Service"
-      },
-      {
-        title: "Stewards / Sr Stewards",
-        description: "Maintain hygiene, clean dining areas, and assist in food service.",
-        availableJobs: 5,
-        location: "Metro Cities",
-        industryType: "F&B Service"
-      },
-      {
-        title: "CDP / Commi I / Commi II / Commi III",
-        description: "Prepare regional and continental dishes following hygiene and recipe standards.",
-        availableJobs: 10,
-        location: "Metro Cities",
-        industryType: "F&B Production"
-      },
-      {
-        title: "Briyani Master",
-        description: "Specialist in preparing authentic biryani maintaining taste and quality standards.",
-        availableJobs: 5,
-        location: "Metro Cities",
-        industryType: "F&B Production"
-      },
-      {
-        title: "Housekeeping Supervisor / Staff",
-        description: "Maintain cleanliness and hygiene standards across restaurant premises.",
-        availableJobs: 5,
-        location: "Metro Cities",
-        industryType: "Housekeeping"
+        industryType: "F&B Service & Production / Housekeeping",
+        salary: "As per Minimum Wages of respective state"
       }
-    ],
-    qualification: "HM (1-3 Years), BHM, or relevant work experience",
-    salary: "₹14,000 - ₹35,000",
-    benefits: "Meals Provided"
+    ]
   }
 ];
+
 
 
 const telecomCompanies = [
