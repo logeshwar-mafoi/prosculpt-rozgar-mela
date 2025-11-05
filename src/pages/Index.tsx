@@ -1959,83 +1959,204 @@ const itCompanies = [
 ];
 
 const devyaniCompanies = [
-  { name: "KFC", logo: "/assets/retail/kfc.png", description: "Quick service restaurant", jobOpenings: 200, location: "Pan India", jobId: "kfc-11235" },
-  { name: "Costa Coffee", logo: "/assets/retail/costa.png", description: "Coffee chain", jobOpenings: 30, location: "Metro Cities", jobId: "costa-coffee-76890" },
-  { name: "Vaango", logo: "/assets/retail/vaango.png", description: "South Indian restaurant chain", jobOpenings: 40, location: "Metro Cities", jobId: "vaango-98765" },
-  { name: "Airport Food Courts", logo: "/assets/retail/food-court.jpg", description: "Airport dining", jobOpenings: 50, location: "Airports", jobId: "airport-food-courts-11222" },
-  { name: "Food Courts", logo: "/assets/retail/food-court.jpg", description: "Multi-brand dining", jobOpenings: 50, location: "Major Cities", jobId: "food-courts-33444" },
-  // 🍛 Biriyani by Kilo
-{
-  "name": "Biriyani by Kilo",
-  "logo": "/assets/retail/Biryani.png",
-  "description": "Biriyani by Kilo, a popular F&B brand, is hiring for culinary and service roles across metro cities.",
-  "jobOpenings": 50,
-  "location": "Metro Cities",
-  "industry": "F&B / Hospitality",
-  "jobs": [
-    {
-      "title": "Restaurant Manager",
-      "description": "Oversee restaurant operations, manage staff, and ensure high-quality service standards.",
-      "availableJobs": 5,
-      "location": "Metro Cities",
-      "industryType": "F&B Service - Management"
-    },
-    {
-      "title": "Asst Restaurant Manager",
-      "description": "Assist the Restaurant Manager in daily operations and staff management.",
-      "availableJobs": 5,
-      "location": "Metro Cities",
-      "industryType": "F&B Service - Management"
-    },
-    {
-      "title": "Captains / Sr Captains",
-      "description": "Serve customers, manage dining area, and ensure smooth service.",
-      "availableJobs": 15,
-      "location": "Metro Cities",
-      "industryType": "F&B Service"
-    },
-    {
-      "title": "Trainee Captains",
-      "description": "Learn service standards and assist senior staff in customer service.",
-      "availableJobs": 5,
-      "location": "Metro Cities",
-      "industryType": "F&B Service"
-    },
-    {
-      "title": "Stewards / Sr Stewards",
-      "description": "Maintain hygiene, clean dining areas, and assist in food service.",
-      "availableJobs": 5,
-      "location": "Metro Cities",
-      "industryType": "F&B Service"
-    },
-    {
-      "title": "CDP / Commi I / Commi II / Commi III",
-      "description": "Prepare regional and continental dishes in accordance with recipes and hygiene standards.",
-      "availableJobs": 10,
-      "location": "Metro Cities",
-      "industryType": "F&B Production"
-    },
-    {
-      "title": "Briyani Master",
-      "description": "Specialist in preparing authentic biryani maintaining taste and quality standards.",
-      "availableJobs": 5,
-      "location": "Metro Cities",
-      "industryType": "F&B Production"
-    },
-    {
-      "title": "Housekeeping Supervisor / Staff",
-      "description": "Maintain cleanliness and hygiene standards across the restaurant premises.",
-      "availableJobs": 5,
-      "location": "Metro Cities",
-      "industryType": "Housekeeping"
-    }
-  ],
-  "qualification": "HM (1-3 Years), BHM, or Relevant Work Experience",
-  "salary": "₹14,000 - ₹35,000",
-  "benefits": "Meals Provided"
-},
-
+  {
+    name: "KFC",
+    logo: "/assets/retail/kfc.png",
+    description: "Quick service restaurant chain hiring for service and culinary roles across India.",
+    jobOpenings: 200,
+    location: "Pan India",
+    industry: "F&B / Hospitality",
+    jobId: "kfc-11235",
+    jobs: [
+      {
+        title: "Crew / Trainee",
+        description: "Customer interaction, food preparation, service, hygiene, and cash handling.",
+        availableJobs: 100,
+        location: "Pan India",
+        industryType: "F&B Service"
+      },
+      {
+        title: "Supervisor / Manager",
+        description: "Oversee operations, staff management, and service quality.",
+        availableJobs: 50,
+        location: "Pan India",
+        industryType: "F&B Service - Management"
+      }
+    ],
+    qualification: "10th / 12th / Diploma in HM preferred",
+    salary: "₹12,000 - ₹30,000",
+    benefits: "Meals Provided"
+  },
+  {
+    name: "Costa Coffee",
+    logo: "/assets/retail/costa.png",
+    description: "Coffee chain hiring for barista and service roles across metro cities.",
+    jobOpenings: 30,
+    location: "Metro Cities",
+    industry: "F&B / Hospitality",
+    jobId: "costa-coffee-76890",
+    jobs: [
+      {
+        title: "Barista / Crew",
+        description: "Prepare and serve coffee, maintain cleanliness, interact with customers, handle cash.",
+        availableJobs: 20,
+        location: "Metro Cities",
+        industryType: "F&B Service"
+      },
+      {
+        title: "Store Supervisor",
+        description: "Manage store operations, staff, and service quality.",
+        availableJobs: 10,
+        location: "Metro Cities",
+        industryType: "F&B Service - Management"
+      }
+    ],
+    qualification: "10th / 12th / Diploma in HM preferred",
+    salary: "₹12,000 - ₹25,000",
+    benefits: "Meals Provided"
+  },
+  {
+    name: "Vaango",
+    logo: "/assets/retail/vaango.png",
+    description: "South Indian restaurant chain hiring for service and kitchen roles across metro cities.",
+    jobOpenings: 40,
+    location: "Metro Cities",
+    industry: "F&B / Hospitality",
+    jobId: "vaango-98765",
+    jobs: [
+      {
+        title: "Crew / Captains",
+        description: "Serve customers, maintain dining area, follow service standards.",
+        availableJobs: 25,
+        location: "Metro Cities",
+        industryType: "F&B Service"
+      },
+      {
+        title: "Kitchen Staff / Commi",
+        description: "Assist in food preparation and maintain hygiene standards.",
+        availableJobs: 15,
+        location: "Metro Cities",
+        industryType: "F&B Production"
+      }
+    ],
+    qualification: "HM (1-3 Years) or relevant experience",
+    salary: "₹14,000 - ₹22,000",
+    benefits: "Meals Provided"
+  },
+  {
+    name: "Airport Food Courts",
+    logo: "/assets/retail/food-court.jpg",
+    description: "Hiring for airport dining and service roles at various airport locations.",
+    jobOpenings: 50,
+    location: "Airports",
+    industry: "F&B / Hospitality",
+    jobId: "airport-food-courts-11222",
+    jobs: [
+      {
+        title: "Crew / Service Staff",
+        description: "Customer interaction, food service, hygiene, cash handling, teamwork.",
+        availableJobs: 50,
+        location: "Airports",
+        industryType: "F&B Service"
+      }
+    ],
+    qualification: "10th / 12th / Diploma in HM preferred",
+    salary: "₹12,000 - ₹20,000",
+    benefits: "Meals Provided"
+  },
+  {
+    name: "Food Courts",
+    logo: "/assets/retail/food-court.jpg",
+    description: "Hiring for multi-brand dining outlets across major cities.",
+    jobOpenings: 50,
+    location: "Major Cities",
+    industry: "F&B / Hospitality",
+    jobId: "food-courts-33444",
+    jobs: [
+      {
+        title: "Crew / Service Staff",
+        description: "Customer interaction, food service, cleanliness, cash handling, teamwork.",
+        availableJobs: 50,
+        location: "Major Cities",
+        industryType: "F&B Service"
+      }
+    ],
+    qualification: "10th / 12th / Diploma in HM preferred",
+    salary: "₹12,000 - ₹22,000",
+    benefits: "Meals Provided"
+  },
+  {
+    name: "Biriyani by Kilo",
+    logo: "/assets/retail/Biryani.png",
+    description: "Hiring across culinary, service, and housekeeping roles in metro cities.",
+    jobOpenings: 50,
+    location: "Metro Cities",
+    industry: "F&B / Hospitality",
+    jobId: "biriyani-by-kilo-55677",
+    jobs: [
+      {
+        title: "Restaurant Manager",
+        description: "Oversee restaurant operations, manage staff, and ensure high-quality service standards.",
+        availableJobs: 5,
+        location: "Metro Cities",
+        industryType: "F&B Service - Management"
+      },
+      {
+        title: "Asst Restaurant Manager",
+        description: "Assist the Restaurant Manager in daily operations and staff management.",
+        availableJobs: 5,
+        location: "Metro Cities",
+        industryType: "F&B Service - Management"
+      },
+      {
+        title: "Captains / Sr Captains",
+        description: "Serve customers, manage dining area, and ensure smooth service.",
+        availableJobs: 15,
+        location: "Metro Cities",
+        industryType: "F&B Service"
+      },
+      {
+        title: "Trainee Captains",
+        description: "Learn service standards and assist senior staff in customer service.",
+        availableJobs: 5,
+        location: "Metro Cities",
+        industryType: "F&B Service"
+      },
+      {
+        title: "Stewards / Sr Stewards",
+        description: "Maintain hygiene, clean dining areas, and assist in food service.",
+        availableJobs: 5,
+        location: "Metro Cities",
+        industryType: "F&B Service"
+      },
+      {
+        title: "CDP / Commi I / Commi II / Commi III",
+        description: "Prepare regional and continental dishes following hygiene and recipe standards.",
+        availableJobs: 10,
+        location: "Metro Cities",
+        industryType: "F&B Production"
+      },
+      {
+        title: "Briyani Master",
+        description: "Specialist in preparing authentic biryani maintaining taste and quality standards.",
+        availableJobs: 5,
+        location: "Metro Cities",
+        industryType: "F&B Production"
+      },
+      {
+        title: "Housekeeping Supervisor / Staff",
+        description: "Maintain cleanliness and hygiene standards across restaurant premises.",
+        availableJobs: 5,
+        location: "Metro Cities",
+        industryType: "Housekeeping"
+      }
+    ],
+    qualification: "HM (1-3 Years), BHM, or relevant work experience",
+    salary: "₹14,000 - ₹35,000",
+    benefits: "Meals Provided"
+  }
 ];
+
 
 const telecomCompanies = [
 
