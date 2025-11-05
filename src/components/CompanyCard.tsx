@@ -12,10 +12,10 @@ import { Button } from "@/components/ui/button";
 
 interface JobDetail {
   title: string;
-  jd: string;
-  eligibility?: string;
-  salary?: string;
+  description: string;
+  availableJobs?: number;
   location?: string;
+  industryType?: string;
 }
 
 interface CompanyCardProps {
@@ -24,6 +24,9 @@ interface CompanyCardProps {
   description: string;
   jobOpenings: number | null;
   location: string;
+  qualification?: string;
+  salary?: string;
+  benefits?: string;
   jobs?: JobDetail[];
   applicationLink?: string;
 }
@@ -34,21 +37,23 @@ const CompanyCard = ({
   description,
   jobOpenings,
   location,
+  qualification,
+  salary,
+  benefits,
   jobs = [],
   applicationLink,
 }: CompanyCardProps) => {
   const [open, setOpen] = useState(false);
 
-  const actionLabel = "Take Test";
-  const actionLink =
-    applicationLink ||
-    "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403";
+  const actionLabel = "Apply Now";
+  const actionLink = applicationLink || "#";
 
   return (
     <>
-      {/* Company Card */}
-      <Card className="group h-full overflow-hidden border-2 border-border hover:border-pacific transition-all duration-300 hover:shadow-xl hover:shadow-honolulu/20 hover:-translate-y-2 bg-card">
+      {/* 🌟 Company Card */}
+      <Card className="group h-full overflow-hidden border-2 border-yellow-300 bg-white hover:border-yellow-500 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
         <CardContent className="p-6 flex flex-col h-full">
+          {/* Logo */}
           <div className="mb-4 flex items-center justify-center h-20">
             {logo && (
               <img
@@ -59,49 +64,71 @@ const CompanyCard = ({
             )}
           </div>
 
-          <h3 className="text-xl font-bold text-card-foreground mb-3 text-center group-hover:text-[hsl(var(--accent))] transition-colors">
+          {/* Name */}
+          <h3 className="text-xl font-bold text-gray-800 mb-2 text-center group-hover:text-yellow-600 transition-colors">
             {name}
           </h3>
 
-          <p className="text-sm text-muted-foreground mb-4 flex-grow text-center leading-relaxed">
+          {/* Description */}
+          <p className="text-sm text-gray-600 mb-3 flex-grow text-center leading-relaxed">
             {description}
           </p>
 
-          <div className="flex items-center justify-between pt-4 border-t border-border">
-            <div className="flex items-center gap-2 text-honolulu">
+          {/* Extra Info */}
+          {qualification && (
+            <p className="text-sm text-gray-700 mb-1 text-center">
+              🎓 <strong>Qualification:</strong> {qualification}
+            </p>
+          )}
+          {salary && (
+            <p className="text-sm text-gray-700 mb-1 text-center">
+              💰 <strong>Salary:</strong> {salary}
+            </p>
+          )}
+          {benefits && (
+            <p className="text-sm text-gray-700 mb-2 text-center">
+              🏠 <strong>Benefits:</strong> {benefits}
+            </p>
+          )}
+
+          {/* Stats */}
+          <div className="flex items-center justify-between pt-3 border-t border-gray-200">
+            <div className="flex items-center gap-2 text-yellow-600">
               <Briefcase className="h-4 w-4" />
               <span className="text-sm font-semibold">
                 {jobOpenings !== null ? `${jobOpenings} Openings` : "Open Roles"}
               </span>
             </div>
-            <div className="flex items-center gap-2 text-muted-foreground">
+            <div className="flex items-center gap-2 text-gray-600">
               <MapPin className="h-4 w-4" />
               <span className="text-sm">{location}</span>
             </div>
           </div>
 
-          {/* ✅ View Button — now shown for all companies */}
+          {/* View Button */}
           <div className="pt-4 flex flex-col items-center">
             <Button
               onClick={() => setOpen(true)}
-              className="bg-pacific hover:bg-honolulu text-white w-full"
+              className="bg-yellow-500 hover:bg-yellow-600 text-white w-full font-medium"
             >
               View
             </Button>
-            <span className="text-xs text-muted-foreground mt-2 text-center">
+            <span className="text-xs text-gray-500 mt-2 text-center">
               Click to view job descriptions
             </span>
           </div>
         </CardContent>
       </Card>
 
-      {/* ✅ Popup for all companies */}
+      {/* 🌐 Job Popup Dialog */}
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-2xl">
+        <DialogContent className="max-w-2xl bg-white">
           <DialogHeader>
-            <DialogTitle>{name} — Job Openings</DialogTitle>
+            <DialogTitle className="text-gray-800 font-semibold">
+              {name} — Job Openings
+            </DialogTitle>
             <DialogDescription>
-              <p className="text-sm text-muted-foreground mb-4">
+              <p className="text-sm text-gray-600 mb-4">
                 Explore available roles and their details below.
               </p>
             </DialogDescription>
@@ -112,44 +139,46 @@ const CompanyCard = ({
               jobs.map((job, index) => (
                 <div
                   key={index}
-                  className="border rounded-xl p-4 bg-muted/20 hover:bg-muted/30 transition-all"
+                  className="border rounded-xl p-4 bg-gray-50 hover:bg-gray-100 transition-all"
                 >
-                  <h4 className="text-base font-semibold text-card-foreground">
+                  <h4 className="text-base font-semibold text-gray-800">
                     {job.title}
                   </h4>
 
                   {job.location && (
-                    <p className="text-sm text-muted-foreground mb-1">
+                    <p className="text-sm text-gray-600 mb-1">
                       📍 {job.location}
                     </p>
                   )}
-                  {job.salary && (
-                    <p className="text-sm text-muted-foreground mb-1">
-                      💰 {job.salary}
+                  {job.availableJobs && (
+                    <p className="text-sm text-gray-600 mb-1">
+                      👥 {job.availableJobs} Openings
                     </p>
                   )}
-                  {job.eligibility && (
-                    <p className="text-sm text-muted-foreground mb-1">
-                      🎓 {job.eligibility}
+                  {job.industryType && (
+                    <p className="text-sm text-gray-600 mb-1">
+                      🏢 {job.industryType}
                     </p>
                   )}
 
-                  <p className="text-sm leading-relaxed mt-2">{job.jd}</p>
+                  <p className="text-sm leading-relaxed mt-2 text-gray-700">
+                    {job.description}
+                  </p>
                 </div>
               ))
             ) : (
-              <p className="text-sm text-muted-foreground italic text-center py-8">
+              <p className="text-sm text-gray-500 italic text-center py-8">
                 No job descriptions available at the moment.
               </p>
             )}
           </div>
 
-          {/* Optional: show action button only if link is available */}
+          {/* Optional Apply Now Button */}
           {applicationLink && (
             <div className="mt-6 flex justify-center">
               <Button
                 asChild
-                className="bg-honolulu hover:bg-pacific text-white flex items-center gap-2"
+                className="bg-yellow-600 hover:bg-yellow-700 text-white flex items-center gap-2"
               >
                 <a href={actionLink} target="_blank" rel="noopener noreferrer">
                   {actionLabel} <ExternalLink className="h-4 w-4" />
