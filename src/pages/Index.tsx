@@ -1379,92 +1379,86 @@ const healthcareCompanies = [
 ];
 
 const itCompanies = [
-  { name: "Quess Corp", logo: "/assets/IT/quess.png", description: "Business services", jobOpenings: 300, location: "Pan India", jobId: "quess-corp-67676" },
   {
-  "name": "Ancile Services",
-  "logo": "/assets/IT/ancil.png",
-  "description": "IT Services",
-  "jobOpenings": 25,
-  "location": "Kolkata",
-  "industry": "IT / Recruitment Services",
-  "roles": [
-    {
-      "department": "Recruitment",
-      "positions": [
-        {
-          "designation": "Voice-based US Recruitment Associate",
-          "experience": "2 years minimum in international BPO (voice/non-voice)",
-          "salary": "Highly competitive pay structure",
-          "qualification": "Excellent verbal and written English; basic computer skills",
-          "responsibilities": [
-            "Work on Job Boards",
-            "Manage listings on Job Portals",
-            "Screen and shortlist candidates as per eligibility criteria",
-            "Initiate follow ups & engage in chats and emails with candidates across different stages of hiring",
-            "Maintain Daily MIS reports"
-          ],
-          "requisites": [
-            "Minimum 2 years of international BPO related voice/non-voice process experience",
-            "Prior exposure in overseas voice-based non-technical recruitment is an advantage",
-            "Should be at ease at managing work-related pressure",
-            "Must be willing to start immediately"
-          ],
-          "benefits": [
-            "Highly competitive pay structure",
-            "Health Insurance (with options to add parents and dependents)",
-            "Paid Training"
-          ],
-          "workSchedule": "5 days/week (Monday through Friday), Night Shift, Work from Office",
-          "transportFacility": "Drop facility available within transport boundary"
-        }
-      ]
-    }
-  ],
-  "jobId": "ec31a997-de8a-4470-9810-82b1ce32de71"
-},
-  
-    // 🏢 Aeon Research
-{
-  "name": "Aeon Research",
-  "logo": "/assets/health-and-tour/aeon.png",
-  "description": "Aeon Research is hiring for multiple field and service roles across Delhi NCR, Bihar, and Uttar Pradesh.",
-  "jobOpenings": 50,
-  "location": "Delhi NCR, Bihar, Uttar Pradesh",
-  "industry": "Research & Field Operations",
-  "jobs": [
-    {
-      "title": "Field Staff",
-      "description": "Conduct on-ground data collection, interact with customers, and support field operations.",
-      "availableJobs": 15,
-      "location": "Delhi NCR, Bihar, Uttar Pradesh",
-      "industryType": "Research - Field Operations"
-    },
-    {
-      "title": "Surveyor",
-      "description": "Perform surveys, gather accurate data, and report insights as per project requirements.",
-      "availableJobs": 10,
-      "location": "Delhi NCR, Bihar, Uttar Pradesh",
-      "industryType": "Research - Data Collection"
-    },
-    {
-      "title": "F&B Service Associate",
-      "description": "Serve food and beverages, ensure guest satisfaction, and maintain service standards.",
-      "availableJobs": 10,
-      "location": "Delhi NCR, Bihar, Uttar Pradesh",
-      "industryType": "Hospitality - Food & Beverage Service"
-    },
-    {
-      "title": "Counter Sales Executive",
-      "description": "Manage customer engagement, assist in product sales, and ensure positive client experience.",
-      "availableJobs": 15,
-      "location": "Delhi NCR, Bihar, Uttar Pradesh",
-      "industryType": "Sales - Retail & Customer Service"
-    }
-  ],
-  "qualification": "12th Pass, Graduate, Diploma, or MBA",
-  "salary": "₹12,000 - ₹18,000",
-  "benefits": "No"
-},
+    name: "Quess Corp",
+    logo: "/assets/IT/quess.png",
+    description: "Business services",
+    jobOpenings: 300,
+    location: "Pan India",
+    jobId: "quess-corp-67676",
+  },
+
+  {
+    name: "Ancile Services",
+    logo: "/assets/IT/ancil.png",
+    description: "IT Services",
+    jobOpenings: 25,
+    location: "Kolkata",
+    industry: "IT / Recruitment Services",
+    qualification:
+      "Excellent verbal and written English; basic computer skills",
+    salary: "Highly competitive pay structure",
+    benefits:
+      "Health Insurance (with options to add parents and dependents), Paid Training",
+    jobs: [
+      {
+        title: "Voice-based US Recruitment Associate",
+        description:
+          "Work on job boards, manage listings, screen candidates, handle follow-ups, and maintain daily MIS reports.",
+        availableJobs: 25,
+        location: "Kolkata",
+        industryType: "Recruitment - International BPO",
+      },
+    ],
+    jobId: "ec31a997-de8a-4470-9810-82b1ce32de71",
+  },
+
+  {
+    name: "Aeon Research",
+    logo: "/assets/health-and-tour/aeon.png",
+    description:
+      "Aeon Research is hiring for multiple field and service roles across Delhi NCR, Bihar, and Uttar Pradesh.",
+    jobOpenings: 50,
+    location: "Delhi NCR, Bihar, Uttar Pradesh",
+    industry: "Research & Field Operations",
+    qualification: "12th Pass, Graduate, Diploma, or MBA",
+    salary: "₹12,000 - ₹18,000",
+    benefits: "No",
+    jobs: [
+      {
+        title: "Field Staff",
+        description:
+          "Conduct on-ground data collection, interact with customers, and support field operations.",
+        availableJobs: 15,
+        location: "Delhi NCR, Bihar, Uttar Pradesh",
+        industryType: "Research - Field Operations",
+      },
+      {
+        title: "Surveyor",
+        description:
+          "Perform surveys, gather accurate data, and report insights as per project requirements.",
+        availableJobs: 10,
+        location: "Delhi NCR, Bihar, Uttar Pradesh",
+        industryType: "Research - Data Collection",
+      },
+      {
+        title: "F&B Service Associate",
+        description:
+          "Serve food and beverages, ensure guest satisfaction, and maintain service standards.",
+        availableJobs: 10,
+        location: "Delhi NCR, Bihar, Uttar Pradesh",
+        industryType: "Hospitality - Food & Beverage Service",
+      },
+      {
+        title: "Counter Sales Executive",
+        description:
+          "Manage customer engagement, assist in product sales, and ensure positive client experience.",
+        availableJobs: 15,
+        location: "Delhi NCR, Bihar, Uttar Pradesh",
+        industryType: "Sales - Retail & Customer Service",
+      },
+    ],
+  },
 ];
 
 const devyaniCompanies = [
