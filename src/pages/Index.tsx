@@ -918,8 +918,7 @@ const tourismCompanies = [
   "benefits": "Food & Sharing Accommodation"
 },
   
-    { name: "AEON Resorts", logo: "/assets/health-and-tour/aeon.png", description: "Luxury resort chain", jobOpenings: 50, location: "Major Cities", jobId: "aeon-resorts-78787" },
-  
+    
   
   // 🏨 Aurum by RJ Resorts
 {
