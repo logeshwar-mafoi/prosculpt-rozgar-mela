@@ -272,7 +272,64 @@ const manufacturingCompanies = [
   ]
 },
 
-  { name: "Dixon Technologies", logo: "/assets/manufacturing/dixon.png", description: "Electronics manufacturing", jobOpenings: 1000, location: "Pan India", jobId: "dixon-tech-11223" },
+  // 🏭 Dixon Technologies - Pan India Vacancies
+{
+  "name": "Dixon Technologies",
+  "logo": "/assets/manufacturing/dixon.png",
+  "description": "Electronics manufacturing",
+  "jobOpenings": 1000,
+  "location": "Pan India",
+  "jobId": "dixon-tech-11223",
+  "industry": "Electronics Manufacturing",
+  "jobs": [
+    {
+      "title": "Electronics Assembler",
+      "description": "Assemble electronic components and devices as per production guidelines.",
+      "availableJobs": 400,
+      "location": "Factories across India",
+      "industryType": "Manufacturing - Assembly",
+      "qualification": "Diploma / ITI in Electronics",
+      "ctc": "₹18,000 - ₹22,000 per month Approx"
+    },
+    {
+      "title": "Quality Inspector",
+      "description": "Inspect finished products, ensure quality standards, and report defects.",
+      "availableJobs": 200,
+      "location": "Factories across India",
+      "industryType": "Manufacturing - Quality Control",
+      "qualification": "Diploma / ITI in Electronics",
+      "ctc": "₹20,000 - ₹25,000 per month Approx"
+    },
+    {
+      "title": "Production Supervisor",
+      "description": "Oversee assembly line, coordinate with teams, and maintain production targets.",
+      "availableJobs": 100,
+      "location": "Factories across India",
+      "industryType": "Manufacturing - Supervision",
+      "qualification": "Graduate / Diploma in Electronics",
+      "ctc": "₹30,000 - ₹35,000 per month Approx"
+    },
+    {
+      "title": "Maintenance Technician",
+      "description": "Perform preventive and corrective maintenance on machinery and equipment.",
+      "availableJobs": 150,
+      "location": "Factories across India",
+      "industryType": "Manufacturing - Maintenance",
+      "qualification": "ITI / Diploma in Electrical/Electronics",
+      "ctc": "₹18,000 - ₹23,000 per month Approx"
+    },
+    {
+      "title": "Apprentice",
+      "description": "Assist senior technicians and learn electronics manufacturing operations.",
+      "availableJobs": 150,
+      "location": "Factories across India",
+      "industryType": "Manufacturing - Training",
+      "qualification": "ITI in relevant field",
+      "ctc": "₹12,000 - ₹15,000 per month Approx"
+    }
+  ]
+},
+
  
  // 🏭 Padget Technology Ltd. (Noida)
 {
