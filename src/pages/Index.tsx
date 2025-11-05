@@ -1282,7 +1282,25 @@ const tourismCompanies = [
   "benefits": "On Duty Meal"
 },
   
-  { name: "Sumi Yashshree", logo: "/assets/health-and-tour/yumi.png", description: "Hospitality and lodging services", jobOpenings: 20, location: "Tourist Destinations", jobId: "d64ca8c7-020c-4514-9fb6-c787220a3234" },
+  {
+  name: "Sumi Yashshree",
+  logo: "/assets/health-and-tour/yumi.png",
+  description: "Hospitality and lodging services hiring for service, housekeeping, and F&B roles across tourist destinations.",
+  jobOpenings: 20,
+  location: "Tourist Destinations",
+  industry: "Hospitality",
+  jobId: "d64ca8c7-020c-4514-9fb6-c787220a3234",
+  jobs: [
+    {
+      title: "Housekeeping / F&B / Front Office Staff",
+      description: "Customer Interaction & Brand Representation\nFood Preparation & Service\nMaintaining Food Quality\nCleanliness & Hygiene\nCash Handling & Billing\nTeam Work",
+      availableJobs: 20,
+      location: "Tourist Destinations",
+      industryType: "Hospitality Service",
+      salary: "As per Minimum Wages of respective state"
+    }
+  ]
+},
 
 // 🍽 Absolute Barbeque
 {
