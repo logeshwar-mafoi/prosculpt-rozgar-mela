@@ -234,7 +234,46 @@ const bankingCompanies = [
   "benefits": "Travel Allowance and Performance Incentives"
 },
   
-  { name: "TVS Collections Siliguri", logo: null, description: "Finance collection services", jobOpenings: 50, location: "Siliguri", jobId: "tvs-collections-siliguri-54920" },
+  // 💰 TVS Collections Siliguri
+{
+  "name": "TVS Collections Siliguri",
+  "logo": null,
+  "description": "TVS Collections Siliguri provides finance and debt collection services, hiring across roles in collections, customer support, and operations.",
+  "jobOpenings": 50,
+  "location": "Siliguri",
+  "industry": "Finance / Collections",
+  "jobs": [
+    {
+      "title": "Collections Executive",
+      "description": "Manage client accounts, follow up on outstanding payments, coordinate with customers to resolve dues, and maintain accurate records.",
+      "eligibility": "Graduate or Diploma, good communication skills, customer-focused.",
+      "skills": [
+        "Customer communication",
+        "Negotiation and persuasion",
+        "Record keeping",
+        "Teamwork",
+        "Problem solving"
+      ],
+      "location": "Siliguri"
+    },
+    {
+      "title": "Customer Support / Operations Associate",
+      "description": "Assist clients with queries, support operational processes, maintain documentation, and ensure compliance with company policies.",
+      "eligibility": "Graduate or Diploma, good organizational and communication skills.",
+      "skills": [
+        "Customer service orientation",
+        "Documentation handling",
+        "Teamwork",
+        "Attention to detail",
+        "Problem solving"
+      ],
+      "location": "Siliguri"
+    }
+  ],
+  "qualification": "Graduate / Diploma in relevant field",
+  "salary": "As per company standards",
+  "benefits": "Professional development, performance incentives, work experience in finance sector"
+},
 
 ];
 
