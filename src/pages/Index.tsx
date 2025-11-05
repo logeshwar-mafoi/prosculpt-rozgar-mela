@@ -1435,7 +1435,67 @@ const tourismCompanies = [
   "benefits": "Food & Sharing Accommodation"
 },
   
-  { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo-sindoori.png", description: "Hospitality and catering", jobOpenings: 85, location: "Tourist Destinations", jobId: "apollo-sindoori-55665" },
+  // 🏨 Apollo Sindoori Hotels Ltd.
+{
+  "name": "Apollo Sindoori Hotels Ltd.",
+  "logo": "/assets/health-and-tour/apollo-sindoori.png",
+  "description": "Apollo Sindoori Hotels Ltd. provides hospitality and catering services across multiple tourist destinations, hiring for culinary, housekeeping, and service roles.",
+  "jobOpenings": 85,
+  "location": "Tourist Destinations",
+  "industry": "Hospitality and Catering",
+  "jobs": [
+    {
+      "title": "Waiter",
+      "description": "Maintain personal hygiene and professional grooming, organize and deliver meals accurately and on time, ensure service clearance, and adhere to safety standards.",
+      "eligibility": "10th / 12th / Graduate / Diploma in Hotel Management & Catering Technology",
+      "skills": [
+        "Customer service",
+        "Teamwork",
+        "Time management",
+        "Attention to detail"
+      ],
+      "location": "Tourist Destinations"
+    },
+    {
+      "title": "Cook",
+      "description": "Prepare and cook food as per menu, maintain kitchen hygiene, ensure food safety, assist in menu planning, and support the kitchen team.",
+      "eligibility": "Graduate / Diploma in Hotel Management & Catering Technology",
+      "skills": [
+        "Culinary skills",
+        "Food safety and hygiene",
+        "Teamwork",
+        "Time management"
+      ],
+      "location": "Tourist Destinations"
+    },
+    {
+      "title": "Assistant Cook",
+      "description": "Assist the cook in food preparation, cutting, and cleaning; maintain kitchen hygiene and ensure ingredients are fresh and ready.",
+      "eligibility": "10th / 12th",
+      "skills": [
+        "Basic culinary skills",
+        "Kitchen hygiene",
+        "Teamwork",
+        "Attention to detail"
+      ],
+      "location": "Tourist Destinations"
+    },
+    {
+      "title": "Utility Staff",
+      "description": "Maintain hygiene and cleanliness in the kitchen, clean utensils and equipment, handle dishwashing safely, and assist in daily kitchen tasks.",
+      "eligibility": "No qualification required",
+      "skills": [
+        "Cleaning and sanitation",
+        "Teamwork",
+        "Attention to detail"
+      ],
+      "location": "Tourist Destinations"
+    }
+  ],
+  "qualification": "Varies by role",
+  "salary": "₹14,000 - ₹17,000",
+  "benefits": "Meals & Uniform Provided"
+},
 
 
  // 🍰 Birdys Company
@@ -1648,7 +1708,82 @@ const tourismCompanies = [
 ];
 
 const healthcareCompanies = [
-  { name: "Apollo Hospitals", logo: "/assets/health-and-tour/apollo.png", description: "Healthcare services", jobOpenings: 796, location: "Pan India", jobId: "87a39c1d-9665-4cb0-b9a7-22d9c6bd8c85" },
+  // 🏥 Apollo Hospitals
+{
+  "name": "Apollo Hospitals",
+  "logo": "/assets/health-and-tour/apollo.png",
+  "description": "Apollo Hospitals is a leading healthcare service provider in India, hiring for roles across nursing, homecare, pharmacy, and hospital operations.",
+  "jobOpenings": 796,
+  "location": "Pan India",
+  "industry": "Healthcare Services",
+  "jobs": [
+    {
+      "title": "Homecare Nurse",
+      "description": "Deliver high-quality professional nursing care in line with Apollo Homecare’s clinical standards, maintain patient safety, follow best nursing practices, and ensure compliance with protocols.",
+      "eligibility": "Nursing qualification (GNM / BSc Nursing), 0-10 years experience",
+      "skills": [
+        "Patient care",
+        "Medical knowledge",
+        "Teamwork",
+        "Communication skills",
+        "Attention to detail"
+      ],
+      "location": "Pan India"
+    },
+    {
+      "title": "Call Centre Executive",
+      "description": "Communicate with customers professionally, integrate with hospital departments, and ensure courteous and cooperative service.",
+      "eligibility": "Graduate / Diploma, 0-5 years experience",
+      "skills": [
+        "Customer service",
+        "Communication",
+        "Problem solving",
+        "Teamwork"
+      ],
+      "location": "Pan India"
+    },
+    {
+      "title": "Patient Relationship Executive",
+      "description": "Generate leads, maintain discharge patient database, coordinate with hospitals, and convert leads through in-person follow-ups.",
+      "eligibility": "Graduate / Diploma, 0-5 years experience",
+      "skills": [
+        "Customer relationship management",
+        "Communication",
+        "Data management",
+        "Teamwork"
+      ],
+      "location": "Pan India"
+    },
+    {
+      "title": "Pharmacist",
+      "description": "Dispense medications accurately, ensure prescription compliance, counsel patients, and maintain stock and regulatory records.",
+      "eligibility": "BPharm / DPharm, 0-5 years experience",
+      "skills": [
+        "Pharmacy knowledge",
+        "Customer service",
+        "Attention to detail",
+        "Record keeping"
+      ],
+      "location": "Pan India"
+    },
+    {
+      "title": "Assistant Nursing Supervisor",
+      "description": "Supervise nursing staff, ensure quality patient care, manage shift schedules, and maintain compliance with hospital protocols.",
+      "eligibility": "Nursing qualification, 5+ years experience",
+      "skills": [
+        "Leadership",
+        "Nursing care",
+        "Team management",
+        "Problem solving"
+      ],
+      "location": "Pan India"
+    }
+  ],
+  "qualification": "Varies by role",
+  "salary": "₹9,000 - ₹50,000 depending on role and experience",
+  "benefits": "Health insurance, professional development, performance incentives"
+},
+
 ];
 
 const itCompanies = [
