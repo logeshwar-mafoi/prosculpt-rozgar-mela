@@ -44,7 +44,7 @@ const bankingCompanies = [
 // 💰 Bajaj Finance
 {
   "name": "Bajaj Finance Ltd.",
-  "logo": "/assets/banking/bajajfinance.png",
+  "logo": "/assets/banking/bajaj.png",
   "description": "Bajaj Finance Limited, one of India’s leading non-banking financial companies (NBFC), is hiring for loan processing and customer service roles across PAN India.",
   "jobOpenings": 400,
   "location": "Pan India",
@@ -80,7 +80,7 @@ const bankingCompanies = [
   // 🛡 Bajaj Allianz
 {
   "name": "Bajaj Allianz General Insurance Co. Ltd.",
-  "logo": "/assets/banking/bajajallianz.png",
+  "logo": "/assets/banking/bajajalli.png",
   "description": "Bajaj Allianz, one of India’s leading insurance companies, is hiring for insurance process and customer service roles across PAN India.",
   "jobOpenings": 300,
   "location": "Pan India",
@@ -198,11 +198,11 @@ const bankingCompanies = [
   { name: "TVS Collections Siliguri", logo: null, description: "Finance collection services", jobOpenings: 50, location: "Siliguri", jobId: "tvs-collections-siliguri-54920" },
  
   
- // 🏢 WNS (Holdings) Limited
+ // 🏢 WNS Limited
 {
-  "name": "WNS (Holdings) Limited",
-  "logo": "/assets/bpo/wns.png",
-  "description": "WNS (Holdings) Limited (NYSE: WNS) is a digital-led business transformation and services company that co-creates smarter businesses with over 700 clients across 10 industries. With AI-powered platforms and analytics, WNS helps enterprises innovate, scale, and adapt swiftly in a world defined by disruption. The company operates across 4 continents, 13 countries, and 65 delivery centers, employing over 66,000 professionals globally.",
+  "name": "WNS Limited",
+  "logo": "/assets/IT/wns.png",
+  "description": "WNS Limited (NYSE: WNS) is a digital-led business transformation and services company that co-creates smarter businesses with over 700 clients across 10 industries. With AI-powered platforms and analytics, WNS helps enterprises innovate, scale, and adapt swiftly in a world defined by disruption. The company operates across 4 continents, 13 countries, and 65 delivery centers, employing over 66,000 professionals globally.",
   "jobOpenings": 300,
   "location": "Gurgaon, Pune, Mumbai",
   "industry": "Business Process Management (BPM) / Customer Experience",
@@ -1015,7 +1015,7 @@ const tourismCompanies = [
 // 🍽 Absolute Barbeque
 {
   "name": "Absolute Barbeque",
-  "logo": "/assets/health-and-tour/absolute-barbeque.png",
+  "logo": "/assets/health-and-tour/abs.png",
   "description": "Absolute Barbeque is hiring for restaurant and hospitality service roles across India.",
   "jobOpenings": 200,
   "location": "North, East, South & West India",
@@ -1037,7 +1037,7 @@ const tourismCompanies = [
   // 🍽 Barbeque Nation
 {
   "name": "Barbeque Nation",
-  "logo": "/assets/health-and-tour/barbeque-nation.png",
+  "logo": "/assets/health-and-tour/bbq.png",
   "description": "Barbeque Nation is hiring for large-scale restaurant operations across India.",
   "jobOpenings": 600,
   "location": "North, East, South & West India",
@@ -1059,7 +1059,7 @@ const tourismCompanies = [
  // 🎬 PVR INOX
 {
   "name": "PVR INOX",
-  "logo": "/assets/health-and-tour/pvr-inox.png",
+  "logo": "/assets/health-and-tour/pvr.png",
   "description": "PVR INOX is hiring for multiple cinema hospitality and management roles across India.",
   "jobOpenings": 80,
   "location": "North, East, South & West India",
@@ -1095,7 +1095,7 @@ const tourismCompanies = [
  // 🏨 Royal Orchid Hotel
 {
   "name": "Royal Orchid Hotel",
-  "logo": "/assets/health-and-tour/royal-orchid.png",
+  "logo": "/assets/health-and-tour/royal.png",
   "description": "Royal Orchid Hotel is hiring for multiple hospitality roles across North India.",
   "jobOpenings": 30,
   "location": "North India",
@@ -1188,7 +1188,7 @@ const tourismCompanies = [
   // 🏨 Quess Corp
 {
   "name": "Quess Corp",
-  "logo": "/assets/health-and-tour/quess.png",
+  "logo": "/assets/IT/quess.png",
   "description": "Quess Corp is hiring for multiple hospitality and facility management roles across India.",
   "jobOpenings": 200,
   "location": "North, East, South & West India",
@@ -1227,7 +1227,7 @@ const tourismCompanies = [
  // 🍰 Birdys Company
 {
   "name": "Birdys Company",
-  "logo": "/assets/hospitality/birdys.png",
+  "logo": "/assets/health-and-tour/Birdys.png",
   "description": "Birdys Company, a renowned name in the bakery and hospitality industry, is hiring for culinary and customer service roles across Mumbai.",
   "jobOpenings": 50,
   "location": "Mumbai",
@@ -1368,7 +1368,7 @@ const telecomCompanies = [
  // 💳 PhonePe
 {
   "name": "PhonePe",
-  "logo": "/assets/telecom/phonepe.png",
+  "logo": "/assets/telecom/PhonePe.png",
   "description": "PhonePe, one of India’s leading digital payment and financial service platforms, is hiring for customer engagement and business development roles in Kolkata.",
   "jobOpenings": 100,
   "location": "Kolkata",
