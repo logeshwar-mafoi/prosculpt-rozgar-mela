@@ -1115,7 +1115,65 @@ const tourismCompanies = [
   "benefits": "Food & Sharing Accommodation"
 },
   
-  { name: "TAJ/Vivanta Group", logo: "/assets/health-and-tour/taj.png", description: "Luxury hospitality group", jobOpenings: 58, location: "Major Cities", jobId: "taj-vivanta-45454" },
+  // 🏨 TAJ/Vivanta Group
+{
+  "name": "TAJ/Vivanta Group",
+  "logo": "/assets/health-and-tour/taj.png",
+  "description": "Luxury hospitality group hiring for apprentices and DIWA across Food & Beverage Service, Housekeeping, Food Production, and Front Office roles in major cities.",
+  "jobOpenings": 58,
+  "location": "Major Cities",
+  "industry": "Hospitality",
+  "jobs": [
+    {
+      "title": "Apprentice - Food & Beverage Service",
+      "description": "Assist in serving guests, maintain hygiene and presentation standards, and learn service protocols under supervision.",
+      "eligibility": "Hotel Management Diploma / BSc in HM",
+      "experience": "0-2 Years",
+      "stipend": "As per government norms",
+      "skills": ["Customer service", "Teamwork", "Attention to detail"],
+      "interviewMethod": "Virtual"
+    },
+    {
+      "title": "Apprentice - Housekeeping",
+      "description": "Support housekeeping operations, maintain cleanliness and hygiene in guest areas and rooms, and assist supervisors in daily tasks.",
+      "eligibility": "Hotel Management Diploma / BSc in HM",
+      "experience": "0-2 Years",
+      "stipend": "As per government norms",
+      "skills": ["Attention to detail", "Time management", "Teamwork"],
+      "interviewMethod": "Virtual"
+    },
+    {
+      "title": "Apprentice - Food Production",
+      "description": "Assist in kitchen operations, food preparation, and maintaining hygiene standards.",
+      "eligibility": "Hotel Management Diploma / BSc in HM",
+      "experience": "0-2 Years",
+      "stipend": "As per government norms",
+      "skills": ["Basic culinary skills", "Hygiene practices", "Teamwork"],
+      "interviewMethod": "Virtual"
+    },
+    {
+      "title": "Apprentice - Front Office",
+      "description": "Assist front office operations, interact with guests professionally, and learn check-in/check-out procedures under supervision.",
+      "eligibility": "Hotel Management Diploma / BSc in HM",
+      "experience": "0-2 Years",
+      "stipend": "As per government norms",
+      "skills": ["Communication", "Customer service", "Teamwork"],
+      "interviewMethod": "Virtual"
+    },
+    {
+      "title": "DIWA - Housekeeping / F&B Service",
+      "description": "Trained on-the-job in specific departments to support operational activities under guidance of senior staff.",
+      "eligibility": "Hotel Management Diploma / BSc in HM",
+      "experience": "0-2 Years",
+      "stipend": "As per government norms",
+      "skills": ["Department-specific skills", "Teamwork", "Professionalism"],
+      "interviewMethod": "Virtual"
+    }
+  ],
+  "qualification": "Hotel Management Diploma / BSc in HM",
+  "salary": "As per government norms / industry standard",
+  "benefits": "Accommodation as per availability, on-the-job training"
+},
 
   // 🏨 Udaan Hotels & Resorts
 {
