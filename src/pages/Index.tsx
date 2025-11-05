@@ -176,7 +176,47 @@ const tourismCompanies = [
 
   { name: "Bluspring", logo: "/assets/health-and-tour/blu-spring.jpg", description: "Luxury resort and hospitality chain", jobOpenings: 800, location: ["North", "East", "West", "South"], jobId: "Bluspring-85858" },
   { name: "AEON Resorts", logo: "/assets/health-and-tour/aeon.png", description: "Luxury resort chain", jobOpenings: 50, location: "Major Cities", jobId: "aeon-resorts-78787" },
-  { name: "Aurum Resorts", logo: "/assets/health-and-tour/aurum.png", description: "Premium luxury resort chain", jobOpenings: 50, location: "Siliguri", jobId: "aeon-resorts-78787" },
+  
+  
+  // 🏨 Aurum by RJ Resorts
+{
+  "name": "Aurum by RJ Resorts",
+  "logo": "/assets/health-and-tour/aurum.png",
+  "description": "Aurum by RJ Resorts is hiring for multiple hospitality roles in Siliguri.",
+  "jobOpenings": 10,
+  "location": "Siliguri, West Bengal",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "F&B Service Associate",
+      "description": "Assist in serving food and beverages, ensure guest satisfaction, and maintain service standards.",
+      "availableJobs": 3,
+      "location": "Siliguri",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Front Office Associate",
+      "description": "Handle guest check-ins/check-outs, manage reservations, and provide customer support.",
+      "availableJobs": 2,
+      "location": "Siliguri",
+      "industryType": "Hospitality - Front Office"
+    },
+    {
+      "title": "Housekeeping Associate",
+      "description": "Maintain room and resort cleanliness, handle guest requests, and ensure hygiene standards.",
+      "availableJobs": 3,
+      "location": "Siliguri",
+      "industryType": "Hospitality - Housekeeping"
+    },
+    {
+      "title": "Commis (Kitchen)",
+      "description": "Assist in food preparation, follow recipes, and maintain kitchen hygiene.",
+      "availableJobs": 2,
+      "location": "Siliguri",
+      "industryType": "Hospitality - Culinary"
+    },
+
+  
   { name: "Sterling Holidays", logo: "/assets/health-and-tour/sterling.png", description: "Hospitality group", jobOpenings: 30, location: "Darjeeling, Siliguri, Gangtok", jobId: "0f9de3a7-467d-460a-bbf4-9ce4736cd924" },
   { name: "TAJ/Vivanta Group", logo: "/assets/health-and-tour/taj.png", description: "Luxury hospitality group", jobOpenings: 58, location: "Major Cities", jobId: "taj-vivanta-45454" },
   { name: "Udaan Resorts Siliguri", logo: "/assets/health-and-tour/udaan.png", description: "Tourism and hospitality group", jobOpenings: 20, location: "Siliguri", jobId: "udaan-resorts-34343" },
