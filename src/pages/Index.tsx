@@ -403,7 +403,36 @@ const manufacturingCompanies = [
   "benefits": "Food & Sharing Accommodation"
 },
   
-  { name: "DLJM Group", logo: "/assets/manufacturing/dljm.png", description: "Manufacturing solutions", jobOpenings: 200, location: "West Bengal", jobId: "dlj-group-44556" },
+
+
+ // 🏭 Dipity Lal Judge Mal Pvt. Ltd.
+{
+  "name": "Dipity Lal Judge Mal Pvt. Ltd.",
+  "logo": "/assets/manufacturing/dljm.png",
+  "description": "Dipity Lal Judge Mal Pvt. Ltd. (DLJM Group) is a leading manufacturing company hiring for production and assembly roles at its Noida plant.",
+  "jobOpenings": 200,
+  "location": "Noida, Uttar Pradesh",
+  "industry": "Manufacturing",
+  "jobs": [
+    {
+      "title": "Production Operator",
+      "description": "Operate production machinery, maintain process quality, and follow manufacturing SOPs.",
+      "availableJobs": 100,
+      "location": "Noida, UP",
+      "industryType": "Manufacturing - Production"
+    },
+    {
+      "title": "Assembly Line Worker",
+      "description": "Assemble mechanical and electronic parts, ensure proper fitting, and support production workflow.",
+      "availableJobs": 100,
+      "location": "Noida, UP",
+      "industryType": "Manufacturing - Assembly"
+    }
+  ],
+  "qualification": "10th, 12th, ITI, or Diploma in relevant trade",
+  "salary": "₹12,000 - ₹16,000",
+  "benefits": "Food & Sharing Accommodation"
+},
   { name: "MRF Tyres", logo: "/assets/manufacturing/mrf.png", description: "Tyre manufacturing", jobOpenings: 150, location: "Pan India", jobId: "mrf-tyres-88442" },
   { name: "Nissan", logo: "/assets/manufacturing/nissan.jpg", description: "Automobile manufacturer", jobOpenings: 300, location: "Pan India", jobId: "nissan-22771" },
   { name: "Rialto Enterprises", logo: "/assets/manufacturing/railto.jpeg", description: "Manufacturing industry", jobOpenings: 120, location: "Pan India", jobId: "rialto-enterprises-99332" },
