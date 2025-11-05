@@ -217,7 +217,57 @@ const tourismCompanies = [
     },
     ]
 },
-  { name: "Sterling Holidays", logo: "/assets/health-and-tour/sterling.png", description: "Hospitality group", jobOpenings: 30, location: "Darjeeling, Siliguri, Gangtok", jobId: "0f9de3a7-467d-460a-bbf4-9ce4736cd924" },
+
+  // 🏨 Sterling Holidays Resort
+{
+  "name": "Sterling Holidays Resort",
+  "logo": "/assets/health-and-tour/sterling.png",
+  "description": "Sterling Holidays Resort is hiring for multiple hospitality roles across Darjeeling, Gangtok, and Kalimpong.",
+  "jobOpenings": 30,
+  "location": "Darjeeling, Gangtok, Kalimpong",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages, maintain service quality, and ensure guest satisfaction.",
+      "availableJobs": 8,
+      "location": "Darjeeling, Gangtok, Kalimpong",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Front Office Associate",
+      "description": "Handle guest check-ins/check-outs, reservations, and customer interactions.",
+      "availableJobs": 6,
+      "location": "Darjeeling, Gangtok, Kalimpong",
+      "industryType": "Hospitality - Front Office"
+    },
+    {
+      "title": "Housekeeping Associate",
+      "description": "Maintain room cleanliness, attend guest requests, and ensure hygiene standards.",
+      "availableJobs": 6,
+      "location": "Darjeeling, Gangtok, Kalimpong",
+      "industryType": "Hospitality - Housekeeping"
+    },
+    {
+      "title": "Commis (Kitchen)",
+      "description": "Assist in food preparation, maintain kitchen hygiene, and ensure food quality.",
+      "availableJobs": 6,
+      "location": "Darjeeling, Gangtok, Kalimpong",
+      "industryType": "Hospitality - Culinary"
+    },
+    {
+      "title": "HR Associate",
+      "description": "Support recruitment, employee relations, and daily HR operations at the resort.",
+      "availableJobs": 4,
+      "location": "Darjeeling, Gangtok, Kalimpong",
+      "industryType": "Hospitality - Human Resources"
+    }
+  ],
+  "qualification": "Graduate or Diploma in Hotel Management",
+  "salary": "₹14,000 - ₹19,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
   { name: "TAJ/Vivanta Group", logo: "/assets/health-and-tour/taj.png", description: "Luxury hospitality group", jobOpenings: 58, location: "Major Cities", jobId: "taj-vivanta-45454" },
   { name: "Udaan Resorts Siliguri", logo: "/assets/health-and-tour/udaan.png", description: "Tourism and hospitality group", jobOpenings: 20, location: "Siliguri", jobId: "udaan-resorts-34343" },
   { name: "VASATI Services", logo: "/assets/health-and-tour/vasati.png", description: "Hospitality and service company", jobOpenings: 20, location: "NCR", jobId: "c7cc3bbb-b3b8-4c0c-8f0e-52186c1478f0" },
