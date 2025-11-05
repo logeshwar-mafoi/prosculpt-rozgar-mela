@@ -319,7 +319,7 @@ const manufacturingCompanies = [
   // ⚙ SATA Vikas Pvt. Ltd.
 {
   "name": "SATA Vikas Pvt. Ltd.",
-  "logo": "/assets/manufacturing/satavikas.png",
+  "logo": "/assets/manufacturing/sata.png",
   "description": "SATA Vikas Pvt. Ltd., a leading automotive component manufacturing company, is hiring CNC and VMC Machine Operators for its Haryana plant.",
   "jobOpenings": 120,
   "location": "Haryana",
