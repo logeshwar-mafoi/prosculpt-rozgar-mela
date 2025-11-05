@@ -1326,7 +1326,43 @@ const devyaniCompanies = [
 ];
 
 const telecomCompanies = [
-  { name: "Vodafone", logo: "/assets/telecom/vodafone.png", description: "Telecom services", jobOpenings: 50, location: "Major Cities", jobId: "vodafone-99887" },
+
+
+ // 📱 Vodafone
+{
+  "name": "Vodafone",
+  "logo": "/assets/telecom/vodafone.png",
+  "description": "Vodafone is hiring energetic candidates for various telecom and customer engagement roles across North Bengal districts. The roles involve sales, customer support, and service operations.",
+  "jobOpenings": 150,
+  "location": "Siliguri, Darjeeling, Kalimpong, Cooch Behar, Alipurduar, Jalpaiguri, Malda, Uttar Dinajpur",
+  "industry": "Telecom & Customer Service",
+  "jobs": [
+    {
+      "title": "Sales Executive",
+      "description": "Handle on-field customer acquisition, promote SIM and data services, and achieve regional sales targets.",
+      "availableJobs": 60,
+      "location": "Across North Bengal",
+      "industryType": "Telecom - Sales & Marketing"
+    },
+    {
+      "title": "Customer Service Executive",
+      "description": "Assist customers with queries, billing issues, and service activations both in-store and through field visits.",
+      "availableJobs": 50,
+      "location": "Across North Bengal",
+      "industryType": "Telecom - Customer Support"
+    },
+    {
+      "title": "Retail Store Executive",
+      "description": "Manage daily operations at Vodafone stores, ensure smooth customer experience, and handle cash and documentation.",
+      "availableJobs": 40,
+      "location": "Across North Bengal",
+      "industryType": "Telecom - Retail Operations"
+    }
+  ],
+  "qualification": "12th Pass or Graduate (Any Stream)",
+  "salary": "₹12,000 - ₹20,000 (including incentives)",
+  "benefits": "Mobile Allowance & Performance Incentives"
+},
   { name: "PhonePe", logo: "/assets/telecom/PhonePe.png", description: "Telecom/Fintech services", jobOpenings: 75, location: "Kolkata", jobId: "phonepe-44556" },
 ];
 
