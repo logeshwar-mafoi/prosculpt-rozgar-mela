@@ -547,7 +547,44 @@ const manufacturingCompanies = [
   "benefits": "PF, ESI, Canteen & Accommodation Facilities"
 },
 
-  { name: "Joyson Safety", logo: "/assets/manufacturing/joyson.jpg", description: "Automotive safety systems manufacturing", jobOpenings: 180, location: "Pan India", jobId: "joyson-safety-11664" },
+
+
+ // 🏭 Joyson Safety Systems
+{
+  "name": "Joyson Safety Systems",
+  "logo": "/assets/manufacturing/joyson.jpg",
+  "description": "Joyson Safety Systems is a leading global manufacturer of automotive safety components, including airbags, seatbelts, and steering wheels. The company is hiring for production, assembly, and quality inspection roles across India.",
+  "jobOpenings": 180,
+  "location": "Pan India",
+  "industry": "Automotive Manufacturing & Safety Systems",
+  "jobs": [
+    {
+      "title": "Production Operator",
+      "description": "Operate machinery and support production of automotive safety components with adherence to safety and quality standards.",
+      "availableJobs": 70,
+      "location": "Pan India",
+      "industryType": "Manufacturing - Production"
+    },
+    {
+      "title": "Assembly Line Worker",
+      "description": "Assemble airbag modules and other safety system components, ensuring quality and precision.",
+      "availableJobs": 60,
+      "location": "Pan India",
+      "industryType": "Manufacturing - Assembly"
+    },
+    {
+      "title": "Quality Inspector",
+      "description": "Inspect finished products, verify component integrity, and ensure compliance with automotive safety standards.",
+      "availableJobs": 50,
+      "location": "Pan India",
+      "industryType": "Manufacturing - Quality Control"
+    }
+  ],
+  "qualification": "10th, 12th, ITI, or Diploma in Mechanical/Electrical fields",
+  "salary": "₹13,000 - ₹18,000",
+  "benefits": "PF, ESI, Subsidized Meals & Accommodation"
+},
+
   ];
 
 const aviationCompanies = [
