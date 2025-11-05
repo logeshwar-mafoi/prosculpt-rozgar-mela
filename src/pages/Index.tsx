@@ -171,7 +171,7 @@ const tourismCompanies = [
       "location": "Resorts across India",
       "industryType": "Hospitality - Culinary Operations"
     }
-  ]
+  ],
 },
 
   { name: "Bluspring", logo: "/assets/health-and-tour/blu-spring.jpg", description: "Luxury resort and hospitality chain", jobOpenings: 800, location: ["North", "East", "West", "South"], jobId: "Bluspring-85858" },
