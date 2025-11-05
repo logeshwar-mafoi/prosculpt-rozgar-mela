@@ -37,9 +37,6 @@ const CompanyCard = ({
   description,
   jobOpenings,
   location,
-  qualification,
-  salary,
-  benefits,
   jobs = [],
   applicationLink,
 }: CompanyCardProps) => {
@@ -64,35 +61,18 @@ const CompanyCard = ({
             )}
           </div>
 
-          {/* Name */}
-          <h3 className="text-xl font-bold text-gray-800 mb-2 text-center group-hover:text-blue-600 transition-colors">
+          {/* Company Name */}
+          <h3 className="text-xl font-bold text-blue-700 mb-2 text-center">
             {name}
           </h3>
 
           {/* Description */}
-          <p className="text-sm text-gray-600 mb-3 flex-grow text-center leading-relaxed">
+          <p className="text-sm text-gray-600 mb-4 flex-grow text-center leading-relaxed">
             {description}
           </p>
 
-          {/* Extra Info */}
-          {qualification && (
-            <p className="text-sm text-gray-700 mb-1 text-center">
-              🎓 <strong>Qualification:</strong> {qualification}
-            </p>
-          )}
-          {salary && (
-            <p className="text-sm text-gray-700 mb-1 text-center">
-              💰 <strong>Salary:</strong> {salary}
-            </p>
-          )}
-          {benefits && (
-            <p className="text-sm text-gray-700 mb-2 text-center">
-              🏠 <strong>Benefits:</strong> {benefits}
-            </p>
-          )}
-
           {/* Stats */}
-          <div className="flex items-center justify-between pt-3 border-t border-gray-200">
+          <div className="flex items-center justify-between border-t border-gray-200 pt-3 mt-auto">
             <div className="flex items-center gap-2 text-blue-600">
               <Briefcase className="h-4 w-4" />
               <span className="text-sm font-semibold">
@@ -124,8 +104,8 @@ const CompanyCard = ({
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="max-w-2xl bg-white">
           <DialogHeader>
-            <DialogTitle className="text-gray-800 font-semibold">
-              {name} — Job Openings
+            <DialogTitle className="text-blue-700 font-semibold">
+              {name}
             </DialogTitle>
             <DialogDescription>
               <p className="text-sm text-gray-600 mb-4">
@@ -134,34 +114,32 @@ const CompanyCard = ({
             </DialogDescription>
           </DialogHeader>
 
+          {/* Job List */}
           <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-2">
             {jobs.length > 0 ? (
               jobs.map((job, index) => (
                 <div
                   key={index}
-                  className="border rounded-xl p-4 bg-gray-50 hover:bg-gray-100 transition-all"
+                  className="border rounded-xl p-4 bg-gray-50 hover:bg-blue-50 transition-all"
                 >
-                  <h4 className="text-base font-semibold text-gray-800">
+                  {/* Job Title */}
+                  <h4 className="text-base font-semibold text-blue-700 mb-2">
                     {job.title}
                   </h4>
 
-                  {job.location && (
-                    <p className="text-sm text-gray-600 mb-1">
-                      📍 {job.location}
-                    </p>
-                  )}
-                  {job.availableJobs && (
-                    <p className="text-sm text-gray-600 mb-1">
-                      👥 {job.availableJobs} Openings
-                    </p>
-                  )}
-                  {job.industryType && (
-                    <p className="text-sm text-gray-600 mb-1">
-                      🏢 {job.industryType}
-                    </p>
-                  )}
+                  {/* Info Row */}
+                  <div className="flex flex-wrap items-center justify-between text-sm text-gray-600 mb-2">
+                    <span>📍 {job.location || "N/A"}</span>
+                    {job.availableJobs && (
+                      <span>👥 Openings: {job.availableJobs}</span>
+                    )}
+                    {job.industryType && (
+                      <span>🏢 {job.industryType}</span>
+                    )}
+                  </div>
 
-                  <p className="text-sm leading-relaxed mt-2 text-gray-700">
+                  {/* Description */}
+                  <p className="text-sm text-gray-700 leading-relaxed">
                     {job.description}
                   </p>
                 </div>
@@ -173,7 +151,7 @@ const CompanyCard = ({
             )}
           </div>
 
-          {/* Optional Apply Now Button */}
+          {/* Apply Now */}
           {applicationLink && (
             <div className="mt-6 flex justify-center">
               <Button
