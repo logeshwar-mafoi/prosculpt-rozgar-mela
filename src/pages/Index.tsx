@@ -433,7 +433,44 @@ const manufacturingCompanies = [
   "salary": "₹12,000 - ₹16,000",
   "benefits": "Food & Sharing Accommodation"
 },
-  { name: "MRF Tyres", logo: "/assets/manufacturing/mrf.png", description: "Tyre manufacturing", jobOpenings: 150, location: "Pan India", jobId: "mrf-tyres-88442" },
+
+
+ // 🏭 MRF Tyres
+{
+  "name": "MRF Tyres",
+  "logo": "/assets/manufacturing/mrf.png",
+  "description": "MRF Tyres, India’s leading tyre manufacturing company, is hiring skilled and semi-skilled candidates for production, quality, and maintenance roles across India.",
+  "jobOpenings": 150,
+  "location": "Pan India",
+  "industry": "Manufacturing - Tyre Production",
+  "jobs": [
+    {
+      "title": "Production Operator",
+      "description": "Operate tyre manufacturing machinery, follow safety protocols, and ensure production quality standards.",
+      "availableJobs": 70,
+      "location": "Pan India",
+      "industryType": "Manufacturing - Production"
+    },
+    {
+      "title": "Quality Inspector",
+      "description": "Inspect finished tyres, monitor production quality, and document test results as per company standards.",
+      "availableJobs": 40,
+      "location": "Pan India",
+      "industryType": "Manufacturing - Quality Control"
+    },
+    {
+      "title": "Maintenance Technician",
+      "description": "Perform preventive maintenance and repairs on machines and equipment used in tyre production.",
+      "availableJobs": 40,
+      "location": "Pan India",
+      "industryType": "Manufacturing - Maintenance"
+    }
+  ],
+  "qualification": "ITI, Diploma, or Graduate in Mechanical / Electrical / Production Engineering",
+  "salary": "₹14,000 - ₹22,000",
+  "benefits": "PF, ESI, Canteen & Accommodation Facilities"
+},
+
   { name: "Nissan", logo: "/assets/manufacturing/nissan.jpg", description: "Automobile manufacturer", jobOpenings: 300, location: "Pan India", jobId: "nissan-22771" },
   { name: "Rialto Enterprises", logo: "/assets/manufacturing/railto.jpeg", description: "Manufacturing industry", jobOpenings: 120, location: "Pan India", jobId: "rialto-enterprises-99332" },
   { name: "Joyson Safety", logo: "/assets/manufacturing/joyson.jpg", description: "Automotive safety systems manufacturing", jobOpenings: 180, location: "Pan India", jobId: "joyson-safety-11664" },
