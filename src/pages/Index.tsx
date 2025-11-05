@@ -275,6 +275,36 @@ const bankingCompanies = [
   "benefits": "Professional development, performance incentives, work experience in finance sector"
 },
 
+
+// 👟 BETA
+{
+  "name": "BATA",
+  "logo": "/assets/fintech/bata.png",
+  "description": "BATA, a leading footwear brand, is hiring for roles in fintech operations and retail management in Kolkata.",
+  "jobOpenings": null,
+  "location": "Kolkata",
+  "industry": "Fintech / Retail",
+  "jobs": [
+    {
+      "title": "Retail Operations / Fintech Associate",
+      "description": "Manage day-to-day retail operations, assist in financial transactions, maintain customer accounts, and ensure smooth operations.",
+      "eligibility": "Graduate or Diploma in relevant field, good communication skills.",
+      "skills": [
+        "Customer service orientation",
+        "Basic accounting/finance knowledge",
+        "Teamwork",
+        "Problem solving",
+        "Attention to detail"
+      ],
+      "location": "Kolkata"
+    }
+  ],
+  "qualification": "Graduate / Diploma in relevant field",
+  "salary": "As per company standards",
+  "benefits": "Employee discounts, professional development opportunities"
+}
+
+
 ];
 
 const manufacturingCompanies = [
