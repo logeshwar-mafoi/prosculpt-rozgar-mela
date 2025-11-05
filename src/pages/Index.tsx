@@ -1370,7 +1370,91 @@ const tourismCompanies = [
   "benefits": "Meals & Uniform Provided"
 },
 
-  { name: "Ziatoon Restaurant and Grill Pvt. Ltd.", logo: "/assets/health-and-tour/zaitoon.png", description: "Tourism and hospitality", jobOpenings: 300, location: "Pan India", jobId: "zaitoon-11223" },
+ // 🍴 Ziatoon Restaurant and Grill Pvt. Ltd.
+{
+  "name": "Ziatoon Restaurant and Grill Pvt. Ltd.",
+  "logo": "/assets/health-and-tour/zaitoon.png",
+  "description": "Ziatoon Restaurant and Grill, a leading hospitality chain, is hiring for F&B Service, Production, and Housekeeping roles across India.",
+  "jobOpenings": 300,
+  "location": "Pan India",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "Restaurant Manager",
+      "description": "Oversee restaurant operations, manage staff, and ensure high-quality service standards.",
+      "availableJobs": 20,
+      "location": "Pan India",
+      "industryType": "F&B Service - Management"
+    },
+    {
+      "title": "Asst Restaurant Manager",
+      "description": "Assist the Restaurant Manager in daily operations and staff management.",
+      "availableJobs": 20,
+      "location": "Pan India",
+      "industryType": "F&B Service - Management"
+    },
+    {
+      "title": "GRE (Female)",
+      "description": "Greet and assist customers, handle queries, and maintain a pleasant in-store experience.",
+      "availableJobs": 20,
+      "location": "Pan India",
+      "industryType": "F&B Service"
+    },
+    {
+      "title": "Sr Captains / Captains",
+      "description": "Serve customers, manage dining area, and ensure smooth service.",
+      "availableJobs": 50,
+      "location": "Pan India",
+      "industryType": "F&B Service"
+    },
+    {
+      "title": "Trainee Captains",
+      "description": "Learn service standards and assist senior staff in customer service.",
+      "availableJobs": 30,
+      "location": "Pan India",
+      "industryType": "F&B Service"
+    },
+    {
+      "title": "Sr Stewards / Stewards",
+      "description": "Maintain hygiene, clean dining areas, and assist in food service.",
+      "availableJobs": 30,
+      "location": "Pan India",
+      "industryType": "F&B Service"
+    },
+    {
+      "title": "CDP (Tandoori / Chinese / Arabian / Conti / South Indian / North Indian / Pantry)",
+      "description": "Prepare specialty dishes while maintaining quality and hygiene standards.",
+      "availableJobs": 20,
+      "location": "Pan India",
+      "industryType": "F&B Production"
+    },
+    {
+      "title": "Commi I / Commi II / Commi III",
+      "description": "Support kitchen operations in preparing regional and continental dishes.",
+      "availableJobs": 50,
+      "location": "Pan India",
+      "industryType": "F&B Production"
+    },
+    {
+      "title": "Briyani Master",
+      "description": "Specialist in preparing authentic biryani maintaining taste and quality standards.",
+      "availableJobs": 10,
+      "location": "Pan India",
+      "industryType": "F&B Production"
+    },
+    {
+      "title": "Housekeeping Supervisor / Housekeeping Staff",
+      "description": "Maintain cleanliness and hygiene standards across restaurant premises.",
+      "availableJobs": 20,
+      "location": "Pan India",
+      "industryType": "Housekeeping"
+    }
+  ],
+  "qualification": "HM (6 months - 3 Years), BHM, or Relevant Work Experience",
+  "salary": "₹14,000 - ₹35,000",
+  "benefits": "Meals Provided"
+},
+
    { name: "TFS Travel Food Services", logo: "/assets/health-and-tour/TFS.jpg", description: "Airport and travel hospitality services", jobOpenings: 200, location: "Multiple Locations", jobId: "tfs-travel-food-services-2025" },
 ];
 
