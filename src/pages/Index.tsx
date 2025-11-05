@@ -1467,121 +1467,75 @@ const devyaniCompanies = [
   { name: "Vaango", logo: "/assets/retail/vaango.png", description: "South Indian restaurant chain", jobOpenings: 40, location: "Metro Cities", jobId: "vaango-98765" },
   { name: "Airport Food Courts", logo: "/assets/retail/food-court.jpg", description: "Airport dining", jobOpenings: 50, location: "Airports", jobId: "airport-food-courts-11222" },
   { name: "Food Courts", logo: "/assets/retail/food-court.jpg", description: "Multi-brand dining", jobOpenings: 50, location: "Major Cities", jobId: "food-courts-33444" },
-  {
+  // 🍛 Biriyani by Kilo
+{
   "name": "Biriyani by Kilo",
   "logo": "/assets/retail/Biryani.png",
-  "description": "Beverage outlet",
+  "description": "Biriyani by Kilo, a popular F&B brand, is hiring for culinary and service roles across metro cities.",
   "jobOpenings": 50,
   "location": "Metro Cities",
   "industry": "F&B / Hospitality",
-  "roles": [
+  "jobs": [
     {
-      "department": "F&B Service",
-      "positions": [
-        {
-          "designation": "Restaurant Manager",
-          "experience": "5 years above",
-          "salary": "30,000/- to 35,000/-",
-          "qualification": "BHM (3 Years)"
-        },
-        {
-          "designation": "Asst Restaurant Manager",
-          "experience": "3 years above",
-          "salary": "27,000/- to 30,000/-",
-          "qualification": "BHM (3 Years)"
-        },
-        {
-          "designation": "GRE (Female)",
-          "experience": "0 to 3 years",
-          "salary": "15,000/- to 22,000/-",
-          "qualification": "12th Std"
-        },
-        {
-          "designation": "Sr Captains (Male / Female)",
-          "experience": "3 years to 5 years",
-          "salary": "20,000/- to 25,000/-",
-          "qualification": "HM (1 year)"
-        },
-        {
-          "designation": "Captains (Male / Female)",
-          "experience": "2 years to 3 years",
-          "salary": "18,000/- to 22,000/-",
-          "qualification": "HM (1 year)"
-        },
-        {
-          "designation": "Trainee Captains (Male / Female)",
-          "experience": "1 year to 2 years",
-          "salary": "16,000/- to 18,000/-",
-          "qualification": "HM (1 year)"
-        },
-        {
-          "designation": "Sr Stewards (Male / Female)",
-          "experience": "2 years",
-          "salary": "14,000/- to 16,000/-",
-          "qualification": "HM (6 Months)"
-        },
-        {
-          "designation": "Stewards (Male / Female)",
-          "experience": "Fresher",
-          "salary": "14,000/-",
-          "qualification": "HM (6 Months)"
-        }
-      ]
+      "title": "Restaurant Manager",
+      "description": "Oversee restaurant operations, manage staff, and ensure high-quality service standards.",
+      "availableJobs": 5,
+      "location": "Metro Cities",
+      "industryType": "F&B Service - Management"
     },
     {
-      "department": "F&B Production",
-      "positions": [
-        {
-          "designation": "CDP (Tandoori / Chinese / Arabian / Conti / South Indian / North Indian / Pantry)",
-          "experience": "5 years above",
-          "salary": "30,000/- to 35,000/-",
-          "qualification": "BHM (3 Years)"
-        },
-        {
-          "designation": "Commi I (Tandoori / Chinese / Arabian / Conti / South Indian / North Indian)",
-          "experience": "3 years to 5 years",
-          "salary": "25,000/- to 30,000/-",
-          "qualification": "HM (1 year)"
-        },
-        {
-          "designation": "Commi II (Tandoori / Chinese / Arabian / Conti / South Indian / North Indian)",
-          "experience": "3 years above",
-          "salary": "20,000/- to 22,000/-",
-          "qualification": "Work Experience"
-        },
-        {
-          "designation": "Commi III (Tandoori / Chinese / Arabian / Conti / South Indian / North Indian)",
-          "experience": "Fresher",
-          "salary": "14,000/- to 16,000/-",
-          "qualification": "Work Experience"
-        },
-        {
-          "designation": "Briyani Master",
-          "experience": "5 years above",
-          "salary": "35,000/-",
-          "qualification": "Work Experience"
-        }
-      ]
+      "title": "Asst Restaurant Manager",
+      "description": "Assist the Restaurant Manager in daily operations and staff management.",
+      "availableJobs": 5,
+      "location": "Metro Cities",
+      "industryType": "F&B Service - Management"
     },
     {
-      "department": "Housekeeping",
-      "positions": [
-        {
-          "designation": "Housekeeping Supervisor",
-          "experience": "3 years to 5 years",
-          "salary": "20,000/- to 25,000/-",
-          "qualification": "HM (1 year)"
-        },
-        {
-          "designation": "Housekeeping / Washing",
-          "experience": "Fresher",
-          "salary": "14,000/- to 16,000/-",
-          "qualification": "No Need"
-        }
-      ]
+      "title": "Captains / Sr Captains",
+      "description": "Serve customers, manage dining area, and ensure smooth service.",
+      "availableJobs": 15,
+      "location": "Metro Cities",
+      "industryType": "F&B Service"
+    },
+    {
+      "title": "Trainee Captains",
+      "description": "Learn service standards and assist senior staff in customer service.",
+      "availableJobs": 5,
+      "location": "Metro Cities",
+      "industryType": "F&B Service"
+    },
+    {
+      "title": "Stewards / Sr Stewards",
+      "description": "Maintain hygiene, clean dining areas, and assist in food service.",
+      "availableJobs": 5,
+      "location": "Metro Cities",
+      "industryType": "F&B Service"
+    },
+    {
+      "title": "CDP / Commi I / Commi II / Commi III",
+      "description": "Prepare regional and continental dishes in accordance with recipes and hygiene standards.",
+      "availableJobs": 10,
+      "location": "Metro Cities",
+      "industryType": "F&B Production"
+    },
+    {
+      "title": "Briyani Master",
+      "description": "Specialist in preparing authentic biryani maintaining taste and quality standards.",
+      "availableJobs": 5,
+      "location": "Metro Cities",
+      "industryType": "F&B Production"
+    },
+    {
+      "title": "Housekeeping Supervisor / Staff",
+      "description": "Maintain cleanliness and hygiene standards across the restaurant premises.",
+      "availableJobs": 5,
+      "location": "Metro Cities",
+      "industryType": "Housekeeping"
     }
   ],
-  "jobId": "tea-live-77889"
+  "qualification": "HM (1-3 Years), BHM, or Relevant Work Experience",
+  "salary": "₹14,000 - ₹35,000",
+  "benefits": "Meals Provided"
 },
 
 ];
