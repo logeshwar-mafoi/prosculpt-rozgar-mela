@@ -241,7 +241,37 @@ const bankingCompanies = [
 ];
 
 const manufacturingCompanies = [
-  { name: "ITC", logo: "/assets/manufacturing/ITC.png", description: "Associates and Apprentices in the manufacturing sector", jobOpenings: 10, location: "West Bengal", jobId: "itc-55221" },
+  // 🏭 ITC - West Bengal Factories
+{
+  "name": "ITC",
+  "logo": "/assets/manufacturing/ITC.png",
+  "description": "Associates and Apprentices in the manufacturing sector",
+  "jobOpenings": 10,
+  "location": "West Bengal",
+  "jobId": "itc-55221",
+  "industry": "Manufacturing",
+  "jobs": [
+    {
+      "title": "Associate",
+      "description": "Perform mechanical/electrical tasks as per ITI training, maintain machinery and production standards.",
+      "availableJobs": 5,
+      "location": "Factories across West Bengal",
+      "industryType": "Manufacturing - Technical",
+      "qualification": "ITI (Mechanical/Electrical stream)",
+      "ctc": "₹15,500 per month Approx for 1st year"
+    },
+    {
+      "title": "Apprentice",
+      "description": "Assist in fitting/electrical tasks, support production team and learn on the job.",
+      "availableJobs": 5,
+      "location": "Factories across West Bengal",
+      "industryType": "Manufacturing - Technical Training",
+      "qualification": "ITI (Fitter/Electrical)",
+      "ctc": "₹11,277 per month Approx"
+    }
+  ]
+},
+
   { name: "Dixon Technologies", logo: "/assets/manufacturing/dixon.png", description: "Electronics manufacturing", jobOpenings: 1000, location: "Pan India", jobId: "dixon-tech-11223" },
  
  // 🏭 Padget Technology Ltd. (Noida)
