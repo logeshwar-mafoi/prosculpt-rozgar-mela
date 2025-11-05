@@ -675,24 +675,62 @@ const manufacturingCompanies = [
   ];
 
 const aviationCompanies = [
-  {
-    name: "IndiGo Airlines",
-    logo: "/assets/aviation/indigo.png",
-    description:
-      "IndiGo Airlines is recruiting for Ground Operations roles across India. Candidates must complete the pre-assessment before HR interaction.",
-    jobOpenings: null,
-    location: "Pan India",
-    jobs: [
-      {
-        title: "Ground Operations Executive",
-        jd: "Responsible for handling passenger services, baggage handling, and ramp coordination at airports.",
-        eligibility: "Graduate (any discipline), age below 27 preferred.",
-        location: "Pan India",
-        applicationLink:
-          "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403",
-      },
-    ],
-  },
+  // ✈️ IndiGo Airlines
+{
+  "name": "IndiGo Airlines",
+  "logo": "/assets/aviation/indigo.png",
+  "description": "IndiGo Airlines is recruiting for Ground Operations roles across India. Candidates must complete the pre-assessment before HR interaction.",
+  "jobOpenings": null,
+  "location": "Pan India",
+  "industry": "Aviation / Ground Operations",
+  "jobs": [
+    {
+      "title": "Officer (T) – AO&CS (Terminal Service)",
+      "description": "Carry out safe and secure operations in accordance with the ground operations manual. Responsibilities include reservations and ticketing, handling departures and arrivals, assisting customers with special requests, coordinating baggage operations, and maintaining post-flight documentation.",
+      "eligibility": "Graduate (any discipline), valid passport, no visible tattoos, flexible for rotational shifts including night shifts.",
+      "skills": [
+        "Good communication skills",
+        "Customer-oriented",
+        "Teamwork",
+        "Ability to work under pressure",
+        "Safety awareness"
+      ],
+      "location": "Pan India",
+      "applicationLink": "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403"
+    },
+    {
+      "title": "Officer (T) – AO&CS (Security)",
+      "description": "Maintain company security standards, perform threat assessment, optimize resources, monitor quality system, enforce emergency response procedures, prevent theft and pilferage, and carry out team development dialogues.",
+      "eligibility": "Graduate (any discipline), valid passport, no visible tattoos, flexible for rotational shifts including night shifts.",
+      "skills": [
+        "Good communication skills",
+        "Customer-oriented",
+        "Teamwork",
+        "Ability to work under pressure",
+        "Safety awareness"
+      ],
+      "location": "Pan India",
+      "applicationLink": "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403"
+    },
+    {
+      "title": "Officer (T) – AO&CS (Ramp)",
+      "description": "Handle ramp operations including flight ETA confirmation, bay coordination, passenger boarding and deplaning, baggage handling, cleaning, loading as per instructions, and ensure on-time and safe flight operations.",
+      "eligibility": "Graduate (any discipline), valid passport, no visible tattoos, flexible for rotational shifts including night shifts.",
+      "skills": [
+        "Good communication skills",
+        "Customer-oriented",
+        "Teamwork",
+        "Ability to work under pressure",
+        "Safety awareness"
+      ],
+      "location": "Pan India",
+      "applicationLink": "https://unstop.com/jobs/aocs-online-hiring-drive-pan-india-2-aocs-online-hiring-drive-pan-india-indigo-1534403"
+    }
+  ],
+  "qualification": "Any Graduation",
+  "training": "Candidates will be appointed as Trainee for 3 months. Successful completion leads to confirmation as Officer – AO&CS.",
+  "equalOpportunity": "All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status."
+},
 ];
 
 const trainingCompanies = [
