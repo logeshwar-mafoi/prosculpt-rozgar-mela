@@ -347,7 +347,57 @@ const tourismCompanies = [
   { name: "Barbeque Nation", logo: "/assets/retail/bbq.png", description: "Restaurant chain", jobOpenings: 600, location: "Major Cities", jobId: "barbeque-nation-54321" },
   { name: "PVR INOX", logo: "/assets/health-and-tour/pvr.png", description: "Entertainment & hospitality", jobOpenings: 80, location: "Major Cities", jobId: "pvr-inox-22112" },
   { name: "Royal Orchid Hotels", logo: "/assets/health-and-tour/royal.png", description: "Hotel chain", jobOpenings: 30, location: "North India", jobId: "royal-orchid-33443" },
-  { name: "Sodexo", logo: "/assets/health-and-tour/sodexo.png", description: "Food and facilities management", jobOpenings: 300, location: "North East India", jobId: "sodexo-77887" },
+
+  // 🏨 Sodexo Group
+{
+  "name": "Sodexo Group",
+  "logo": "/assets/health-and-tour/sodexo.png",
+  "description": "Sodexo Group is hiring for multiple hospitality and facility management roles across India.",
+  "jobOpenings": 300,
+  "location": "North, East, South & West India",
+  "industry": "Tourism & Hospitality",
+  "jobs": [
+    {
+      "title": "F&B Service Associate",
+      "description": "Serve food and beverages, maintain service standards, and ensure customer satisfaction.",
+      "availableJobs": 100,
+      "location": "Pan India",
+      "industryType": "Hospitality - Food & Beverage Service"
+    },
+    {
+      "title": "Housekeeping Associate",
+      "description": "Maintain room and facility cleanliness, handle guest requests, and ensure hygiene standards.",
+      "availableJobs": 70,
+      "location": "Pan India",
+      "industryType": "Hospitality - Housekeeping"
+    },
+    {
+      "title": "Bartender",
+      "description": "Prepare and serve beverages, maintain bar hygiene, and deliver excellent customer service.",
+      "availableJobs": 40,
+      "location": "Pan India",
+      "industryType": "Hospitality - Bar Operations"
+    },
+    {
+      "title": "GDA (General Duty Assistant)",
+      "description": "Assist in patient care and facility support services across healthcare and hospitality sites.",
+      "availableJobs": 50,
+      "location": "Pan India",
+      "industryType": "Hospitality - General Duty Assistance"
+    },
+    {
+      "title": "Commis (Kitchen)",
+      "description": "Assist chefs in food preparation, follow recipes, and maintain kitchen hygiene.",
+      "availableJobs": 40,
+      "location": "Pan India",
+      "industryType": "Hospitality - Culinary"
+    }
+  ],
+  "qualification": "10th, 12th, Undergraduate, or Diploma",
+  "salary": "₹10,000 - ₹16,000",
+  "benefits": "Food & Sharing Accommodation"
+},
+  
   { name: "Apollo Sindoori Hotels Ltd.", logo: "/assets/health-and-tour/apollo-sindoori.png", description: "Hospitality and catering", jobOpenings: 85, location: "Tourist Destinations", jobId: "apollo-sindoori-55665" },
   { name: "Birdys", logo: "/assets/health-and-tour/Birdys.png", description: "Tourism and hospitality", jobOpenings: 25, location: "Mumbai", jobId: "birdys-11223" },
   { name: "Ziatoon Restaurant and Grill Pvt. Ltd.", logo: "/assets/health-and-tour/zaitoon.png", description: "Tourism and hospitality", jobOpenings: 300, location: "Pan India", jobId: "zaitoon-11223" },
