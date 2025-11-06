@@ -1266,6 +1266,42 @@ const tourismCompanies = [
   "benefits": "Accommodation as per availability, on-the-job training"
 },
 
+
+ {
+  name: "Sanook Kitchen",
+  logo: "/assets/retail/snook.png",
+  description: "Sanook Kitchen, a popular Asian casual dining restaurant chain, is hiring for service and kitchen roles across major cities.",
+  jobOpenings: 10,
+  location: "Major Cities",
+  industry: "F&B / Hospitality",
+  jobs: [
+    {
+      title: "Service Associate / Steward",
+      description: "Provide excellent customer service, take orders, and ensure a pleasant dining experience for guests.",
+      availableJobs: 4,
+      location: "Major Cities",
+      industryType: "F&B Service"
+    },
+    {
+      title: "Commis / Cook",
+      description: "Assist in food preparation, maintain kitchen hygiene, and ensure food is prepared as per standards.",
+      availableJobs: 4,
+      location: "Major Cities",
+      industryType: "F&B Production"
+    },
+    {
+      title: "Restaurant Supervisor",
+      description: "Oversee daily restaurant operations, manage staff schedules, and ensure service quality and hygiene compliance.",
+      availableJobs: 2,
+      location: "Major Cities",
+      industryType: "F&B Management"
+    }
+  ],
+  qualification: "10th / 12th Pass or Diploma in Hotel Management / Culinary Arts",
+  salary: "As per industry standards",
+  benefits: "Meals & Uniform Provided"
+},
+
   // 🏨 Udaan Hotels & Resorts
 {
   "name": "Udaan Hotels & Resorts",
