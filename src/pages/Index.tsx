@@ -211,6 +211,28 @@ const bankingCompanies = [
   "salary": "As per company standards",
   "benefits": "Health insurance, professional development, performance incentives"
 },
+
+ {
+  name: "SBOSS",
+  logo: "/assets/sales/sboss.png",
+  description: "SBOSS is hiring dynamic Feet-on-Street (FOS) executives for field sales and customer acquisition across North Bengal.",
+  jobOpenings: 50,
+  location: "Siliguri, Darjeeling, Kalimpong, Cooch Behar, Alipurduar, Jalpaiguri, South and North Dinajpur",
+  industry: "Field Sales / FOS",
+  jobs: [
+    {
+      title: "Feet-on-Street Executive (FOS)",
+      description: "Responsible for on-ground sales, lead generation, and customer onboarding activities. Ideal for candidates passionate about field marketing and client interaction.",
+      availableJobs: 50,
+      location: "Multiple Districts across North Bengal",
+      industryType: "Field Sales / Marketing"
+    }
+  ],
+  qualification: "10th / 12th Pass or Graduate",
+  salary: "As per company norms + Incentives",
+  benefits: "Travel Allowance + Incentives + Performance Bonus"
+},
+
  
 // 🏦 Utkarsh Bank
 {
