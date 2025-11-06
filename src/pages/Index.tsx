@@ -1996,7 +1996,7 @@ const itCompanies = [
 
  {
   name: "Piston Technologies",
-  logo: "/assets/it/piston.png",
+  logo: "/assets/IT/piston.png",
   description: "Piston Technologies is a Fintech and IT solutions company based in Kolkata, providing AI-driven and full-stack development services for global clients.",
   jobOpenings: 6,
   location: "Kolkata",
