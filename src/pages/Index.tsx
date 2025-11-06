@@ -1326,7 +1326,7 @@ const tourismCompanies = [
 
  {
   name: "Sri Ganesh Grand",
-  logo: "/assets/fmcg/sriganeshgrand.png",
+  logo: "/assets//sriganesh.jpg",
   description: "Sri Ganesh Grand, a well-known FMCG distributor and retail chain, is hiring for multiple roles across Kolkata.",
   jobOpenings: 50,
   location: "Kolkata",
