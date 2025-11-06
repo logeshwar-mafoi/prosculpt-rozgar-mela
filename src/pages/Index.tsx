@@ -1302,6 +1302,42 @@ const tourismCompanies = [
   benefits: "Meals & Uniform Provided"
 },
 
+ {
+  name: "Sri Ganesh Grand",
+  logo: "/assets/fmcg/sriganeshgrand.png",
+  description: "Sri Ganesh Grand, a well-known FMCG distributor and retail chain, is hiring for multiple roles across Kolkata.",
+  jobOpenings: 50,
+  location: "Kolkata",
+  industry: "FMCG",
+  jobs: [
+    {
+      title: "Sales Executive",
+      description: "Handle customer relationships, manage retail sales, and ensure product availability in stores.",
+      availableJobs: 20,
+      location: "Kolkata",
+      industryType: "FMCG Sales"
+    },
+    {
+      title: "Store Assistant",
+      description: "Assist in daily store operations, manage inventory, and maintain product displays.",
+      availableJobs: 20,
+      location: "Kolkata",
+      industryType: "Retail Operations"
+    },
+    {
+      title: "Delivery Staff",
+      description: "Responsible for delivering FMCG products across assigned routes ensuring timely service.",
+      availableJobs: 10,
+      location: "Kolkata",
+      industryType: "Logistics"
+    }
+  ],
+  qualification: "10th / 12th Pass preferred",
+  salary: "As per company norms",
+  benefits: "Incentives + Allowances"
+},
+
+
   // 🏨 Udaan Hotels & Resorts
 {
   "name": "Udaan Hotels & Resorts",
