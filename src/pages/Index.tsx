@@ -977,6 +977,100 @@ const tourismCompanies = [
   ]
 },
 
+{
+  name: "Iksha Resorts",
+  logo: "/assets/health-and-tour/iksha.png",
+  description: "Premium hospitality and lodging services offering a wide range of career opportunities in front office, housekeeping, food & beverage, and culinary departments.",
+  jobOpenings: 15,
+  location: "Tourist Destinations",
+  industry: "Hospitality",
+  jobId: "iksha-resorts-73482",
+  jobs: [
+    {
+      title: "Front Office Associate",
+      qualification: "10+2 and above, preferably should have pursued a craft course/diploma in Hospitality Management (Front Office)",
+      experience: "0-1 Years",
+      skills: "Good command over English and Hindi. Must be thorough with hospitality etiquettes with working knowledge in basic computer operations.",
+      salary: "₹10,000 - ₹12,000 per month",
+      availableJobs: 2,
+      industryType: "Front Office / Guest Relations"
+    },
+    {
+      title: "Front Office Associate (Experienced)",
+      qualification: "10+2 and above, preferably should have pursued a craft course/diploma in Hospitality Management (Front Office)",
+      experience: "2-5 Years",
+      skills: "Good command over English and Hindi. Must be thorough with hospitality etiquettes with working knowledge in basic computer operations.",
+      salary: "₹12,000 - ₹15,000 per month",
+      availableJobs: 2,
+      industryType: "Front Office / Guest Relations"
+    },
+    {
+      title: "Housekeeping Assistant",
+      qualification: "10th and above, preferably should have pursued a craft course/diploma in Hospitality Management",
+      experience: "0-1 Years",
+      skills: "Basic knowledge and some hands-on experience are expected.",
+      salary: "₹9,000 per month",
+      availableJobs: 3,
+      industryType: "Housekeeping / Maintenance"
+    },
+    {
+      title: "Housekeeping Assistant (Experienced)",
+      qualification: "10th and above, preferably should have pursued a craft course/diploma in Hospitality Management",
+      experience: "1-3 Years",
+      skills: "Basic knowledge and some hands-on experience are expected.",
+      salary: "₹10,000 per month",
+      availableJobs: 2,
+      industryType: "Housekeeping / Maintenance"
+    },
+    {
+      title: "F&B Associate",
+      qualification: "10th and above, preferably should have pursued a craft course/diploma in Hospitality Management",
+      experience: "0-1 Years",
+      skills: "Basic knowledge and some hands-on experience are expected.",
+      salary: "₹9,000 per month",
+      availableJobs: 3,
+      industryType: "Food & Beverage Service"
+    },
+    {
+      title: "F&B Associate (Experienced)",
+      qualification: "10th and above, preferably should have pursued a craft course/diploma in Hospitality Management",
+      experience: "1-3 Years",
+      skills: "Basic knowledge and some hands-on experience are expected.",
+      salary: "₹10,000 per month",
+      availableJobs: 2,
+      industryType: "Food & Beverage Service"
+    },
+    {
+      title: "Commis III Cook (Indian, South Indian, Tandoor, Chinese)",
+      qualification: "10th and above, preferably should have pursued a craft course/diploma in Hospitality Management / Food Production",
+      experience: "0-1 Years",
+      skills: "Basic knowledge and some hands-on experience are expected.",
+      salary: "₹9,000 - ₹10,000 per month",
+      availableJobs: 2,
+      industryType: "Culinary / Kitchen"
+    },
+    {
+      title: "Commis III Cook (Experienced)",
+      qualification: "10th and above, preferably should have pursued a craft course/diploma in Hospitality Management / Food Production",
+      experience: "1+ Years",
+      skills: "Basic knowledge and some hands-on experience are expected.",
+      salary: "₹10,000 - ₹12,000 per month",
+      availableJobs: 2,
+      industryType: "Culinary / Kitchen"
+    },
+    {
+      title: "Cook / Chef (Chinese, Indian, Continental, Tandoor, South Indian)",
+      qualification: "Diploma or Degree in Hotel Management",
+      experience: "3+ Years (as Commis I, Commis II, or DCDP)",
+      skills: "3+ years of experience in professional kitchens with expertise in respective cuisines.",
+      salary: "₹15,000 - ₹18,000 per month",
+      availableJobs: 3,
+      industryType: "Culinary / Chef"
+    }
+  ]
+},
+
+
 // 🏨 Bluspring Enterprises Ltd
 {
   "name": "Bluspring Enterprises Ltd",
