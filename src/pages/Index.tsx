@@ -1958,7 +1958,7 @@ const itCompanies = [
 {
   "name": "WNS Limited",
   "logo": "/assets/IT/wns.png",
-  "description": "WNS Limited (NYSE: WNS) is a digital-led business transformation and services company that co-creates smarter businesses with over 700 clients across 10 industries. With AI-powered platforms and analytics, WNS helps enterprises innovate, scale, and adapt swiftly in a world defined by disruption. The company operates across 4 continents, 13 countries, and 65 delivery centers, employing over 66,000 professionals globally.",
+  "description": "WNS Limited (NYSE: WNS) is a digital-led business transformation company serving 700+ clients across 10 industries. With AI-driven platforms and analytics, it helps enterprises innovate, scale, and adapt. The company operates in 13 countries with 65 centers and 66,000+ professionals worldwide.",
   "jobOpenings": 300,
   "location": "Gurgaon, Pune, Mumbai",
   "industry": "Business Process Management (BPM) / Customer Experience",
