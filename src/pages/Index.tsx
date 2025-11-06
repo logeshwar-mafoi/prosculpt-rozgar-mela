@@ -214,7 +214,7 @@ const bankingCompanies = [
 
  {
   name: "SBOSS",
-  logo: "/assets/sales/sboss.png",
+  logo: "/assets/banking/sboss.jpeg",
   description: "SBOSS is hiring dynamic Feet-on-Street (FOS) executives for field sales and customer acquisition across North Bengal.",
   jobOpenings: 50,
   location: "Siliguri, Darjeeling, Kalimpong, Cooch Behar, Alipurduar, Jalpaiguri, South and North Dinajpur",
