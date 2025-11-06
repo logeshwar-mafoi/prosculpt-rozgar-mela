@@ -1994,6 +1994,70 @@ const itCompanies = [
   "workMode": "Work From Office"
 },
 
+ {
+  name: "Piston Technologies",
+  logo: "/assets/it/piston.png",
+  description: "Piston Technologies is a Fintech and IT solutions company based in Kolkata, providing AI-driven and full-stack development services for global clients.",
+  jobOpenings: 6,
+  location: "Kolkata",
+  industry: "IT / Fintech",
+  jobId: "piston-technologies-90234",
+  jobs: [
+    {
+      title: "AI Engineer",
+      eligibility: "6 months + of relevant experience",
+      education: "B.Tech or Diploma in Computer Science",
+      location: "Kolkata (No Relocation benefit)",
+      salary: "₹22,000 - ₹24,000 (not a constraint for an exceptionally good candidate)",
+      benefits: [
+        "Working for Fintech SF (USA) Product",
+        "Visit to USA",
+        "Health Insurance",
+        "Provident Fund (PF)"
+      ],
+      mandatoryRequirements: "Good knowledge in Python, Big Data, and ML Architecture",
+      shift: "10 AM to 7 PM (Saturday and Sunday off)",
+      availableJobs: 2,
+      industryType: "AI / Machine Learning"
+    },
+    {
+      title: "Frontend Developer",
+      eligibility: "6 months + of relevant experience",
+      education: "B.Tech or Diploma in Computer Science",
+      location: "Kolkata (No Relocation benefit)",
+      salary: "₹22,000 - ₹24,000 (not a constraint for an exceptionally good candidate)",
+      benefits: [
+        "Working for Fintech SF (USA) Product",
+        "Visit to USA",
+        "Health Insurance",
+        "Provident Fund (PF)"
+      ],
+      mandatoryRequirements: "Good knowledge in React.js",
+      shift: "10 AM to 7 PM (Saturday and Sunday off)",
+      availableJobs: 2,
+      industryType: "Frontend Development"
+    },
+    {
+      title: "Backend Developer",
+      eligibility: "6 months + of relevant experience",
+      education: "B.Tech or Diploma in Computer Science",
+      location: "Kolkata (No Relocation benefit)",
+      salary: "₹22,000 - ₹24,000 (not a constraint for an exceptionally good candidate)",
+      benefits: [
+        "Working for Fintech SF (USA) Product",
+        "Visit to USA",
+        "Health Insurance",
+        "Provident Fund (PF)"
+      ],
+      mandatoryRequirements: "Good knowledge in Node.js, Express.js, and PostgreSQL",
+      shift: "10 AM to 7 PM (Saturday and Sunday off)",
+      availableJobs: 2,
+      industryType: "Backend Development"
+    }
+  ]
+},
+
+
   {
     name: "Ancile Services",
     logo: "/assets/IT/ancil.png",
