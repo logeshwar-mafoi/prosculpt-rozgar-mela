@@ -335,7 +335,7 @@ const manufacturingCompanies = [
   "name": "BATA",
   "logo": "/assets/manufacturing/bata.png",
   "description": "BATA, a leading footwear brand, is hiring for roles in fintech operations and retail management in Kolkata.",
-  "jobOpenings": null,
+  "jobOpenings": 50,
   "location": "Kolkata",
   "industry": "Fintech / Retail",
   "jobs": [
