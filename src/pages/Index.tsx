@@ -979,7 +979,7 @@ const tourismCompanies = [
 
 {
   name: "Iksha Resorts",
-  logo: "/assets/health-and-tour/iksha.png",
+  logo: "/assets/health-and-tour/iksha.webp",
   description: "Premium hospitality and lodging services offering a wide range of career opportunities in front office, housekeeping, food & beverage, and culinary departments.",
   jobOpenings: 15,
   location: "Tourist Destinations",
