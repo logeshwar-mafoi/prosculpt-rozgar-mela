@@ -357,6 +357,44 @@ const manufacturingCompanies = [
   "salary": "As per company standards",
   "benefits": "Employee discounts, professional development opportunities"
 },
+ 
+// 🏗️ Mangalam Cement Ltd.
+{
+  "name": "Mangalam Cement Ltd.",
+  "logo": "/assets/manufacturing/mangalam.png", // add logo if available
+  "description": "Mangalam Cement Ltd., a leading cement manufacturing company under the B.K. Birla Group, is hiring Chartered Accountants and Diploma Apprentices for its Timber Plant at Nabarangpura, Odisha.",
+  "jobOpenings": 60,
+  "location": "Nabarangpura, Odisha",
+  "industry": "Cement & Building Materials Manufacturing",
+  "jobs": [
+    {
+      "title": "CA Fresher",
+      "description": "Responsible for managing accounts, financial reporting, audits, and compliance during the training period. Exposure to plant accounting and cost control.",
+      "availableJobs": 10,
+      "qualification": "Chartered Accountant (Freshly Qualified)",
+      "salary": "₹5,00,000 – ₹8,00,000 per annum during training period",
+      "benefits": "Policy benefits applicable after regularization",
+      "additionalInfo": "After successful completion of one year training, deserving candidates will be regularised with a CTC of ₹10 – ₹12 LPA + policy benefits."
+    },
+    {
+      "title": "CA Experienced",
+      "description": "Responsible for overseeing financial management, auditing, taxation, cost control, and MIS reporting. Candidates with prior experience in manufacturing or plant finance preferred.",
+      "availableJobs": 5,
+      "qualification": "CA with relevant experience",
+      "salary": "As per industry standards (based on interview and selection)",
+      "benefits": "Policy benefits and performance-based incentives"
+    },
+    {
+      "title": "Diploma Apprentice (Mechanical / Electrical / Instrumentation / Electronics & Communication)",
+      "description": "Assist in maintenance, operations, and production support at the Timber Plant. Perform hands-on learning under supervision and support technical teams.",
+      "availableJobs": 45,
+      "qualification": "Diploma in Mechanical, Electrical, Instrumentation, or Electronics & Communication Engineering",
+      "salary": "₹10,900 per month (Stipend)",
+      "benefits": "Free shared accommodation + subsidised food",
+      "additionalInfo": "After successful completion of one-year Apprenticeship, deserving candidates will be offered regular jobs with CTC as per industry standards."
+    }
+  ]
+},
 
   // 🏭 Dixon Technologies - Pan India Vacancies
 {
