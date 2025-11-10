@@ -361,7 +361,7 @@ const manufacturingCompanies = [
 // 🏗️ Mangalam Cement Ltd.
 {
   "name": "Mangalam Cement Ltd.",
-  "logo": "/assets/manufacturing/mangalam.png", // add logo if available
+  "logo": "/assets/manufacturing/mangalam.png", //
   "description": "Mangalam Cement Ltd., a leading cement manufacturing company under the B.K. Birla Group, is hiring Chartered Accountants and Diploma Apprentices for its Timber Plant at Nabarangpura, Odisha.",
   "jobOpenings": 60,
   "location": "Nabarangpura, Odisha",
