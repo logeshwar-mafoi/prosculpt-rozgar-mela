@@ -1037,6 +1037,52 @@ const tourismCompanies = [
   ]
 },
 
+ {
+    name: "Aeon Research",
+    logo: "/assets/health-and-tour/aeon.png",
+    description:
+      "Aeon Research is hiring for multiple field and service roles across Delhi NCR, Bihar, and Uttar Pradesh.",
+    jobOpenings: 50,
+    location: "Delhi NCR, Bihar, Uttar Pradesh",
+    industry: "Research & Field Operations",
+    qualification: "12th Pass, Graduate, Diploma, or MBA",
+    salary: "₹12,000 - ₹18,000",
+    benefits: "No",
+    jobs: [
+      {
+        title: "Field Staff",
+        description:
+          "Conduct on-ground data collection, interact with customers, and support field operations.",
+        availableJobs: 15,
+        location: "Delhi NCR, Bihar, Uttar Pradesh",
+        industryType: "Research - Field Operations",
+      },
+      {
+        title: "Surveyor",
+        description:
+          "Perform surveys, gather accurate data, and report insights as per project requirements.",
+        availableJobs: 10,
+        location: "Delhi NCR, Bihar, Uttar Pradesh",
+        industryType: "Research - Data Collection",
+      },
+      {
+        title: "F&B Service Associate",
+        description:
+          "Serve food and beverages, ensure guest satisfaction, and maintain service standards.",
+        availableJobs: 10,
+        location: "Delhi NCR, Bihar, Uttar Pradesh",
+        industryType: "Hospitality - Food & Beverage Service",
+      },
+      {
+        title: "Counter Sales Executive",
+        description:
+          "Manage customer engagement, assist in product sales, and ensure positive client experience.",
+        availableJobs: 15,
+        location: "Delhi NCR, Bihar, Uttar Pradesh",
+        industryType: "Sales - Retail & Customer Service",
+      },
+    ],
+  },
 
 // 🏨 Bluspring Enterprises Ltd
 {
@@ -2120,53 +2166,6 @@ const itCompanies = [
       },
     ],
     jobId: "ec31a997-de8a-4470-9810-82b1ce32de71",
-  },
-
-  {
-    name: "Aeon Research",
-    logo: "/assets/health-and-tour/aeon.png",
-    description:
-      "Aeon Research is hiring for multiple field and service roles across Delhi NCR, Bihar, and Uttar Pradesh.",
-    jobOpenings: 50,
-    location: "Delhi NCR, Bihar, Uttar Pradesh",
-    industry: "Research & Field Operations",
-    qualification: "12th Pass, Graduate, Diploma, or MBA",
-    salary: "₹12,000 - ₹18,000",
-    benefits: "No",
-    jobs: [
-      {
-        title: "Field Staff",
-        description:
-          "Conduct on-ground data collection, interact with customers, and support field operations.",
-        availableJobs: 15,
-        location: "Delhi NCR, Bihar, Uttar Pradesh",
-        industryType: "Research - Field Operations",
-      },
-      {
-        title: "Surveyor",
-        description:
-          "Perform surveys, gather accurate data, and report insights as per project requirements.",
-        availableJobs: 10,
-        location: "Delhi NCR, Bihar, Uttar Pradesh",
-        industryType: "Research - Data Collection",
-      },
-      {
-        title: "F&B Service Associate",
-        description:
-          "Serve food and beverages, ensure guest satisfaction, and maintain service standards.",
-        availableJobs: 10,
-        location: "Delhi NCR, Bihar, Uttar Pradesh",
-        industryType: "Hospitality - Food & Beverage Service",
-      },
-      {
-        title: "Counter Sales Executive",
-        description:
-          "Manage customer engagement, assist in product sales, and ensure positive client experience.",
-        availableJobs: 15,
-        location: "Delhi NCR, Bihar, Uttar Pradesh",
-        industryType: "Sales - Retail & Customer Service",
-      },
-    ],
   },
 ];
 
