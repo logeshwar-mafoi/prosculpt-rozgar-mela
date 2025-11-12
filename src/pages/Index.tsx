@@ -2338,6 +2338,7 @@ const Index = () => {
       <Hero />
       <ScrollingEmployers />
       <CompanySection title="Automobile & Manufacturing" companies={automobileCompanies} />
+      <CompanySection title="Logistics & Supply Chain" companies={logisticsCompanies} />
       <CompanySection title="IT & Manufacturing" companies={manufacturingCompanies} />
       <CompanySection title="Tourism & Hospitality" companies={tourismCompanies} />
       <CompanySection title="Aviation & Airlines" companies={aviationCompanies} />
