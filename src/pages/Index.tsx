@@ -330,6 +330,118 @@ const manufacturingCompanies = [
   ]
 },
 
+ {
+  "name": "Mahindra Logistics",
+  "logo": "/assets/logistics/mahindra-logistics.jpg",
+  "description": "Various skilled and unskilled roles across logistics, supply chain, and facility management operations.",
+  "jobOpenings": 486,
+  "location": "Pune, Nashik, Mumbai, Haridwar",
+  "jobId": "mahindra-logistics-99254",
+  "industry": "Logistics & Supply Chain",
+  "jobs": [
+    {
+      "title": "Semi-Skilled Associates",
+      "description": "Ensure smooth production flow by supplying required materials, components, and consumables to the line as per schedule.",
+      "availableJobs": 100,
+      "location": "Chakan MIDC Pune",
+      "industryType": "Material Handling & Line Feeding",
+      "qualification": "10th Pass",
+      "ctc": "₹21,350/month"
+    },
+    {
+      "title": "Skilled Executives",
+      "description": "Manage and coordinate outbound and inbound logistics activities, including order preparation, dispatch, and documentation.",
+      "availableJobs": 50,
+      "location": "Chakan MIDC Pune",
+      "industryType": "Logistics / Dispatch / Supply Chain",
+      "qualification": "Graduate",
+      "ctc": "₹23,000/month"
+    },
+    {
+      "title": "Skilled Drivers",
+      "description": "Operate forklifts and material handling equipment safely and efficiently within plant premises.",
+      "availableJobs": 50,
+      "location": "Chakan MIDC Pune",
+      "industryType": "Material Handling Equipment Operator",
+      "qualification": "10th Pass with Forklift License/Experience",
+      "ctc": "₹23,000/month"
+    },
+    {
+      "title": "Transport Coordinator",
+      "description": "Coordinate with transporters, inspect incoming materials, prepare delivery challans, and create MIS reports.",
+      "availableJobs": 5,
+      "location": "Mumbai",
+      "industryType": "Transport Coordination",
+      "qualification": "Graduate",
+      "ctc": "₹27,500/month"
+    },
+    {
+      "title": "Data Entry Operators",
+      "description": "Prepare Excel data for incoming/outgoing inventory and create MIS reports using advanced Excel functions.",
+      "availableJobs": 15,
+      "location": "Nashik",
+      "industryType": "Logistics Data & MIS",
+      "qualification": "Graduate (Advanced Excel Required)",
+      "ctc": "₹22,900/month"
+    },
+    {
+      "title": "HR Executives",
+      "description": "Manage labor law compliances, attendance, onboarding, and manpower coordination within logistics sites.",
+      "availableJobs": 3,
+      "location": "Nashik",
+      "industryType": "Human Resources - Logistics Operations",
+      "qualification": "Graduate",
+      "ctc": "₹22,500 - ₹28,000/month"
+    },
+    {
+      "title": "Supervisors",
+      "description": "Supervise daily warehouse/plant logistics operations and manpower, ensuring timely reporting and MIS.",
+      "availableJobs": 5,
+      "location": "Nashik / Haridwar",
+      "industryType": "Warehouse/Plant Operations",
+      "qualification": "Graduate",
+      "ctc": "₹20,125 - ₹22,900/month"
+    },
+    {
+      "title": "Unskilled Associates",
+      "description": "Support production lines with material handling and feeding tasks ensuring continuous flow of materials.",
+      "availableJobs": 40,
+      "location": "Sidcul, Haridwar",
+      "industryType": "Material Handling & Line Feeding",
+      "qualification": "10th Pass",
+      "ctc": "₹14,500/month"
+    },
+    {
+      "title": "4-Wheeler Drivers",
+      "description": "Drive cars from plant to stockyard; verify delivery documents and maintain vehicle records.",
+      "availableJobs": 80,
+      "location": "Sidcul, Haridwar",
+      "industryType": "Transportation",
+      "qualification": "10th Pass with 4-Wheeler License",
+      "ctc": "₹18,700/month"
+    },
+    {
+      "title": "Facility Managers",
+      "description": "Oversee maintenance and operations of warehouses or commercial facilities ensuring compliance and vendor coordination.",
+      "availableJobs": 4,
+      "location": "Pune / Mumbai",
+      "industryType": "Facility Management",
+      "qualification": "Graduate with 2–3 years experience",
+      "ctc": "₹35,000 - ₹55,000/month"
+    },
+    {
+      "title": "Accounts Executive",
+      "description": "Manage customer billing, GST invoicing, and vendor invoice verification using Excel and SAP.",
+      "availableJobs": 8,
+      "location": "Mumbai",
+      "industryType": "Accounting & Invoicing (Logistics)",
+      "qualification": "Graduate with Excel/SAP knowledge",
+      "ctc": "₹22,500 - ₹28,000/month"
+    }
+  ]
+}
+
+
  // 👟 BATA
 {
   "name": "BATA",
