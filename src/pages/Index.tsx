@@ -2002,6 +2002,73 @@ const healthcareCompanies = [
 ];
 
 const itCompanies = [
+// 🏢 Eventity Global Solution (P) Ltd.
+  {
+  "name": "Eventity Global Solution (P) Ltd.",
+  "logo": "/assets/it/eventity-global.jpg",
+  "description": "ISO/IEC 27001:2002 certified IT & ITeS company delivering BPM, KPM, and outsourcing solutions across industries, with service delivery centers in Siliguri catering to clients in India, the UK, and the USA.",
+  "jobOpenings": 150,
+  "location": "Siliguri, West Bengal",
+  "jobId": "eventity-global-2025",
+  "industry": "IT & Business Services",
+  "jobs": [
+    {
+      "title": "Customer Support Executive (Voice/Chat)",
+      "description": "Handle inbound and outbound calls, live chat, and email support for domestic and international clients ensuring high customer satisfaction.",
+      "availableJobs": 40,
+      "location": "Siliguri - Webel IT Park",
+      "industryType": "BPM / Customer Support",
+      "qualification": "Graduate / 12th Pass (Good English Communication)",
+      "ctc": "₹15,000 - ₹22,000/month"
+    },
+    {
+      "title": "Technical Support Associate",
+      "description": "Provide remote technical support for clients’ IT products and services, troubleshoot issues, and escalate complex cases.",
+      "availableJobs": 25,
+      "location": "Siliguri - Webel IT Park",
+      "industryType": "Technical Support / IT Helpdesk",
+      "qualification": "Graduate (Computer / IT Background Preferred)",
+      "ctc": "₹18,000 - ₹25,000/month"
+    },
+    {
+      "title": "Back Office Executive (Data Processing)",
+      "description": "Perform document management, record summarization, and backend operations for healthcare, insurance, and legal clients.",
+      "availableJobs": 30,
+      "location": "Siliguri",
+      "industryType": "KPO / Data Processing",
+      "qualification": "Graduate (Knowledge of MS Office & English Writing)",
+      "ctc": "₹16,000 - ₹20,000/month"
+    },
+    {
+      "title": "SEO & Digital Marketing Analyst",
+      "description": "Work on SEO, digital content, and online marketing campaigns to improve client visibility and lead generation.",
+      "availableJobs": 10,
+      "location": "Siliguri - Webel IT Park",
+      "industryType": "Digital Marketing / SEO",
+      "qualification": "Graduate (Marketing or IT Background Preferred)",
+      "ctc": "₹20,000 - ₹28,000/month"
+    },
+    {
+      "title": "Accounts Executive (Finance Process)",
+      "description": "Assist clients in accounting, bookkeeping, taxation, and financial data management processes.",
+      "availableJobs": 10,
+      "location": "Siliguri",
+      "industryType": "Finance & Accounting (BPM)",
+      "qualification": "B.Com / M.Com / BBA (Finance)",
+      "ctc": "₹18,000 - ₹25,000/month"
+    },
+    {
+      "title": "Process Trainer",
+      "description": "Conduct training sessions for new hires in BPM/KPO processes, communication, and compliance as per project requirements.",
+      "availableJobs": 5,
+      "location": "Siliguri - Webel IT Park",
+      "industryType": "Training & Quality Management",
+      "qualification": "Graduate with 2–3 years experience in BPO Training",
+      "ctc": "₹25,000 - ₹32,000/month"
+    }
+  ]
+},
+
 // 🏢 WNS Limited
 {
   "name": "WNS Limited",
