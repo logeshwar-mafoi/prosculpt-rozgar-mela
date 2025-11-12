@@ -1,10 +1,14 @@
 import { useEffect, useState } from "react";
 import hourglassImage from "/assets/sandclock.png"; // sandclock
-import rozgarMelaPoster from "/assets/rozgar-mela-poster.jpg"; // poster
 
 const EventDetails = () => {
   const targetDate = new Date("2025-11-15T00:00:00").getTime();
-  const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -35,18 +39,19 @@ const EventDetails = () => {
         </h2>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
-          {/* Poster Section (left) - now using rozgarMelaPoster */}
+          {/* Poster Section (left) */}
           <div className="group overflow-hidden rounded-2xl shadow-2xl hover:shadow-[0_20px_50px_rgba(0,119,182,0.3)] transition-all duration-300 w-full md:w-1/2 max-w-sm md:max-w-none aspect-[3/4] flex items-center justify-center bg-white p-6">
             <img
-              src={rozgarMelaPoster}
+              src="https://www.darjeelingwelfaresociety.com/web-images/rozgar-mela/3days.jpg"
               alt="Rozgar Mela 2.0 Poster"
               className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
             />
           </div>
 
           {/* Countdown Section (right) */}
           <div className="flex flex-col items-center w-full md:w-1/2 text-center">
-            {/* Sandclock image (kept only here, smaller) */}
+            {/* Sandclock image */}
             <div className="flex justify-center mb-4 md:mb-6">
               <img
                 src={hourglassImage}
@@ -79,7 +84,11 @@ const EventDetails = () => {
             </div>
 
             <p className="mt-6 md:mt-10 text-white/80 text-sm md:text-base lg:text-lg max-w-2xl mx-auto leading-relaxed px-4">
-              Get ready for <span className="font-semibold text-nonphoto-2">Rozgar Mela 2.0</span> — an extraordinary job fair connecting ambitious candidates with top employers. Mark your calendars for <span className="text-vivid-sky font-semibold">15th November 2025</span> and join us to shape your career future!
+              Get ready for{" "}
+              <span className="font-semibold text-nonphoto-2">Rozgar Mela 2.0</span> — an extraordinary job fair
+              connecting ambitious candidates with top employers. Mark your calendars for{" "}
+              <span className="text-vivid-sky font-semibold">15th November 2025</span> and join us to shape your
+              career future!
             </p>
           </div>
         </div>
