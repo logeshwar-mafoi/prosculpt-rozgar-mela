@@ -8,7 +8,7 @@ import FloatingFAQ from "@/components/FloatingFAQ";
 const logisticsCompanies = [
   {
     "name": "Mahindra Logistics",
-    "logo": "/assets/logistics/mahindra-logistics.jpg",
+    "logo": "/assets/manufacturing/mahindra-logistics.jpg",
     "description": "Various skilled and unskilled roles across logistics, supply chain, and facility management operations.",
     "jobOpenings": 486,
     "location": "Pune, Nashik, Mumbai, Haridwar",
