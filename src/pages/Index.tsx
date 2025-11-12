@@ -2005,7 +2005,7 @@ const itCompanies = [
 // 🏢 Eventity Global Solution (P) Ltd.
   {
   "name": "Eventity Global Solution (P) Ltd.",
-  "logo": "/assets/it/eventity.jpg",
+  "logo": "/assets/IT/eventity.jpg",
   "description": "ISO/IEC 27001:2002 certified IT & ITeS company delivering BPM, KPM, and outsourcing solutions across industries, with service delivery centers in Siliguri catering to clients in India, the UK, and the USA.",
   "jobOpenings": 150,
   "location": "Siliguri, West Bengal",
