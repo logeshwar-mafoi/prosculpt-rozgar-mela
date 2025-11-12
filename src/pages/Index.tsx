@@ -439,7 +439,7 @@ const manufacturingCompanies = [
       "ctc": "₹22,500 - ₹28,000/month"
     }
   ]
-}
+},
 
 
  // 👟 BATA
