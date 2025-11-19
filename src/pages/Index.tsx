@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import EventPopup from "@/components/EventPopup";
 import ScrollingEmployers from "@/components/ScrollingEmployers";
 import CompanySection from "@/components/CompanySection";
 import EventPosters from "@/components/EventPosters";
@@ -2362,6 +2363,7 @@ const creativeCompanies = [
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <EventPopup />
       <Hero />
       <ScrollingEmployers />
       <CompanySection title="Automobile & Manufacturing" companies={automobileCompanies} />
