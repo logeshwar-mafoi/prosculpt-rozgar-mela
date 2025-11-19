@@ -28,7 +28,7 @@ const EventPopup: React.FC = () => {
 
         <div className="mx-auto rounded-xl overflow-hidden shadow-xl border border-white/30 w-[360px] h-[220px] md:w-[480px] md:h-[270px]">
           <video
-            src="/assets/video/rozgar-success.mp4"
+            src="/assets/video/DWS V1.mp4"
             autoPlay
             muted
             loop
