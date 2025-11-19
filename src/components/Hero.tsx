@@ -168,6 +168,45 @@ const Hero = () => {
           }
         `}
       </style>
+      {/* === UN-CLOSABLE POPUP OVERLAY === */}
+<div className="absolute inset-0 z-50 bg-black/80 backdrop-blur-xl flex justify-center items-center px-4 select-none">
+
+  <div className="bg-white/10 border border-white/30 shadow-2xl rounded-2xl p-8 max-w-2xl text-center backdrop-blur-md">
+
+    <h1 className="text-3xl md:text-4xl font-bold text-yellow-300 mb-4">
+      ROZGAR MELA 2.0 – MEGA JOB DRIVE
+    </h1>
+
+    <p className="text-blue-100 text-lg md:text-xl mb-4">
+      The event has successfully concluded!
+    </p>
+
+    <div className="text-white text-lg space-y-2 mb-6">
+      <p>📌 <strong>15th & 16th Nov 2025</strong></p>
+      <p>🏢 <strong>60+ Top Companies</strong></p>
+      <p>👥 <strong>5,000+ Walk-in</strong></p>
+      <p>🎉 <strong>2,000+ Offered & Shortlisted</strong></p>
+    </div>
+
+    <p className="text-blue-200 text-lg mb-6">
+      Thank you for making Rozgar Mela 2.0 a grand success!
+    </p>
+
+    {/* === POPUP VIDEO (Autoplay, Loop, Infinite) === */}
+    <div className="mx-auto rounded-xl overflow-hidden shadow-xl border border-white/20 w-[360px] h-[220px] md:w-[480px] md:h-[270px]">
+      <video
+        src="https://drive.google.com/uc?export=download&id=1v0GEvk2ripMt1t5JUyi-M3RS1GJ3E5GU"
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="w-full h-full object-cover"
+      ></video>
+    </div>
+
+  </div>
+</div>
+
     </section>
   );
 };
