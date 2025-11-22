@@ -2363,7 +2363,7 @@ const creativeCompanies = [
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <EventPopup />
+     /* <EventPopup /> */
       <Hero />
       <ScrollingEmployers />
       <CompanySection title="Automobile & Manufacturing" companies={automobileCompanies} />
