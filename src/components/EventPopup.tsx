@@ -1,4 +1,4 @@
-/* import React from "react";
+import React from "react";
 
 const EventPopup: React.FC = () => {
   return (
@@ -57,4 +57,3 @@ const EventPopup: React.FC = () => {
 };
 
 export default EventPopup;
-*/
