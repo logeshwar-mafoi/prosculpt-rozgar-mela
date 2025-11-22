@@ -1575,7 +1575,7 @@ const tourismCompanies = [
   "benefits": "Food & Sharing Accommodation"
 },
 
-  // 🏨 Quess Corp
+/*  // 🏨 Quess Corp
 {
   "name": "Quess Corp",
   "logo": "/assets/IT/quess.png",
@@ -1610,7 +1610,7 @@ const tourismCompanies = [
   "salary": "₹12,000 - ₹15,000",
   "benefits": "Food & Sharing Accommodation"
 },
-  
+*/  
   // 🏨 Apollo Sindoori Hotels Ltd.
 {
   "name": "Apollo Sindoori Hotels Ltd.",
